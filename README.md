@@ -32,7 +32,7 @@ To generate your own training and detection logs from host system calls:
 Run the capture daemon `ecapd` to record system call ring buffer logs to a binary file:
 ```bash
 # Run this on the host machine inside the eaudit directory
-sudo ./ecapd -C /tmp/my_capture.bin
+sudo ./ecapd -- -C /tmp/my_capture.bin
 ```
 *Tip: Keep executing commands, scripts, or application routines in another shell prompt to generate background activity during logging.*
 
