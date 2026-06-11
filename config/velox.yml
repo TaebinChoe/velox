@@ -1,0 +1,10 @@
+# Simply the same config as orthrus_non_snooped + encoder set to none
+
+_include_yml: orthrus_non_snooped
+
+batching:
+  intra_graph_batching:
+    used_methods: edges
+training:
+  encoder:
+    used_methods: none # uses only a linear layer

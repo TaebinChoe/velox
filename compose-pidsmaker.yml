@@ -1,0 +1,26 @@
+services:
+  pids:
+    build:
+      context: .
+    container_name: ${COMPOSE_PROJECT_NAME}-pids
+    networks:
+      - shared_network
+    ports:
+      - "8003:8000"
+    environment:
+      DB_HOST: postgres
+      DOCKER_PORT: ${DOCKER_PORT:-5432}
+      DB_USER: postgres
+      DB_PASSWORD: postgres
+    volumes:
+      - ./:/home/pids
+      - ${ARTIFACTS_DIR:-/home/artifacts}:/home/artifacts
+      # - /path/to/raw/data:/data
+    stdin_open: true
+    tty: true
+
+
+networks:
+  shared_network:
+    external:
+      name: shared_network

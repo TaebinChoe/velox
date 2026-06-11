@@ -1,0 +1,29 @@
+method: grid
+
+
+parameters:
+  embedding_techniques:
+    values: [
+      tuned_word2vec_train,
+      tuned_word2vec_all,
+
+      tuned_alacarte_train,
+      tuned_alacarte_all,
+      
+      tuned_flash_train,
+      tuned_flash_all,
+      
+      tuned_doc2vec_train,
+      tuned_doc2vec_all,
+      
+      tuned_fasttext_train,
+      tuned_fasttext_all,
+      
+      tuned_hfh_train,
+      tuned_hfh_all,
+      
+      no_featurization,
+    ]
+
+  featurization.emb_dim:
+    values: [32, 128, 256]
