@@ -39,7 +39,7 @@ sudo ./ecapd -- -C /tmp/my_capture.bin
 ### 2. Parse and Serialize Logs
 Convert the binary capture file into a serialized text event format:
 ```bash
-sudo ./eaudit -I /tmp/my_capture.bin > /tmp/my_parsed.txt
+sudo ./eaudit -I /tmp/my_capture.bin -P /tmp/my_parsed.txt
 ```
 
 ---
