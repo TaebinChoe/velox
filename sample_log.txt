@@ -1,0 +1,1000 @@
+
+1782427025.758:00001:  pid=1503 cgroup=1232 cgroup_path=/system.slice/multipathd.service start_time=8240901118: tid=1513: write(fd=9 [id=12045990449128452275]) ret=8
+1782427025.758:00002:  pid=1503 cgroup=1232 cgroup_path=/system.slice/multipathd.service start_time=8240901118: tid=1513: write(fd=9 [id=12045990449128452275]) ret=8
+1782427025.758:00003:  pid=1503 cgroup=1232 cgroup_path=/system.slice/multipathd.service start_time=8240901118: tid=1513: write(fd=9 [id=12045990449128452275]) ret=8
+1782427024.793:00000:  pid=1462 cgroup=512 cgroup_path=/system.slice/systemd-journald.service start_time=8056939506: ftruncate(fd=24 [id=17558836423845166037], len=8388608) ret=0ftruncate(fd=24, len=8388608) ret=0
+1782427026.758:00004:  pid=1503 cgroup=1232 cgroup_path=/system.slice/multipathd.service start_time=8240901118: tid=1513: write(fd=9 [id=12045990449128452275]) ret=8
+1782427026.758:00005:  pid=1503 cgroup=1232 cgroup_path=/system.slice/multipathd.service start_time=8240901118: tid=1513: write(fd=9 [id=12045990449128452275]) ret=8
+1782427027.011:00006:  pid=1815 cgroup=2392 cgroup_path=/system.slice/systemd-networkd.service start_time=9408965443: read(fd=3 [id=2]) ret=76
+1782427027.011:00007:  pid=1815 cgroup=2392 cgroup_path=/system.slice/systemd-networkd.service start_time=9408965443: read(fd=3 [id=2]) ret=76
+1782427027.758:00008:  pid=1503 cgroup=1232 cgroup_path=/system.slice/multipathd.service start_time=8240901118: tid=1513: write(fd=9 [id=12045990449128452275]) ret=8
+1782427027.758:00009:  pid=1503 cgroup=1232 cgroup_path=/system.slice/multipathd.service start_time=8240901118: tid=1513: write(fd=9 [id=12045990449128452275]) ret=8
+1782427027.793:00010:  pid=1509 cgroup=1477 cgroup_path=/system.slice/systemd-udevd.service start_time=8235632649: read(fd=13 [id=12045990449128452275]) ret=8
+1782427027.793:00011:  pid=1509 cgroup=1477 cgroup_path=/system.slice/systemd-udevd.service start_time=8235632649: kill(pid=2230, tid=0, sig=15)
+1782427027.793:00012:  pid=1509 cgroup=1477 cgroup_path=/system.slice/systemd-udevd.service start_time=8235632649: kill ret=0
+1782427027.794:00019:  pid=1509 cgroup=1477 cgroup_path=/system.slice/systemd-udevd.service start_time=8235632649: read(fd=10 [id=12045990449128452275]) ret=128
+1782427027.794:00020:  pid=1509 cgroup=1477 cgroup_path=/system.slice/systemd-udevd.service start_time=8235632649: open(file="/sys/fs/cgroup/system.slice/systemd-udevd.service/cgroup.procs", flags=80000, mode=0) ret=14 [id=11725252625088271333]
+1782427027.795:00021:  pid=1509 cgroup=1477 cgroup_path=/system.slice/systemd-udevd.service start_time=8235632649: read(fd=14 [id=11725252625088271333]) ret=5
+1782427027.795:00022:  pid=1509 cgroup=1477 cgroup_path=/system.slice/systemd-udevd.service start_time=8235632649: read(fd=14 [id=11725252625088271333]) ret=0
+1782427027.795:00023:  pid=1509 cgroup=1477 cgroup_path=/system.slice/systemd-udevd.service start_time=8235632649: close(fd=14)
+1782427027.795:00024:  pid=1509 cgroup=1477 cgroup_path=/system.slice/systemd-udevd.service start_time=8235632649: open(file="/sys/fs/cgroup/system.slice/systemd-udevd.service/cgroup.threads", flags=80000, mode=0) ret=14 [id=814945970031244069]
+1782427027.795:00025:  pid=1509 cgroup=1477 cgroup_path=/system.slice/systemd-udevd.service start_time=8235632649: read(fd=14 [id=814945970031244069]) ret=5
+1782427027.795:00026:  pid=1509 cgroup=1477 cgroup_path=/system.slice/systemd-udevd.service start_time=8235632649: read(fd=14 [id=814945970031244069]) ret=0
+1782427027.795:00027:  pid=1509 cgroup=1477 cgroup_path=/system.slice/systemd-udevd.service start_time=8235632649: close(fd=14)
+1782427027.793:00013:  pid=2230 cgroup=1477 cgroup_path=/system.slice/systemd-udevd.service start_time=102918208078: read(fd=4 [id=12045990449128452275]) ret=128
+1782427027.793:00014:  pid=2230 cgroup=1477 cgroup_path=/system.slice/systemd-udevd.service start_time=102918208078: close(fd=12)
+1782427027.794:00015:  pid=2230 cgroup=1477 cgroup_path=/system.slice/systemd-udevd.service start_time=102918208078: close(fd=8)
+1782427027.794:00016:  pid=2230 cgroup=1477 cgroup_path=/system.slice/systemd-udevd.service start_time=102918208078: close(fd=7)
+1782427027.794:00017:  pid=2230 cgroup=1477 cgroup_path=/system.slice/systemd-udevd.service start_time=102918208078: close(fd=5)
+1782427027.794:00018:  pid=2230 cgroup=1477 cgroup_path=/system.slice/systemd-udevd.service start_time=102918208078: exitgrp(code=0)
+1782427028.758:00028:  pid=1503 cgroup=1232 cgroup_path=/system.slice/multipathd.service start_time=8240901118: tid=1513: write(fd=9 [id=12045990449128452275]) ret=8
+1782427028.758:00029:  pid=1503 cgroup=1232 cgroup_path=/system.slice/multipathd.service start_time=8240901118: tid=1513: write(fd=9 [id=12045990449128452275]) ret=8
+1782427029.759:00030:  pid=1503 cgroup=1232 cgroup_path=/system.slice/multipathd.service start_time=8240901118: tid=1513: write(fd=9 [id=12045990449128452275]) ret=8
+1782427029.759:00031:  pid=1503 cgroup=1232 cgroup_path=/system.slice/multipathd.service start_time=8240901118: tid=1513: write(fd=9 [id=12045990449128452275]) ret=8
+1782427030.759:00032:  pid=1503 cgroup=1232 cgroup_path=/system.slice/multipathd.service start_time=8240901118: tid=1513: write(fd=9 [id=12045990449128452275]) ret=8
+1782427030.759:00033:  pid=1503 cgroup=1232 cgroup_path=/system.slice/multipathd.service start_time=8240901118: tid=1513: write(fd=9 [id=12045990449128452275]) ret=8
+1782427031.759:00034:  pid=1503 cgroup=1232 cgroup_path=/system.slice/multipathd.service start_time=8240901118: tid=1513: write(fd=9 [id=12045990449128452275]) ret=8
+1782427031.759:00035:  pid=1503 cgroup=1232 cgroup_path=/system.slice/multipathd.service start_time=8240901118: tid=1513: write(fd=9 [id=12045990449128452275]) ret=8
+1782427031.759:00036:  pid=1503 cgroup=1232 cgroup_path=/system.slice/multipathd.service start_time=8240901118: tid=1513: write(fd=9 [id=12045990449128452275]) ret=8
+1782427032.759:00037:  pid=1503 cgroup=1232 cgroup_path=/system.slice/multipathd.service start_time=8240901118: tid=1513: write(fd=9 [id=12045990449128452275]) ret=8
+1782427032.759:00038:  pid=1503 cgroup=1232 cgroup_path=/system.slice/multipathd.service start_time=8240901118: tid=1513: write(fd=9 [id=12045990449128452275]) ret=8
+1782427033.510:00039:  pid=1862 cgroup=2931 cgroup_path=/system.slice/irqbalance.service start_time=11451239828: open(file="/proc/interrupts", flags=0, mode=0) ret=6 [id=857565752760224185]
+1782427033.510:00040:  pid=1862 cgroup=2931 cgroup_path=/system.slice/irqbalance.service start_time=11451239828: read(fd=6 [id=857565752760224185]) ret=1024
+1782427033.510:00041:  pid=1862 cgroup=2931 cgroup_path=/system.slice/irqbalance.service start_time=11451239828: read(fd=6 [id=857565752760224185]) ret=1024
+1782427033.510:00042:  pid=1862 cgroup=2931 cgroup_path=/system.slice/irqbalance.service start_time=11451239828: read(fd=6 [id=857565752760224185]) ret=1024
+1782427033.510:00043:  pid=1862 cgroup=2931 cgroup_path=/system.slice/irqbalance.service start_time=11451239828: read(fd=6 [id=857565752760224185]) ret=1024
+1782427033.510:00044:  pid=1862 cgroup=2931 cgroup_path=/system.slice/irqbalance.service start_time=11451239828: read(fd=6 [id=857565752760224185]) ret=1024
+1782427033.510:00045:  pid=1862 cgroup=2931 cgroup_path=/system.slice/irqbalance.service start_time=11451239828: read(fd=6 [id=857565752760224185]) ret=1024
+1782427033.510:00046:  pid=1862 cgroup=2931 cgroup_path=/system.slice/irqbalance.service start_time=11451239828: read(fd=6 [id=857565752760224185]) ret=1024
+1782427033.510:00047:  pid=1862 cgroup=2931 cgroup_path=/system.slice/irqbalance.service start_time=11451239828: read(fd=6 [id=857565752760224185]) ret=1024
+1782427033.510:00048:  pid=1862 cgroup=2931 cgroup_path=/system.slice/irqbalance.service start_time=11451239828: read(fd=6 [id=857565752760224185]) ret=1024
+1782427033.510:00049:  pid=1862 cgroup=2931 cgroup_path=/system.slice/irqbalance.service start_time=11451239828: read(fd=6 [id=857565752760224185]) ret=1024
+1782427033.510:00050:  pid=1862 cgroup=2931 cgroup_path=/system.slice/irqbalance.service start_time=11451239828: read(fd=6 [id=857565752760224185]) ret=1024
+1782427033.510:00051:  pid=1862 cgroup=2931 cgroup_path=/system.slice/irqbalance.service start_time=11451239828: read(fd=6 [id=857565752760224185]) ret=1024
+1782427033.510:00052:  pid=1862 cgroup=2931 cgroup_path=/system.slice/irqbalance.service start_time=11451239828: read(fd=6 [id=857565752760224185]) ret=1024
+1782427033.510:00053:  pid=1862 cgroup=2931 cgroup_path=/system.slice/irqbalance.service start_time=11451239828: read(fd=6 [id=857565752760224185]) ret=1024
+1782427033.510:00054:  pid=1862 cgroup=2931 cgroup_path=/system.slice/irqbalance.service start_time=11451239828: read(fd=6 [id=857565752760224185]) ret=1024
+1782427033.510:00055:  pid=1862 cgroup=2931 cgroup_path=/system.slice/irqbalance.service start_time=11451239828: read(fd=6 [id=857565752760224185]) ret=1024
+1782427033.511:00056:  pid=1862 cgroup=2931 cgroup_path=/system.slice/irqbalance.service start_time=11451239828: read(fd=6 [id=857565752760224185]) ret=1024
+1782427033.511:00057:  pid=1862 cgroup=2931 cgroup_path=/system.slice/irqbalance.service start_time=11451239828: read(fd=6 [id=857565752760224185]) ret=1024
+1782427033.511:00058:  pid=1862 cgroup=2931 cgroup_path=/system.slice/irqbalance.service start_time=11451239828: read(fd=6 [id=857565752760224185]) ret=1024
+1782427033.511:00059:  pid=1862 cgroup=2931 cgroup_path=/system.slice/irqbalance.service start_time=11451239828: read(fd=6 [id=857565752760224185]) ret=1024
+1782427033.511:00060:  pid=1862 cgroup=2931 cgroup_path=/system.slice/irqbalance.service start_time=11451239828: read(fd=6 [id=857565752760224185]) ret=1024
+1782427033.511:00061:  pid=1862 cgroup=2931 cgroup_path=/system.slice/irqbalance.service start_time=11451239828: read(fd=6 [id=857565752760224185]) ret=1024
+1782427033.511:00062:  pid=1862 cgroup=2931 cgroup_path=/system.slice/irqbalance.service start_time=11451239828: read(fd=6 [id=857565752760224185]) ret=1024
+1782427033.511:00063:  pid=1862 cgroup=2931 cgroup_path=/system.slice/irqbalance.service start_time=11451239828: read(fd=6 [id=857565752760224185]) ret=1024
+1782427033.511:00064:  pid=1862 cgroup=2931 cgroup_path=/system.slice/irqbalance.service start_time=11451239828: read(fd=6 [id=857565752760224185]) ret=1024
+1782427033.511:00065:  pid=1862 cgroup=2931 cgroup_path=/system.slice/irqbalance.service start_time=11451239828: read(fd=6 [id=857565752760224185]) ret=1024
+1782427033.511:00066:  pid=1862 cgroup=2931 cgroup_path=/system.slice/irqbalance.service start_time=11451239828: read(fd=6 [id=857565752760224185]) ret=1024
+1782427033.511:00067:  pid=1862 cgroup=2931 cgroup_path=/system.slice/irqbalance.service start_time=11451239828: read(fd=6 [id=857565752760224185]) ret=1024
+1782427033.511:00068:  pid=1862 cgroup=2931 cgroup_path=/system.slice/irqbalance.service start_time=11451239828: read(fd=6 [id=857565752760224185]) ret=1024
+1782427033.511:00069:  pid=1862 cgroup=2931 cgroup_path=/system.slice/irqbalance.service start_time=11451239828: read(fd=6 [id=857565752760224185]) ret=1024
+1782427033.511:00070:  pid=1862 cgroup=2931 cgroup_path=/system.slice/irqbalance.service start_time=11451239828: read(fd=6 [id=857565752760224185]) ret=1024
+1782427033.511:00071:  pid=1862 cgroup=2931 cgroup_path=/system.slice/irqbalance.service start_time=11451239828: read(fd=6 [id=857565752760224185]) ret=1024
+1782427033.511:00072:  pid=1862 cgroup=2931 cgroup_path=/system.slice/irqbalance.service start_time=11451239828: read(fd=6 [id=857565752760224185]) ret=1024
+1782427033.511:00073:  pid=1862 cgroup=2931 cgroup_path=/system.slice/irqbalance.service start_time=11451239828: read(fd=6 [id=857565752760224185]) ret=1024
+1782427033.511:00074:  pid=1862 cgroup=2931 cgroup_path=/system.slice/irqbalance.service start_time=11451239828: read(fd=6 [id=857565752760224185]) ret=1024
+1782427033.511:00075:  pid=1862 cgroup=2931 cgroup_path=/system.slice/irqbalance.service start_time=11451239828: read(fd=6 [id=857565752760224185]) ret=1024
+1782427033.511:00076:  pid=1862 cgroup=2931 cgroup_path=/system.slice/irqbalance.service start_time=11451239828: read(fd=6 [id=857565752760224185]) ret=1024
+1782427033.511:00077:  pid=1862 cgroup=2931 cgroup_path=/system.slice/irqbalance.service start_time=11451239828: read(fd=6 [id=857565752760224185]) ret=1024
+1782427033.511:00078:  pid=1862 cgroup=2931 cgroup_path=/system.slice/irqbalance.service start_time=11451239828: read(fd=6 [id=857565752760224185]) ret=1024
+1782427033.511:00079:  pid=1862 cgroup=2931 cgroup_path=/system.slice/irqbalance.service start_time=11451239828: read(fd=6 [id=857565752760224185]) ret=1024
+1782427033.511:00080:  pid=1862 cgroup=2931 cgroup_path=/system.slice/irqbalance.service start_time=11451239828: read(fd=6 [id=857565752760224185]) ret=1024
+1782427033.511:00081:  pid=1862 cgroup=2931 cgroup_path=/system.slice/irqbalance.service start_time=11451239828: read(fd=6 [id=857565752760224185]) ret=1024
+1782427033.511:00082:  pid=1862 cgroup=2931 cgroup_path=/system.slice/irqbalance.service start_time=11451239828: read(fd=6 [id=857565752760224185]) ret=1024
+1782427033.512:00083:  pid=1862 cgroup=2931 cgroup_path=/system.slice/irqbalance.service start_time=11451239828: read(fd=6 [id=857565752760224185]) ret=1024
+1782427033.512:00084:  pid=1862 cgroup=2931 cgroup_path=/system.slice/irqbalance.service start_time=11451239828: read(fd=6 [id=857565752760224185]) ret=1024
+1782427033.512:00085:  pid=1862 cgroup=2931 cgroup_path=/system.slice/irqbalance.service start_time=11451239828: read(fd=6 [id=857565752760224185]) ret=1024
+1782427033.512:00086:  pid=1862 cgroup=2931 cgroup_path=/system.slice/irqbalance.service start_time=11451239828: read(fd=6 [id=857565752760224185]) ret=1024
+1782427033.512:00087:  pid=1862 cgroup=2931 cgroup_path=/system.slice/irqbalance.service start_time=11451239828: read(fd=6 [id=857565752760224185]) ret=1024
+1782427033.512:00088:  pid=1862 cgroup=2931 cgroup_path=/system.slice/irqbalance.service start_time=11451239828: read(fd=6 [id=857565752760224185]) ret=1024
+1782427033.512:00089:  pid=1862 cgroup=2931 cgroup_path=/system.slice/irqbalance.service start_time=11451239828: read(fd=6 [id=857565752760224185]) ret=1024
+1782427033.512:00090:  pid=1862 cgroup=2931 cgroup_path=/system.slice/irqbalance.service start_time=11451239828: read(fd=6 [id=857565752760224185]) ret=1024
+1782427033.512:00091:  pid=1862 cgroup=2931 cgroup_path=/system.slice/irqbalance.service start_time=11451239828: read(fd=6 [id=857565752760224185]) ret=1024
+1782427033.512:00092:  pid=1862 cgroup=2931 cgroup_path=/system.slice/irqbalance.service start_time=11451239828: read(fd=6 [id=857565752760224185]) ret=1024
+1782427033.512:00093:  pid=1862 cgroup=2931 cgroup_path=/system.slice/irqbalance.service start_time=11451239828: read(fd=6 [id=857565752760224185]) ret=1024
+1782427033.512:00094:  pid=1862 cgroup=2931 cgroup_path=/system.slice/irqbalance.service start_time=11451239828: read(fd=6 [id=857565752760224185]) ret=1024
+1782427033.512:00095:  pid=1862 cgroup=2931 cgroup_path=/system.slice/irqbalance.service start_time=11451239828: read(fd=6 [id=857565752760224185]) ret=1024
+1782427033.512:00096:  pid=1862 cgroup=2931 cgroup_path=/system.slice/irqbalance.service start_time=11451239828: read(fd=6 [id=857565752760224185]) ret=1024
+1782427033.512:00097:  pid=1862 cgroup=2931 cgroup_path=/system.slice/irqbalance.service start_time=11451239828: read(fd=6 [id=857565752760224185]) ret=1024
+1782427033.512:00098:  pid=1862 cgroup=2931 cgroup_path=/system.slice/irqbalance.service start_time=11451239828: read(fd=6 [id=857565752760224185]) ret=1024
+1782427033.512:00099:  pid=1862 cgroup=2931 cgroup_path=/system.slice/irqbalance.service start_time=11451239828: read(fd=6 [id=857565752760224185]) ret=1024
+1782427033.512:00100:  pid=1862 cgroup=2931 cgroup_path=/system.slice/irqbalance.service start_time=11451239828: read(fd=6 [id=857565752760224185]) ret=1024
+1782427033.512:00101:  pid=1862 cgroup=2931 cgroup_path=/system.slice/irqbalance.service start_time=11451239828: read(fd=6 [id=857565752760224185]) ret=1024
+1782427033.512:00102:  pid=1862 cgroup=2931 cgroup_path=/system.slice/irqbalance.service start_time=11451239828: read(fd=6 [id=857565752760224185]) ret=1024
+1782427033.512:00103:  pid=1862 cgroup=2931 cgroup_path=/system.slice/irqbalance.service start_time=11451239828: read(fd=6 [id=857565752760224185]) ret=1024
+1782427033.512:00104:  pid=1862 cgroup=2931 cgroup_path=/system.slice/irqbalance.service start_time=11451239828: read(fd=6 [id=857565752760224185]) ret=1024
+1782427033.512:00105:  pid=1862 cgroup=2931 cgroup_path=/system.slice/irqbalance.service start_time=11451239828: read(fd=6 [id=857565752760224185]) ret=1024
+1782427033.512:00106:  pid=1862 cgroup=2931 cgroup_path=/system.slice/irqbalance.service start_time=11451239828: read(fd=6 [id=857565752760224185]) ret=1024
+1782427033.512:00107:  pid=1862 cgroup=2931 cgroup_path=/system.slice/irqbalance.service start_time=11451239828: read(fd=6 [id=857565752760224185]) ret=1024
+1782427033.512:00108:  pid=1862 cgroup=2931 cgroup_path=/system.slice/irqbalance.service start_time=11451239828: read(fd=6 [id=857565752760224185]) ret=1024
+1782427033.512:00109:  pid=1862 cgroup=2931 cgroup_path=/system.slice/irqbalance.service start_time=11451239828: read(fd=6 [id=857565752760224185]) ret=1024
+1782427033.512:00110:  pid=1862 cgroup=2931 cgroup_path=/system.slice/irqbalance.service start_time=11451239828: read(fd=6 [id=857565752760224185]) ret=1024
+1782427033.512:00111:  pid=1862 cgroup=2931 cgroup_path=/system.slice/irqbalance.service start_time=11451239828: read(fd=6 [id=857565752760224185]) ret=1024
+1782427033.512:00112:  pid=1862 cgroup=2931 cgroup_path=/system.slice/irqbalance.service start_time=11451239828: read(fd=6 [id=857565752760224185]) ret=1024
+1782427033.512:00113:  pid=1862 cgroup=2931 cgroup_path=/system.slice/irqbalance.service start_time=11451239828: read(fd=6 [id=857565752760224185]) ret=1024
+1782427033.512:00114:  pid=1862 cgroup=2931 cgroup_path=/system.slice/irqbalance.service start_time=11451239828: read(fd=6 [id=857565752760224185]) ret=1024
+1782427033.512:00115:  pid=1862 cgroup=2931 cgroup_path=/system.slice/irqbalance.service start_time=11451239828: read(fd=6 [id=857565752760224185]) ret=1024
+1782427033.512:00116:  pid=1862 cgroup=2931 cgroup_path=/system.slice/irqbalance.service start_time=11451239828: read(fd=6 [id=857565752760224185]) ret=1024
+1782427033.512:00117:  pid=1862 cgroup=2931 cgroup_path=/system.slice/irqbalance.service start_time=11451239828: read(fd=6 [id=857565752760224185]) ret=1024
+1782427033.512:00118:  pid=1862 cgroup=2931 cgroup_path=/system.slice/irqbalance.service start_time=11451239828: read(fd=6 [id=857565752760224185]) ret=1024
+1782427033.512:00119:  pid=1862 cgroup=2931 cgroup_path=/system.slice/irqbalance.service start_time=11451239828: read(fd=6 [id=857565752760224185]) ret=1024
+1782427033.512:00120:  pid=1862 cgroup=2931 cgroup_path=/system.slice/irqbalance.service start_time=11451239828: read(fd=6 [id=857565752760224185]) ret=1024
+1782427033.512:00121:  pid=1862 cgroup=2931 cgroup_path=/system.slice/irqbalance.service start_time=11451239828: read(fd=6 [id=857565752760224185]) ret=1024
+1782427033.512:00122:  pid=1862 cgroup=2931 cgroup_path=/system.slice/irqbalance.service start_time=11451239828: read(fd=6 [id=857565752760224185]) ret=1024
+1782427033.512:00123:  pid=1862 cgroup=2931 cgroup_path=/system.slice/irqbalance.service start_time=11451239828: read(fd=6 [id=857565752760224185]) ret=1024
+1782427033.512:00124:  pid=1862 cgroup=2931 cgroup_path=/system.slice/irqbalance.service start_time=11451239828: read(fd=6 [id=857565752760224185]) ret=1024
+1782427033.512:00125:  pid=1862 cgroup=2931 cgroup_path=/system.slice/irqbalance.service start_time=11451239828: read(fd=6 [id=857565752760224185]) ret=1024
+1782427033.512:00126:  pid=1862 cgroup=2931 cgroup_path=/system.slice/irqbalance.service start_time=11451239828: read(fd=6 [id=857565752760224185]) ret=1024
+1782427033.512:00127:  pid=1862 cgroup=2931 cgroup_path=/system.slice/irqbalance.service start_time=11451239828: read(fd=6 [id=857565752760224185]) ret=1024
+1782427033.512:00128:  pid=1862 cgroup=2931 cgroup_path=/system.slice/irqbalance.service start_time=11451239828: read(fd=6 [id=857565752760224185]) ret=1024
+1782427033.512:00129:  pid=1862 cgroup=2931 cgroup_path=/system.slice/irqbalance.service start_time=11451239828: read(fd=6 [id=857565752760224185]) ret=1024
+1782427033.512:00130:  pid=1862 cgroup=2931 cgroup_path=/system.slice/irqbalance.service start_time=11451239828: read(fd=6 [id=857565752760224185]) ret=1024
+1782427033.512:00131:  pid=1862 cgroup=2931 cgroup_path=/system.slice/irqbalance.service start_time=11451239828: read(fd=6 [id=857565752760224185]) ret=1024
+1782427033.512:00132:  pid=1862 cgroup=2931 cgroup_path=/system.slice/irqbalance.service start_time=11451239828: read(fd=6 [id=857565752760224185]) ret=1024
+1782427033.512:00133:  pid=1862 cgroup=2931 cgroup_path=/system.slice/irqbalance.service start_time=11451239828: read(fd=6 [id=857565752760224185]) ret=1024
+1782427033.513:00134:  pid=1862 cgroup=2931 cgroup_path=/system.slice/irqbalance.service start_time=11451239828: read(fd=6 [id=857565752760224185]) ret=1024
+1782427033.513:00135:  pid=1862 cgroup=2931 cgroup_path=/system.slice/irqbalance.service start_time=11451239828: read(fd=6 [id=857565752760224185]) ret=1024
+1782427033.513:00136:  pid=1862 cgroup=2931 cgroup_path=/system.slice/irqbalance.service start_time=11451239828: read(fd=6 [id=857565752760224185]) ret=1024
+1782427033.513:00137:  pid=1862 cgroup=2931 cgroup_path=/system.slice/irqbalance.service start_time=11451239828: read(fd=6 [id=857565752760224185]) ret=1024
+1782427033.513:00138:  pid=1862 cgroup=2931 cgroup_path=/system.slice/irqbalance.service start_time=11451239828: read(fd=6 [id=857565752760224185]) ret=1024
+1782427033.513:00139:  pid=1862 cgroup=2931 cgroup_path=/system.slice/irqbalance.service start_time=11451239828: read(fd=6 [id=857565752760224185]) ret=1024
+1782427033.513:00140:  pid=1862 cgroup=2931 cgroup_path=/system.slice/irqbalance.service start_time=11451239828: read(fd=6 [id=857565752760224185]) ret=1024
+1782427033.513:00141:  pid=1862 cgroup=2931 cgroup_path=/system.slice/irqbalance.service start_time=11451239828: read(fd=6 [id=857565752760224185]) ret=1024
+1782427033.513:00142:  pid=1862 cgroup=2931 cgroup_path=/system.slice/irqbalance.service start_time=11451239828: read(fd=6 [id=857565752760224185]) ret=1024
+1782427033.513:00143:  pid=1862 cgroup=2931 cgroup_path=/system.slice/irqbalance.service start_time=11451239828: read(fd=6 [id=857565752760224185]) ret=1024
+1782427033.513:00144:  pid=1862 cgroup=2931 cgroup_path=/system.slice/irqbalance.service start_time=11451239828: read(fd=6 [id=857565752760224185]) ret=1024
+1782427033.513:00145:  pid=1862 cgroup=2931 cgroup_path=/system.slice/irqbalance.service start_time=11451239828: read(fd=6 [id=857565752760224185]) ret=1024
+1782427033.513:00146:  pid=1862 cgroup=2931 cgroup_path=/system.slice/irqbalance.service start_time=11451239828: read(fd=6 [id=857565752760224185]) ret=1024
+1782427033.513:00147:  pid=1862 cgroup=2931 cgroup_path=/system.slice/irqbalance.service start_time=11451239828: read(fd=6 [id=857565752760224185]) ret=1024
+1782427033.513:00148:  pid=1862 cgroup=2931 cgroup_path=/system.slice/irqbalance.service start_time=11451239828: read(fd=6 [id=857565752760224185]) ret=1024
+1782427033.513:00149:  pid=1862 cgroup=2931 cgroup_path=/system.slice/irqbalance.service start_time=11451239828: read(fd=6 [id=857565752760224185]) ret=1024
+1782427033.513:00150:  pid=1862 cgroup=2931 cgroup_path=/system.slice/irqbalance.service start_time=11451239828: read(fd=6 [id=857565752760224185]) ret=1024
+1782427033.513:00151:  pid=1862 cgroup=2931 cgroup_path=/system.slice/irqbalance.service start_time=11451239828: read(fd=6 [id=857565752760224185]) ret=1024
+1782427033.513:00152:  pid=1862 cgroup=2931 cgroup_path=/system.slice/irqbalance.service start_time=11451239828: read(fd=6 [id=857565752760224185]) ret=1024
+1782427033.513:00153:  pid=1862 cgroup=2931 cgroup_path=/system.slice/irqbalance.service start_time=11451239828: read(fd=6 [id=857565752760224185]) ret=1024
+1782427033.513:00154:  pid=1862 cgroup=2931 cgroup_path=/system.slice/irqbalance.service start_time=11451239828: read(fd=6 [id=857565752760224185]) ret=1024
+1782427033.513:00155:  pid=1862 cgroup=2931 cgroup_path=/system.slice/irqbalance.service start_time=11451239828: read(fd=6 [id=857565752760224185]) ret=1024
+1782427033.513:00156:  pid=1862 cgroup=2931 cgroup_path=/system.slice/irqbalance.service start_time=11451239828: read(fd=6 [id=857565752760224185]) ret=1024
+1782427033.513:00157:  pid=1862 cgroup=2931 cgroup_path=/system.slice/irqbalance.service start_time=11451239828: read(fd=6 [id=857565752760224185]) ret=1024
+1782427033.513:00158:  pid=1862 cgroup=2931 cgroup_path=/system.slice/irqbalance.service start_time=11451239828: read(fd=6 [id=857565752760224185]) ret=1024
+1782427033.513:00159:  pid=1862 cgroup=2931 cgroup_path=/system.slice/irqbalance.service start_time=11451239828: read(fd=6 [id=857565752760224185]) ret=1024
+1782427033.513:00160:  pid=1862 cgroup=2931 cgroup_path=/system.slice/irqbalance.service start_time=11451239828: read(fd=6 [id=857565752760224185]) ret=1024
+1782427033.513:00161:  pid=1862 cgroup=2931 cgroup_path=/system.slice/irqbalance.service start_time=11451239828: read(fd=6 [id=857565752760224185]) ret=1024
+1782427033.513:00162:  pid=1862 cgroup=2931 cgroup_path=/system.slice/irqbalance.service start_time=11451239828: read(fd=6 [id=857565752760224185]) ret=1024
+1782427033.513:00163:  pid=1862 cgroup=2931 cgroup_path=/system.slice/irqbalance.service start_time=11451239828: read(fd=6 [id=857565752760224185]) ret=1024
+1782427033.513:00164:  pid=1862 cgroup=2931 cgroup_path=/system.slice/irqbalance.service start_time=11451239828: read(fd=6 [id=857565752760224185]) ret=1024
+1782427033.513:00165:  pid=1862 cgroup=2931 cgroup_path=/system.slice/irqbalance.service start_time=11451239828: read(fd=6 [id=857565752760224185]) ret=1024
+1782427033.513:00166:  pid=1862 cgroup=2931 cgroup_path=/system.slice/irqbalance.service start_time=11451239828: read(fd=6 [id=857565752760224185]) ret=1024
+1782427033.513:00167:  pid=1862 cgroup=2931 cgroup_path=/system.slice/irqbalance.service start_time=11451239828: read(fd=6 [id=857565752760224185]) ret=1024
+1782427033.513:00168:  pid=1862 cgroup=2931 cgroup_path=/system.slice/irqbalance.service start_time=11451239828: read(fd=6 [id=857565752760224185]) ret=1024
+1782427033.513:00169:  pid=1862 cgroup=2931 cgroup_path=/system.slice/irqbalance.service start_time=11451239828: read(fd=6 [id=857565752760224185]) ret=1024
+1782427033.513:00170:  pid=1862 cgroup=2931 cgroup_path=/system.slice/irqbalance.service start_time=11451239828: read(fd=6 [id=857565752760224185]) ret=1024
+1782427033.513:00171:  pid=1862 cgroup=2931 cgroup_path=/system.slice/irqbalance.service start_time=11451239828: read(fd=6 [id=857565752760224185]) ret=1024
+1782427033.513:00172:  pid=1862 cgroup=2931 cgroup_path=/system.slice/irqbalance.service start_time=11451239828: read(fd=6 [id=857565752760224185]) ret=1024
+1782427033.513:00173:  pid=1862 cgroup=2931 cgroup_path=/system.slice/irqbalance.service start_time=11451239828: read(fd=6 [id=857565752760224185]) ret=1024
+1782427033.513:00174:  pid=1862 cgroup=2931 cgroup_path=/system.slice/irqbalance.service start_time=11451239828: read(fd=6 [id=857565752760224185]) ret=1024
+1782427033.513:00175:  pid=1862 cgroup=2931 cgroup_path=/system.slice/irqbalance.service start_time=11451239828: read(fd=6 [id=857565752760224185]) ret=1024
+1782427033.513:00176:  pid=1862 cgroup=2931 cgroup_path=/system.slice/irqbalance.service start_time=11451239828: read(fd=6 [id=857565752760224185]) ret=1024
+1782427033.513:00177:  pid=1862 cgroup=2931 cgroup_path=/system.slice/irqbalance.service start_time=11451239828: read(fd=6 [id=857565752760224185]) ret=1024
+1782427033.513:00178:  pid=1862 cgroup=2931 cgroup_path=/system.slice/irqbalance.service start_time=11451239828: read(fd=6 [id=857565752760224185]) ret=1024
+1782427033.513:00179:  pid=1862 cgroup=2931 cgroup_path=/system.slice/irqbalance.service start_time=11451239828: read(fd=6 [id=857565752760224185]) ret=1024
+1782427033.513:00180:  pid=1862 cgroup=2931 cgroup_path=/system.slice/irqbalance.service start_time=11451239828: read(fd=6 [id=857565752760224185]) ret=1024
+1782427033.513:00181:  pid=1862 cgroup=2931 cgroup_path=/system.slice/irqbalance.service start_time=11451239828: read(fd=6 [id=857565752760224185]) ret=1024
+1782427033.513:00182:  pid=1862 cgroup=2931 cgroup_path=/system.slice/irqbalance.service start_time=11451239828: read(fd=6 [id=857565752760224185]) ret=1024
+1782427033.513:00183:  pid=1862 cgroup=2931 cgroup_path=/system.slice/irqbalance.service start_time=11451239828: read(fd=6 [id=857565752760224185]) ret=1024
+1782427033.514:00184:  pid=1862 cgroup=2931 cgroup_path=/system.slice/irqbalance.service start_time=11451239828: read(fd=6 [id=857565752760224185]) ret=1024
+1782427033.514:00185:  pid=1862 cgroup=2931 cgroup_path=/system.slice/irqbalance.service start_time=11451239828: read(fd=6 [id=857565752760224185]) ret=1024
+1782427033.514:00186:  pid=1862 cgroup=2931 cgroup_path=/system.slice/irqbalance.service start_time=11451239828: read(fd=6 [id=857565752760224185]) ret=1024
+1782427033.514:00187:  pid=1862 cgroup=2931 cgroup_path=/system.slice/irqbalance.service start_time=11451239828: read(fd=6 [id=857565752760224185]) ret=1024
+1782427033.514:00188:  pid=1862 cgroup=2931 cgroup_path=/system.slice/irqbalance.service start_time=11451239828: read(fd=6 [id=857565752760224185]) ret=1024
+1782427033.514:00189:  pid=1862 cgroup=2931 cgroup_path=/system.slice/irqbalance.service start_time=11451239828: read(fd=6 [id=857565752760224185]) ret=1024
+1782427033.514:00190:  pid=1862 cgroup=2931 cgroup_path=/system.slice/irqbalance.service start_time=11451239828: read(fd=6 [id=857565752760224185]) ret=1024
+1782427033.514:00191:  pid=1862 cgroup=2931 cgroup_path=/system.slice/irqbalance.service start_time=11451239828: read(fd=6 [id=857565752760224185]) ret=1024
+1782427033.514:00192:  pid=1862 cgroup=2931 cgroup_path=/system.slice/irqbalance.service start_time=11451239828: read(fd=6 [id=857565752760224185]) ret=1024
+1782427033.514:00193:  pid=1862 cgroup=2931 cgroup_path=/system.slice/irqbalance.service start_time=11451239828: read(fd=6 [id=857565752760224185]) ret=1024
+1782427033.514:00194:  pid=1862 cgroup=2931 cgroup_path=/system.slice/irqbalance.service start_time=11451239828: read(fd=6 [id=857565752760224185]) ret=1024
+1782427033.514:00195:  pid=1862 cgroup=2931 cgroup_path=/system.slice/irqbalance.service start_time=11451239828: read(fd=6 [id=857565752760224185]) ret=1024
+1782427033.514:00196:  pid=1862 cgroup=2931 cgroup_path=/system.slice/irqbalance.service start_time=11451239828: read(fd=6 [id=857565752760224185]) ret=1024
+1782427033.514:00197:  pid=1862 cgroup=2931 cgroup_path=/system.slice/irqbalance.service start_time=11451239828: read(fd=6 [id=857565752760224185]) ret=1024
+1782427033.514:00198:  pid=1862 cgroup=2931 cgroup_path=/system.slice/irqbalance.service start_time=11451239828: read(fd=6 [id=857565752760224185]) ret=1024
+1782427033.514:00199:  pid=1862 cgroup=2931 cgroup_path=/system.slice/irqbalance.service start_time=11451239828: read(fd=6 [id=857565752760224185]) ret=1024
+1782427033.514:00200:  pid=1862 cgroup=2931 cgroup_path=/system.slice/irqbalance.service start_time=11451239828: read(fd=6 [id=857565752760224185]) ret=1024
+1782427033.514:00201:  pid=1862 cgroup=2931 cgroup_path=/system.slice/irqbalance.service start_time=11451239828: read(fd=6 [id=857565752760224185]) ret=1024
+1782427033.514:00202:  pid=1862 cgroup=2931 cgroup_path=/system.slice/irqbalance.service start_time=11451239828: read(fd=6 [id=857565752760224185]) ret=1024
+1782427033.514:00203:  pid=1862 cgroup=2931 cgroup_path=/system.slice/irqbalance.service start_time=11451239828: read(fd=6 [id=857565752760224185]) ret=1024
+1782427033.514:00204:  pid=1862 cgroup=2931 cgroup_path=/system.slice/irqbalance.service start_time=11451239828: read(fd=6 [id=857565752760224185]) ret=1024
+1782427033.514:00205:  pid=1862 cgroup=2931 cgroup_path=/system.slice/irqbalance.service start_time=11451239828: read(fd=6 [id=857565752760224185]) ret=1024
+1782427033.514:00206:  pid=1862 cgroup=2931 cgroup_path=/system.slice/irqbalance.service start_time=11451239828: read(fd=6 [id=857565752760224185]) ret=1024
+1782427033.514:00207:  pid=1862 cgroup=2931 cgroup_path=/system.slice/irqbalance.service start_time=11451239828: read(fd=6 [id=857565752760224185]) ret=1024
+1782427033.514:00208:  pid=1862 cgroup=2931 cgroup_path=/system.slice/irqbalance.service start_time=11451239828: read(fd=6 [id=857565752760224185]) ret=1024
+1782427033.514:00209:  pid=1862 cgroup=2931 cgroup_path=/system.slice/irqbalance.service start_time=11451239828: read(fd=6 [id=857565752760224185]) ret=1024
+1782427033.514:00210:  pid=1862 cgroup=2931 cgroup_path=/system.slice/irqbalance.service start_time=11451239828: read(fd=6 [id=857565752760224185]) ret=1024
+1782427033.514:00211:  pid=1862 cgroup=2931 cgroup_path=/system.slice/irqbalance.service start_time=11451239828: read(fd=6 [id=857565752760224185]) ret=1024
+1782427033.514:00212:  pid=1862 cgroup=2931 cgroup_path=/system.slice/irqbalance.service start_time=11451239828: read(fd=6 [id=857565752760224185]) ret=1024
+1782427033.514:00213:  pid=1862 cgroup=2931 cgroup_path=/system.slice/irqbalance.service start_time=11451239828: read(fd=6 [id=857565752760224185]) ret=1024
+1782427033.514:00214:  pid=1862 cgroup=2931 cgroup_path=/system.slice/irqbalance.service start_time=11451239828: read(fd=6 [id=857565752760224185]) ret=1024
+1782427033.514:00215:  pid=1862 cgroup=2931 cgroup_path=/system.slice/irqbalance.service start_time=11451239828: read(fd=6 [id=857565752760224185]) ret=1024
+1782427033.514:00216:  pid=1862 cgroup=2931 cgroup_path=/system.slice/irqbalance.service start_time=11451239828: read(fd=6 [id=857565752760224185]) ret=1024
+1782427033.514:00217:  pid=1862 cgroup=2931 cgroup_path=/system.slice/irqbalance.service start_time=11451239828: read(fd=6 [id=857565752760224185]) ret=1024
+1782427033.514:00218:  pid=1862 cgroup=2931 cgroup_path=/system.slice/irqbalance.service start_time=11451239828: read(fd=6 [id=857565752760224185]) ret=1024
+1782427033.514:00219:  pid=1862 cgroup=2931 cgroup_path=/system.slice/irqbalance.service start_time=11451239828: read(fd=6 [id=857565752760224185]) ret=1024
+1782427033.514:00220:  pid=1862 cgroup=2931 cgroup_path=/system.slice/irqbalance.service start_time=11451239828: read(fd=6 [id=857565752760224185]) ret=1024
+1782427033.514:00221:  pid=1862 cgroup=2931 cgroup_path=/system.slice/irqbalance.service start_time=11451239828: read(fd=6 [id=857565752760224185]) ret=1024
+1782427033.514:00222:  pid=1862 cgroup=2931 cgroup_path=/system.slice/irqbalance.service start_time=11451239828: read(fd=6 [id=857565752760224185]) ret=1024
+1782427033.514:00223:  pid=1862 cgroup=2931 cgroup_path=/system.slice/irqbalance.service start_time=11451239828: read(fd=6 [id=857565752760224185]) ret=1024
+1782427033.514:00224:  pid=1862 cgroup=2931 cgroup_path=/system.slice/irqbalance.service start_time=11451239828: read(fd=6 [id=857565752760224185]) ret=1024
+1782427033.514:00225:  pid=1862 cgroup=2931 cgroup_path=/system.slice/irqbalance.service start_time=11451239828: read(fd=6 [id=857565752760224185]) ret=1024
+1782427033.514:00226:  pid=1862 cgroup=2931 cgroup_path=/system.slice/irqbalance.service start_time=11451239828: read(fd=6 [id=857565752760224185]) ret=1024
+1782427033.514:00227:  pid=1862 cgroup=2931 cgroup_path=/system.slice/irqbalance.service start_time=11451239828: read(fd=6 [id=857565752760224185]) ret=1024
+1782427033.514:00228:  pid=1862 cgroup=2931 cgroup_path=/system.slice/irqbalance.service start_time=11451239828: read(fd=6 [id=857565752760224185]) ret=1024
+1782427033.514:00229:  pid=1862 cgroup=2931 cgroup_path=/system.slice/irqbalance.service start_time=11451239828: read(fd=6 [id=857565752760224185]) ret=1024
+1782427033.514:00230:  pid=1862 cgroup=2931 cgroup_path=/system.slice/irqbalance.service start_time=11451239828: read(fd=6 [id=857565752760224185]) ret=1024
+1782427033.514:00231:  pid=1862 cgroup=2931 cgroup_path=/system.slice/irqbalance.service start_time=11451239828: read(fd=6 [id=857565752760224185]) ret=1024
+1782427033.515:00232:  pid=1862 cgroup=2931 cgroup_path=/system.slice/irqbalance.service start_time=11451239828: read(fd=6 [id=857565752760224185]) ret=1024
+1782427033.515:00233:  pid=1862 cgroup=2931 cgroup_path=/system.slice/irqbalance.service start_time=11451239828: read(fd=6 [id=857565752760224185]) ret=1024
+1782427033.515:00234:  pid=1862 cgroup=2931 cgroup_path=/system.slice/irqbalance.service start_time=11451239828: close(fd=6)
+1782427033.515:00235:  pid=1862 cgroup=2931 cgroup_path=/system.slice/irqbalance.service start_time=11451239828: open(file="/proc/stat", flags=0, mode=0) ret=6 [id=5020133935008245605]
+1782427033.515:00236:  pid=1862 cgroup=2931 cgroup_path=/system.slice/irqbalance.service start_time=11451239828: read(fd=6 [id=5020133935008245605]) ret=1024
+1782427033.515:00237:  pid=1862 cgroup=2931 cgroup_path=/system.slice/irqbalance.service start_time=11451239828: read(fd=6 [id=5020133935008245605]) ret=1024
+1782427033.515:00238:  pid=1862 cgroup=2931 cgroup_path=/system.slice/irqbalance.service start_time=11451239828: read(fd=6 [id=5020133935008245605]) ret=1024
+1782427033.515:00239:  pid=1862 cgroup=2931 cgroup_path=/system.slice/irqbalance.service start_time=11451239828: read(fd=6 [id=5020133935008245605]) ret=1024
+1782427033.516:00240:  pid=1862 cgroup=2931 cgroup_path=/system.slice/irqbalance.service start_time=11451239828: read(fd=6 [id=5020133935008245605]) ret=1024
+1782427033.516:00241:  pid=1862 cgroup=2931 cgroup_path=/system.slice/irqbalance.service start_time=11451239828: read(fd=6 [id=5020133935008245605]) ret=1024
+1782427033.516:00242:  pid=1862 cgroup=2931 cgroup_path=/system.slice/irqbalance.service start_time=11451239828: read(fd=6 [id=5020133935008245605]) ret=651
+1782427033.516:00243:  pid=1862 cgroup=2931 cgroup_path=/system.slice/irqbalance.service start_time=11451239828: close(fd=6)
+1782427033.516:00244:  pid=1862 cgroup=2931 cgroup_path=/system.slice/irqbalance.service start_time=11451239828: open(file="/proc/irq/69/smp_affinity", flags=0, mode=0) ret=6 [id=13257847501089822635]
+1782427033.516:00245:  pid=1862 cgroup=2931 cgroup_path=/system.slice/irqbalance.service start_time=11451239828: read(fd=6 [id=13257847501089822635]) ret=34
+1782427033.516:00246:  pid=1862 cgroup=2931 cgroup_path=/system.slice/irqbalance.service start_time=11451239828: close(fd=6)
+1782427033.759:00247:  pid=1503 cgroup=1232 cgroup_path=/system.slice/multipathd.service start_time=8240901118: tid=1513: write(fd=9 [id=12045990449128452275]) ret=8
+1782427033.759:00248:  pid=1503 cgroup=1232 cgroup_path=/system.slice/multipathd.service start_time=8240901118: tid=1513: write(fd=9 [id=12045990449128452275]) ret=8
+1782427034.759:00249:  pid=1503 cgroup=1232 cgroup_path=/system.slice/multipathd.service start_time=8240901118: tid=1513: write(fd=9 [id=12045990449128452275]) ret=8
+1782427034.759:00250:  pid=1503 cgroup=1232 cgroup_path=/system.slice/multipathd.service start_time=8240901118: tid=1513: write(fd=9 [id=12045990449128452275]) ret=8
+1782427035.759:00251:  pid=1503 cgroup=1232 cgroup_path=/system.slice/multipathd.service start_time=8240901118: tid=1513: write(fd=9 [id=12045990449128452275]) ret=8
+1782427035.759:00252:  pid=1503 cgroup=1232 cgroup_path=/system.slice/multipathd.service start_time=8240901118: tid=1513: write(fd=9 [id=12045990449128452275]) ret=8
+1782427036.759:00253:  pid=1503 cgroup=1232 cgroup_path=/system.slice/multipathd.service start_time=8240901118: tid=1513: write(fd=9 [id=12045990449128452275]) ret=8
+1782427036.759:00254:  pid=1503 cgroup=1232 cgroup_path=/system.slice/multipathd.service start_time=8240901118: tid=1513: write(fd=9 [id=12045990449128452275]) ret=8
+1782427037.760:00255:  pid=1503 cgroup=1232 cgroup_path=/system.slice/multipathd.service start_time=8240901118: tid=1513: write(fd=9 [id=12045990449128452275]) ret=8
+1782427037.760:00256:  pid=1503 cgroup=1232 cgroup_path=/system.slice/multipathd.service start_time=8240901118: tid=1513: write(fd=9 [id=12045990449128452275]) ret=8
+1782427037.760:00257:  pid=1503 cgroup=1232 cgroup_path=/system.slice/multipathd.service start_time=8240901118: tid=1513: write(fd=9 [id=12045990449128452275]) ret=8
+1782427038.760:00258:  pid=1503 cgroup=1232 cgroup_path=/system.slice/multipathd.service start_time=8240901118: tid=1513: write(fd=9 [id=12045990449128452275]) ret=8
+1782427038.760:00259:  pid=1503 cgroup=1232 cgroup_path=/system.slice/multipathd.service start_time=8240901118: tid=1513: write(fd=9 [id=12045990449128452275]) ret=8
+1782427039.760:00260:  pid=1503 cgroup=1232 cgroup_path=/system.slice/multipathd.service start_time=8240901118: tid=1513: write(fd=9 [id=12045990449128452275]) ret=8
+1782427039.760:00261:  pid=1503 cgroup=1232 cgroup_path=/system.slice/multipathd.service start_time=8240901118: tid=1513: write(fd=9 [id=12045990449128452275]) ret=8
+1782427040.002:00262:  pid=2180 cgroup=4126 cgroup_path=/user.slice/user-1000.slice/session-1.scope start_time=26519962325: read(fd=0 [id=8309405774251899813]) ret=1
+1782427040.002:00263:  pid=2180 cgroup=4126 cgroup_path=/user.slice/user-1000.slice/session-1.scope start_time=26519962325: read(fd=0 [id=8309405774251899813]) ret=1
+1782427040.002:00264:  pid=2180 cgroup=4126 cgroup_path=/user.slice/user-1000.slice/session-1.scope start_time=26519962325: read(fd=0 [id=8309405774251899813]) ret=1
+1782427040.002:00265:  pid=2180 cgroup=4126 cgroup_path=/user.slice/user-1000.slice/session-1.scope start_time=26519962325: read(fd=0 [id=8309405774251899813]) ret=1
+1782427040.002:00266:  pid=2180 cgroup=4126 cgroup_path=/user.slice/user-1000.slice/session-1.scope start_time=26519962325: read(fd=0 [id=8309405774251899813]) ret=1
+1782427040.002:00267:  pid=2180 cgroup=4126 cgroup_path=/user.slice/user-1000.slice/session-1.scope start_time=26519962325: read(fd=0 [id=8309405774251899813]) ret=1
+1782427040.002:00268:  pid=2180 cgroup=4126 cgroup_path=/user.slice/user-1000.slice/session-1.scope start_time=26519962325: read(fd=0 [id=8309405774251899813]) ret=1
+1782427040.002:00269:  pid=2180 cgroup=4126 cgroup_path=/user.slice/user-1000.slice/session-1.scope start_time=26519962325: read(fd=0 [id=8309405774251899813]) ret=1
+1782427040.002:00270:  pid=2180 cgroup=4126 cgroup_path=/user.slice/user-1000.slice/session-1.scope start_time=26519962325: read(fd=0 [id=8309405774251899813]) ret=1
+1782427040.002:00271:  pid=2180 cgroup=4126 cgroup_path=/user.slice/user-1000.slice/session-1.scope start_time=26519962325: read(fd=0 [id=8309405774251899813]) ret=1
+1782427040.002:00272:  pid=2180 cgroup=4126 cgroup_path=/user.slice/user-1000.slice/session-1.scope start_time=26519962325: read(fd=0 [id=8309405774251899813]) ret=1
+1782427040.002:00273:  pid=2180 cgroup=4126 cgroup_path=/user.slice/user-1000.slice/session-1.scope start_time=26519962325: read(fd=0 [id=8309405774251899813]) ret=1
+1782427040.002:00274:  pid=2180 cgroup=4126 cgroup_path=/user.slice/user-1000.slice/session-1.scope start_time=26519962325: read(fd=0 [id=8309405774251899813]) ret=1
+1782427040.002:00275:  pid=2180 cgroup=4126 cgroup_path=/user.slice/user-1000.slice/session-1.scope start_time=26519962325: read(fd=0 [id=8309405774251899813]) ret=1
+1782427040.002:00276:  pid=2180 cgroup=4126 cgroup_path=/user.slice/user-1000.slice/session-1.scope start_time=26519962325: read(fd=0 [id=8309405774251899813]) ret=1
+1782427040.002:00277:  pid=2180 cgroup=4126 cgroup_path=/user.slice/user-1000.slice/session-1.scope start_time=26519962325: read(fd=0 [id=8309405774251899813]) ret=1
+1782427040.002:00278:  pid=2180 cgroup=4126 cgroup_path=/user.slice/user-1000.slice/session-1.scope start_time=26519962325: read(fd=0 [id=8309405774251899813]) ret=1
+1782427040.002:00279:  pid=2180 cgroup=4126 cgroup_path=/user.slice/user-1000.slice/session-1.scope start_time=26519962325: read(fd=0 [id=8309405774251899813]) ret=1
+1782427040.002:00280:  pid=2180 cgroup=4126 cgroup_path=/user.slice/user-1000.slice/session-1.scope start_time=26519962325: read(fd=0 [id=8309405774251899813]) ret=1
+1782427040.002:00281:  pid=2180 cgroup=4126 cgroup_path=/user.slice/user-1000.slice/session-1.scope start_time=26519962325: read(fd=0 [id=8309405774251899813]) ret=1
+1782427040.002:00282:  pid=2180 cgroup=4126 cgroup_path=/user.slice/user-1000.slice/session-1.scope start_time=26519962325: read(fd=0 [id=8309405774251899813]) ret=1
+1782427040.002:00283:  pid=2180 cgroup=4126 cgroup_path=/user.slice/user-1000.slice/session-1.scope start_time=26519962325: read(fd=0 [id=8309405774251899813]) ret=1
+1782427040.002:00284:  pid=2180 cgroup=4126 cgroup_path=/user.slice/user-1000.slice/session-1.scope start_time=26519962325: read(fd=0 [id=8309405774251899813]) ret=1
+1782427040.002:00285:  pid=2180 cgroup=4126 cgroup_path=/user.slice/user-1000.slice/session-1.scope start_time=26519962325: read(fd=0 [id=8309405774251899813]) ret=1
+1782427040.002:00286:  pid=2180 cgroup=4126 cgroup_path=/user.slice/user-1000.slice/session-1.scope start_time=26519962325: read(fd=0 [id=8309405774251899813]) ret=1
+1782427040.002:00287:  pid=2180 cgroup=4126 cgroup_path=/user.slice/user-1000.slice/session-1.scope start_time=26519962325: read(fd=0 [id=8309405774251899813]) ret=1
+1782427040.002:00288:  pid=2180 cgroup=4126 cgroup_path=/user.slice/user-1000.slice/session-1.scope start_time=26519962325: read(fd=0 [id=8309405774251899813]) ret=1
+1782427040.002:00289:  pid=2180 cgroup=4126 cgroup_path=/user.slice/user-1000.slice/session-1.scope start_time=26519962325: read(fd=0 [id=8309405774251899813]) ret=1
+1782427040.002:00290:  pid=2180 cgroup=4126 cgroup_path=/user.slice/user-1000.slice/session-1.scope start_time=26519962325: read(fd=0 [id=8309405774251899813]) ret=1
+1782427040.002:00291:  pid=2180 cgroup=4126 cgroup_path=/user.slice/user-1000.slice/session-1.scope start_time=26519962325: read(fd=0 [id=8309405774251899813]) ret=1
+1782427040.002:00292:  pid=2180 cgroup=4126 cgroup_path=/user.slice/user-1000.slice/session-1.scope start_time=26519962325: read(fd=0 [id=8309405774251899813]) ret=1
+1782427040.002:00293:  pid=2180 cgroup=4126 cgroup_path=/user.slice/user-1000.slice/session-1.scope start_time=26519962325: read(fd=0 [id=8309405774251899813]) ret=1
+1782427040.002:00294:  pid=2180 cgroup=4126 cgroup_path=/user.slice/user-1000.slice/session-1.scope start_time=26519962325: read(fd=0 [id=8309405774251899813]) ret=1
+1782427040.002:00295:  pid=2180 cgroup=4126 cgroup_path=/user.slice/user-1000.slice/session-1.scope start_time=26519962325: read(fd=0 [id=8309405774251899813]) ret=1
+1782427040.002:00296:  pid=2180 cgroup=4126 cgroup_path=/user.slice/user-1000.slice/session-1.scope start_time=26519962325: read(fd=0 [id=8309405774251899813]) ret=1
+1782427040.002:00297:  pid=2180 cgroup=4126 cgroup_path=/user.slice/user-1000.slice/session-1.scope start_time=26519962325: read(fd=0 [id=8309405774251899813]) ret=1
+1782427040.002:00298:  pid=2180 cgroup=4126 cgroup_path=/user.slice/user-1000.slice/session-1.scope start_time=26519962325: read(fd=0 [id=8309405774251899813]) ret=1
+1782427040.002:00299:  pid=2180 cgroup=4126 cgroup_path=/user.slice/user-1000.slice/session-1.scope start_time=26519962325: read(fd=0 [id=8309405774251899813]) ret=1
+1782427040.002:00300:  pid=2180 cgroup=4126 cgroup_path=/user.slice/user-1000.slice/session-1.scope start_time=26519962325: read(fd=0 [id=8309405774251899813]) ret=1
+1782427040.002:00301:  pid=2180 cgroup=4126 cgroup_path=/user.slice/user-1000.slice/session-1.scope start_time=26519962325: read(fd=0 [id=8309405774251899813]) ret=1
+1782427040.002:00302:  pid=2180 cgroup=4126 cgroup_path=/user.slice/user-1000.slice/session-1.scope start_time=26519962325: read(fd=0 [id=8309405774251899813]) ret=1
+1782427040.002:00303:  pid=2180 cgroup=4126 cgroup_path=/user.slice/user-1000.slice/session-1.scope start_time=26519962325: read(fd=0 [id=8309405774251899813]) ret=1
+1782427040.002:00304:  pid=2180 cgroup=4126 cgroup_path=/user.slice/user-1000.slice/session-1.scope start_time=26519962325: read(fd=0 [id=8309405774251899813]) ret=1
+1782427040.002:00305:  pid=2180 cgroup=4126 cgroup_path=/user.slice/user-1000.slice/session-1.scope start_time=26519962325: read(fd=0 [id=8309405774251899813]) ret=1
+1782427040.002:00306:  pid=2180 cgroup=4126 cgroup_path=/user.slice/user-1000.slice/session-1.scope start_time=26519962325: read(fd=0 [id=8309405774251899813]) ret=1
+1782427040.002:00307:  pid=2180 cgroup=4126 cgroup_path=/user.slice/user-1000.slice/session-1.scope start_time=26519962325: read(fd=0 [id=8309405774251899813]) ret=1
+1782427040.002:00308:  pid=2180 cgroup=4126 cgroup_path=/user.slice/user-1000.slice/session-1.scope start_time=26519962325: read(fd=0 [id=8309405774251899813]) ret=1
+1782427040.002:00309:  pid=2180 cgroup=4126 cgroup_path=/user.slice/user-1000.slice/session-1.scope start_time=26519962325: read(fd=0 [id=8309405774251899813]) ret=1
+1782427040.002:00310:  pid=2180 cgroup=4126 cgroup_path=/user.slice/user-1000.slice/session-1.scope start_time=26519962325: read(fd=0 [id=8309405774251899813]) ret=1
+1782427040.002:00311:  pid=2180 cgroup=4126 cgroup_path=/user.slice/user-1000.slice/session-1.scope start_time=26519962325: read(fd=0 [id=8309405774251899813]) ret=1
+1782427040.007:00312:  pid=2180 cgroup=4126 cgroup_path=/user.slice/user-1000.slice/session-1.scope start_time=26519962325: read(fd=0 [id=8309405774251899813]) ret=1
+1782427040.007:00313:  pid=2180 cgroup=4126 cgroup_path=/user.slice/user-1000.slice/session-1.scope start_time=26519962325: read(fd=0 [id=8309405774251899813]) ret=1
+1782427040.007:00314:  pid=2180 cgroup=4126 cgroup_path=/user.slice/user-1000.slice/session-1.scope start_time=26519962325: read(fd=0 [id=8309405774251899813]) ret=1
+1782427040.007:00315:  pid=2180 cgroup=4126 cgroup_path=/user.slice/user-1000.slice/session-1.scope start_time=26519962325: read(fd=0 [id=8309405774251899813]) ret=1
+1782427040.007:00316:  pid=2180 cgroup=4126 cgroup_path=/user.slice/user-1000.slice/session-1.scope start_time=26519962325: read(fd=0 [id=8309405774251899813]) ret=1
+1782427040.007:00317:  pid=2180 cgroup=4126 cgroup_path=/user.slice/user-1000.slice/session-1.scope start_time=26519962325: read(fd=0 [id=8309405774251899813]) ret=1
+1782427040.007:00318:  pid=2180 cgroup=4126 cgroup_path=/user.slice/user-1000.slice/session-1.scope start_time=26519962325: read(fd=0 [id=8309405774251899813]) ret=1
+1782427040.007:00319:  pid=2180 cgroup=4126 cgroup_path=/user.slice/user-1000.slice/session-1.scope start_time=26519962325: read(fd=0 [id=8309405774251899813]) ret=1
+1782427040.007:00320:  pid=2180 cgroup=4126 cgroup_path=/user.slice/user-1000.slice/session-1.scope start_time=26519962325: read(fd=0 [id=8309405774251899813]) ret=1
+1782427040.007:00321:  pid=2180 cgroup=4126 cgroup_path=/user.slice/user-1000.slice/session-1.scope start_time=26519962325: read(fd=0 [id=8309405774251899813]) ret=1
+1782427040.007:00322:  pid=2180 cgroup=4126 cgroup_path=/user.slice/user-1000.slice/session-1.scope start_time=26519962325: read(fd=0 [id=8309405774251899813]) ret=1
+1782427040.007:00323:  pid=2180 cgroup=4126 cgroup_path=/user.slice/user-1000.slice/session-1.scope start_time=26519962325: read(fd=0 [id=8309405774251899813]) ret=1
+1782427040.007:00324:  pid=2180 cgroup=4126 cgroup_path=/user.slice/user-1000.slice/session-1.scope start_time=26519962325: read(fd=0 [id=8309405774251899813]) ret=1
+1782427040.007:00325:  pid=2180 cgroup=4126 cgroup_path=/user.slice/user-1000.slice/session-1.scope start_time=26519962325: read(fd=0 [id=8309405774251899813]) ret=1
+1782427040.007:00326:  pid=2180 cgroup=4126 cgroup_path=/user.slice/user-1000.slice/session-1.scope start_time=26519962325: read(fd=0 [id=8309405774251899813]) ret=1
+1782427040.007:00327:  pid=2180 cgroup=4126 cgroup_path=/user.slice/user-1000.slice/session-1.scope start_time=26519962325: read(fd=0 [id=8309405774251899813]) ret=1
+1782427040.007:00328:  pid=2180 cgroup=4126 cgroup_path=/user.slice/user-1000.slice/session-1.scope start_time=26519962325: read(fd=0 [id=8309405774251899813]) ret=1
+1782427040.007:00329:  pid=2180 cgroup=4126 cgroup_path=/user.slice/user-1000.slice/session-1.scope start_time=26519962325: read(fd=0 [id=8309405774251899813]) ret=1
+1782427040.007:00330:  pid=2180 cgroup=4126 cgroup_path=/user.slice/user-1000.slice/session-1.scope start_time=26519962325: read(fd=0 [id=8309405774251899813]) ret=1
+1782427040.007:00331:  pid=2180 cgroup=4126 cgroup_path=/user.slice/user-1000.slice/session-1.scope start_time=26519962325: read(fd=0 [id=8309405774251899813]) ret=1
+1782427040.007:00332:  pid=2180 cgroup=4126 cgroup_path=/user.slice/user-1000.slice/session-1.scope start_time=26519962325: read(fd=0 [id=8309405774251899813]) ret=1
+1782427040.007:00333:  pid=2180 cgroup=4126 cgroup_path=/user.slice/user-1000.slice/session-1.scope start_time=26519962325: read(fd=0 [id=8309405774251899813]) ret=1
+1782427040.007:00334:  pid=2180 cgroup=4126 cgroup_path=/user.slice/user-1000.slice/session-1.scope start_time=26519962325: read(fd=0 [id=8309405774251899813]) ret=1
+1782427040.007:00335:  pid=2180 cgroup=4126 cgroup_path=/user.slice/user-1000.slice/session-1.scope start_time=26519962325: read(fd=0 [id=8309405774251899813]) ret=1
+1782427040.007:00336:  pid=2180 cgroup=4126 cgroup_path=/user.slice/user-1000.slice/session-1.scope start_time=26519962325: read(fd=0 [id=8309405774251899813]) ret=1
+1782427040.007:00337:  pid=2180 cgroup=4126 cgroup_path=/user.slice/user-1000.slice/session-1.scope start_time=26519962325: read(fd=0 [id=8309405774251899813]) ret=1
+1782427040.007:00338:  pid=2180 cgroup=4126 cgroup_path=/user.slice/user-1000.slice/session-1.scope start_time=26519962325: read(fd=0 [id=8309405774251899813]) ret=1
+1782427040.007:00339:  pid=2180 cgroup=4126 cgroup_path=/user.slice/user-1000.slice/session-1.scope start_time=26519962325: read(fd=0 [id=8309405774251899813]) ret=1
+1782427040.007:00340:  pid=2180 cgroup=4126 cgroup_path=/user.slice/user-1000.slice/session-1.scope start_time=26519962325: read(fd=0 [id=8309405774251899813]) ret=1
+1782427040.007:00341:  pid=2180 cgroup=4126 cgroup_path=/user.slice/user-1000.slice/session-1.scope start_time=26519962325: read(fd=0 [id=8309405774251899813]) ret=1
+1782427040.007:00342:  pid=2180 cgroup=4126 cgroup_path=/user.slice/user-1000.slice/session-1.scope start_time=26519962325: read(fd=0 [id=8309405774251899813]) ret=1
+1782427040.007:00343:  pid=2180 cgroup=4126 cgroup_path=/user.slice/user-1000.slice/session-1.scope start_time=26519962325: read(fd=0 [id=8309405774251899813]) ret=1
+1782427040.007:00344:  pid=2180 cgroup=4126 cgroup_path=/user.slice/user-1000.slice/session-1.scope start_time=26519962325: read(fd=0 [id=8309405774251899813]) ret=1
+1782427040.007:00345:  pid=2180 cgroup=4126 cgroup_path=/user.slice/user-1000.slice/session-1.scope start_time=26519962325: read(fd=0 [id=8309405774251899813]) ret=1
+1782427040.007:00346:  pid=2180 cgroup=4126 cgroup_path=/user.slice/user-1000.slice/session-1.scope start_time=26519962325: read(fd=0 [id=8309405774251899813]) ret=1
+1782427040.007:00347:  pid=2180 cgroup=4126 cgroup_path=/user.slice/user-1000.slice/session-1.scope start_time=26519962325: read(fd=0 [id=8309405774251899813]) ret=1
+1782427040.007:00348:  pid=2180 cgroup=4126 cgroup_path=/user.slice/user-1000.slice/session-1.scope start_time=26519962325: read(fd=0 [id=8309405774251899813]) ret=1
+1782427040.007:00349:  pid=2180 cgroup=4126 cgroup_path=/user.slice/user-1000.slice/session-1.scope start_time=26519962325: read(fd=0 [id=8309405774251899813]) ret=1
+1782427040.007:00350:  pid=2180 cgroup=4126 cgroup_path=/user.slice/user-1000.slice/session-1.scope start_time=26519962325: read(fd=0 [id=8309405774251899813]) ret=1
+1782427040.007:00351:  pid=2180 cgroup=4126 cgroup_path=/user.slice/user-1000.slice/session-1.scope start_time=26519962325: read(fd=0 [id=8309405774251899813]) ret=1
+1782427040.007:00352:  pid=2180 cgroup=4126 cgroup_path=/user.slice/user-1000.slice/session-1.scope start_time=26519962325: read(fd=0 [id=8309405774251899813]) ret=1
+1782427040.007:00353:  pid=2180 cgroup=4126 cgroup_path=/user.slice/user-1000.slice/session-1.scope start_time=26519962325: read(fd=0 [id=8309405774251899813]) ret=1
+1782427040.007:00354:  pid=2180 cgroup=4126 cgroup_path=/user.slice/user-1000.slice/session-1.scope start_time=26519962325: read(fd=0 [id=8309405774251899813]) ret=1
+1782427040.007:00355:  pid=2180 cgroup=4126 cgroup_path=/user.slice/user-1000.slice/session-1.scope start_time=26519962325: read(fd=0 [id=8309405774251899813]) ret=1
+1782427040.008:00356:  pid=2180 cgroup=4126 cgroup_path=/user.slice/user-1000.slice/session-1.scope start_time=26519962325: read(fd=0 [id=8309405774251899813]) ret=1
+1782427040.008:00357:  pid=2180 cgroup=4126 cgroup_path=/user.slice/user-1000.slice/session-1.scope start_time=26519962325: read(fd=0 [id=8309405774251899813]) ret=1
+1782427040.008:00358:  pid=2180 cgroup=4126 cgroup_path=/user.slice/user-1000.slice/session-1.scope start_time=26519962325: read(fd=0 [id=8309405774251899813]) ret=1
+1782427040.008:00359:  pid=2180 cgroup=4126 cgroup_path=/user.slice/user-1000.slice/session-1.scope start_time=26519962325: read(fd=0 [id=8309405774251899813]) ret=1
+1782427040.008:00360:  pid=2180 cgroup=4126 cgroup_path=/user.slice/user-1000.slice/session-1.scope start_time=26519962325: read(fd=0 [id=8309405774251899813]) ret=1
+1782427040.008:00361:  pid=2180 cgroup=4126 cgroup_path=/user.slice/user-1000.slice/session-1.scope start_time=26519962325: read(fd=0 [id=8309405774251899813]) ret=1
+1782427040.012:00362:  pid=2180 cgroup=4126 cgroup_path=/user.slice/user-1000.slice/session-1.scope start_time=26519962325: read(fd=0 [id=8309405774251899813]) ret=1
+1782427040.012:00363:  pid=2180 cgroup=4126 cgroup_path=/user.slice/user-1000.slice/session-1.scope start_time=26519962325: read(fd=0 [id=8309405774251899813]) ret=1
+1782427040.012:00364:  pid=2180 cgroup=4126 cgroup_path=/user.slice/user-1000.slice/session-1.scope start_time=26519962325: read(fd=0 [id=8309405774251899813]) ret=1
+1782427040.012:00365:  pid=2180 cgroup=4126 cgroup_path=/user.slice/user-1000.slice/session-1.scope start_time=26519962325: read(fd=0 [id=8309405774251899813]) ret=1
+1782427040.012:00366:  pid=2180 cgroup=4126 cgroup_path=/user.slice/user-1000.slice/session-1.scope start_time=26519962325: read(fd=0 [id=8309405774251899813]) ret=1
+1782427040.012:00367:  pid=2180 cgroup=4126 cgroup_path=/user.slice/user-1000.slice/session-1.scope start_time=26519962325: read(fd=0 [id=8309405774251899813]) ret=1
+1782427040.012:00368:  pid=2180 cgroup=4126 cgroup_path=/user.slice/user-1000.slice/session-1.scope start_time=26519962325: read(fd=0 [id=8309405774251899813]) ret=1
+1782427040.012:00369:  pid=2180 cgroup=4126 cgroup_path=/user.slice/user-1000.slice/session-1.scope start_time=26519962325: read(fd=0 [id=8309405774251899813]) ret=1
+1782427040.012:00370:  pid=2180 cgroup=4126 cgroup_path=/user.slice/user-1000.slice/session-1.scope start_time=26519962325: read(fd=0 [id=8309405774251899813]) ret=1
+1782427040.012:00371:  pid=2180 cgroup=4126 cgroup_path=/user.slice/user-1000.slice/session-1.scope start_time=26519962325: read(fd=0 [id=8309405774251899813]) ret=1
+1782427040.012:00372:  pid=2180 cgroup=4126 cgroup_path=/user.slice/user-1000.slice/session-1.scope start_time=26519962325: read(fd=0 [id=8309405774251899813]) ret=1
+1782427040.012:00373:  pid=2180 cgroup=4126 cgroup_path=/user.slice/user-1000.slice/session-1.scope start_time=26519962325: read(fd=0 [id=8309405774251899813]) ret=1
+1782427040.012:00374:  pid=2180 cgroup=4126 cgroup_path=/user.slice/user-1000.slice/session-1.scope start_time=26519962325: read(fd=0 [id=8309405774251899813]) ret=1
+1782427040.012:00375:  pid=2180 cgroup=4126 cgroup_path=/user.slice/user-1000.slice/session-1.scope start_time=26519962325: read(fd=0 [id=8309405774251899813]) ret=1
+1782427040.012:00376:  pid=2180 cgroup=4126 cgroup_path=/user.slice/user-1000.slice/session-1.scope start_time=26519962325: read(fd=0 [id=8309405774251899813]) ret=1
+1782427040.012:00377:  pid=2180 cgroup=4126 cgroup_path=/user.slice/user-1000.slice/session-1.scope start_time=26519962325: read(fd=0 [id=8309405774251899813]) ret=1
+1782427040.012:00378:  pid=2180 cgroup=4126 cgroup_path=/user.slice/user-1000.slice/session-1.scope start_time=26519962325: read(fd=0 [id=8309405774251899813]) ret=1
+1782427040.012:00379:  pid=2180 cgroup=4126 cgroup_path=/user.slice/user-1000.slice/session-1.scope start_time=26519962325: read(fd=0 [id=8309405774251899813]) ret=1
+1782427040.012:00380:  pid=2180 cgroup=4126 cgroup_path=/user.slice/user-1000.slice/session-1.scope start_time=26519962325: read(fd=0 [id=8309405774251899813]) ret=1
+1782427040.012:00381:  pid=2180 cgroup=4126 cgroup_path=/user.slice/user-1000.slice/session-1.scope start_time=26519962325: read(fd=0 [id=8309405774251899813]) ret=1
+1782427040.012:00382:  pid=2180 cgroup=4126 cgroup_path=/user.slice/user-1000.slice/session-1.scope start_time=26519962325: read(fd=0 [id=8309405774251899813]) ret=1
+1782427040.012:00383:  pid=2180 cgroup=4126 cgroup_path=/user.slice/user-1000.slice/session-1.scope start_time=26519962325: read(fd=0 [id=8309405774251899813]) ret=1
+1782427040.012:00384:  pid=2180 cgroup=4126 cgroup_path=/user.slice/user-1000.slice/session-1.scope start_time=26519962325: read(fd=0 [id=8309405774251899813]) ret=1
+1782427040.012:00385:  pid=2180 cgroup=4126 cgroup_path=/user.slice/user-1000.slice/session-1.scope start_time=26519962325: read(fd=0 [id=8309405774251899813]) ret=1
+1782427040.012:00386:  pid=2180 cgroup=4126 cgroup_path=/user.slice/user-1000.slice/session-1.scope start_time=26519962325: read(fd=0 [id=8309405774251899813]) ret=1
+1782427040.012:00387:  pid=2180 cgroup=4126 cgroup_path=/user.slice/user-1000.slice/session-1.scope start_time=26519962325: read(fd=0 [id=8309405774251899813]) ret=1
+1782427040.012:00388:  pid=2180 cgroup=4126 cgroup_path=/user.slice/user-1000.slice/session-1.scope start_time=26519962325: read(fd=0 [id=8309405774251899813]) ret=1
+1782427040.012:00389:  pid=2180 cgroup=4126 cgroup_path=/user.slice/user-1000.slice/session-1.scope start_time=26519962325: read(fd=0 [id=8309405774251899813]) ret=1
+1782427040.012:00390:  pid=2180 cgroup=4126 cgroup_path=/user.slice/user-1000.slice/session-1.scope start_time=26519962325: read(fd=0 [id=8309405774251899813]) ret=1
+1782427040.012:00391:  pid=2180 cgroup=4126 cgroup_path=/user.slice/user-1000.slice/session-1.scope start_time=26519962325: read(fd=0 [id=8309405774251899813]) ret=1
+1782427040.012:00392:  pid=2180 cgroup=4126 cgroup_path=/user.slice/user-1000.slice/session-1.scope start_time=26519962325: read(fd=0 [id=8309405774251899813]) ret=1
+1782427040.012:00393:  pid=2180 cgroup=4126 cgroup_path=/user.slice/user-1000.slice/session-1.scope start_time=26519962325: read(fd=0 [id=8309405774251899813]) ret=1
+1782427040.012:00394:  pid=2180 cgroup=4126 cgroup_path=/user.slice/user-1000.slice/session-1.scope start_time=26519962325: read(fd=0 [id=8309405774251899813]) ret=1
+1782427040.012:00395:  pid=2180 cgroup=4126 cgroup_path=/user.slice/user-1000.slice/session-1.scope start_time=26519962325: read(fd=0 [id=8309405774251899813]) ret=1
+1782427040.012:00396:  pid=2180 cgroup=4126 cgroup_path=/user.slice/user-1000.slice/session-1.scope start_time=26519962325: read(fd=0 [id=8309405774251899813]) ret=1
+1782427040.012:00397:  pid=2180 cgroup=4126 cgroup_path=/user.slice/user-1000.slice/session-1.scope start_time=26519962325: read(fd=0 [id=8309405774251899813]) ret=1
+1782427040.012:00398:  pid=2180 cgroup=4126 cgroup_path=/user.slice/user-1000.slice/session-1.scope start_time=26519962325: read(fd=0 [id=8309405774251899813]) ret=1
+1782427040.012:00399:  pid=2180 cgroup=4126 cgroup_path=/user.slice/user-1000.slice/session-1.scope start_time=26519962325: read(fd=0 [id=8309405774251899813]) ret=1
+1782427040.012:00400:  pid=2180 cgroup=4126 cgroup_path=/user.slice/user-1000.slice/session-1.scope start_time=26519962325: read(fd=0 [id=8309405774251899813]) ret=1
+1782427040.012:00401:  pid=2180 cgroup=4126 cgroup_path=/user.slice/user-1000.slice/session-1.scope start_time=26519962325: read(fd=0 [id=8309405774251899813]) ret=1
+1782427040.012:00402:  pid=2180 cgroup=4126 cgroup_path=/user.slice/user-1000.slice/session-1.scope start_time=26519962325: read(fd=0 [id=8309405774251899813]) ret=1
+1782427040.012:00403:  pid=2180 cgroup=4126 cgroup_path=/user.slice/user-1000.slice/session-1.scope start_time=26519962325: read(fd=0 [id=8309405774251899813]) ret=1
+1782427040.012:00404:  pid=2180 cgroup=4126 cgroup_path=/user.slice/user-1000.slice/session-1.scope start_time=26519962325: read(fd=0 [id=8309405774251899813]) ret=1
+1782427040.012:00405:  pid=2180 cgroup=4126 cgroup_path=/user.slice/user-1000.slice/session-1.scope start_time=26519962325: read(fd=0 [id=8309405774251899813]) ret=1
+1782427040.012:00406:  pid=2180 cgroup=4126 cgroup_path=/user.slice/user-1000.slice/session-1.scope start_time=26519962325: read(fd=0 [id=8309405774251899813]) ret=1
+1782427040.012:00407:  pid=2180 cgroup=4126 cgroup_path=/user.slice/user-1000.slice/session-1.scope start_time=26519962325: read(fd=0 [id=8309405774251899813]) ret=1
+1782427040.012:00408:  pid=2180 cgroup=4126 cgroup_path=/user.slice/user-1000.slice/session-1.scope start_time=26519962325: read(fd=0 [id=8309405774251899813]) ret=1
+1782427040.012:00409:  pid=2180 cgroup=4126 cgroup_path=/user.slice/user-1000.slice/session-1.scope start_time=26519962325: read(fd=0 [id=8309405774251899813]) ret=1
+1782427040.012:00410:  pid=2180 cgroup=4126 cgroup_path=/user.slice/user-1000.slice/session-1.scope start_time=26519962325: read(fd=0 [id=8309405774251899813]) ret=1
+1782427040.012:00411:  pid=2180 cgroup=4126 cgroup_path=/user.slice/user-1000.slice/session-1.scope start_time=26519962325: read(fd=0 [id=8309405774251899813]) ret=1
+1782427040.017:00412:  pid=2180 cgroup=4126 cgroup_path=/user.slice/user-1000.slice/session-1.scope start_time=26519962325: read(fd=0 [id=8309405774251899813]) ret=1
+1782427040.017:00413:  pid=2180 cgroup=4126 cgroup_path=/user.slice/user-1000.slice/session-1.scope start_time=26519962325: read(fd=0 [id=8309405774251899813]) ret=1
+1782427040.017:00414:  pid=2180 cgroup=4126 cgroup_path=/user.slice/user-1000.slice/session-1.scope start_time=26519962325: read(fd=0 [id=8309405774251899813]) ret=1
+1782427040.017:00415:  pid=2180 cgroup=4126 cgroup_path=/user.slice/user-1000.slice/session-1.scope start_time=26519962325: read(fd=0 [id=8309405774251899813]) ret=1
+1782427040.017:00416:  pid=2180 cgroup=4126 cgroup_path=/user.slice/user-1000.slice/session-1.scope start_time=26519962325: read(fd=0 [id=8309405774251899813]) ret=1
+1782427040.017:00417:  pid=2180 cgroup=4126 cgroup_path=/user.slice/user-1000.slice/session-1.scope start_time=26519962325: read(fd=0 [id=8309405774251899813]) ret=1
+1782427040.018:00418:  pid=2180 cgroup=4126 cgroup_path=/user.slice/user-1000.slice/session-1.scope start_time=26519962325: read(fd=0 [id=8309405774251899813]) ret=1
+1782427040.018:00419:  pid=2180 cgroup=4126 cgroup_path=/user.slice/user-1000.slice/session-1.scope start_time=26519962325: read(fd=0 [id=8309405774251899813]) ret=1
+1782427040.018:00420:  pid=2180 cgroup=4126 cgroup_path=/user.slice/user-1000.slice/session-1.scope start_time=26519962325: read(fd=0 [id=8309405774251899813]) ret=1
+1782427040.018:00421:  pid=2180 cgroup=4126 cgroup_path=/user.slice/user-1000.slice/session-1.scope start_time=26519962325: read(fd=0 [id=8309405774251899813]) ret=1
+1782427040.018:00422:  pid=2180 cgroup=4126 cgroup_path=/user.slice/user-1000.slice/session-1.scope start_time=26519962325: read(fd=0 [id=8309405774251899813]) ret=1
+1782427040.018:00423:  pid=2180 cgroup=4126 cgroup_path=/user.slice/user-1000.slice/session-1.scope start_time=26519962325: read(fd=0 [id=8309405774251899813]) ret=1
+1782427040.018:00424:  pid=2180 cgroup=4126 cgroup_path=/user.slice/user-1000.slice/session-1.scope start_time=26519962325: read(fd=0 [id=8309405774251899813]) ret=1
+1782427040.018:00425:  pid=2180 cgroup=4126 cgroup_path=/user.slice/user-1000.slice/session-1.scope start_time=26519962325: read(fd=0 [id=8309405774251899813]) ret=1
+1782427040.018:00426:  pid=2180 cgroup=4126 cgroup_path=/user.slice/user-1000.slice/session-1.scope start_time=26519962325: read(fd=0 [id=8309405774251899813]) ret=1
+1782427040.018:00427:  pid=2180 cgroup=4126 cgroup_path=/user.slice/user-1000.slice/session-1.scope start_time=26519962325: read(fd=0 [id=8309405774251899813]) ret=1
+1782427040.018:00428:  pid=2180 cgroup=4126 cgroup_path=/user.slice/user-1000.slice/session-1.scope start_time=26519962325: read(fd=0 [id=8309405774251899813]) ret=1
+1782427040.018:00429:  pid=2180 cgroup=4126 cgroup_path=/user.slice/user-1000.slice/session-1.scope start_time=26519962325: read(fd=0 [id=8309405774251899813]) ret=1
+1782427040.018:00430:  pid=2180 cgroup=4126 cgroup_path=/user.slice/user-1000.slice/session-1.scope start_time=26519962325: read(fd=0 [id=8309405774251899813]) ret=1
+1782427040.018:00431:  pid=2180 cgroup=4126 cgroup_path=/user.slice/user-1000.slice/session-1.scope start_time=26519962325: read(fd=0 [id=8309405774251899813]) ret=1
+1782427040.018:00432:  pid=2180 cgroup=4126 cgroup_path=/user.slice/user-1000.slice/session-1.scope start_time=26519962325: read(fd=0 [id=8309405774251899813]) ret=1
+1782427040.018:00433:  pid=2180 cgroup=4126 cgroup_path=/user.slice/user-1000.slice/session-1.scope start_time=26519962325: read(fd=0 [id=8309405774251899813]) ret=1
+1782427040.018:00434:  pid=2180 cgroup=4126 cgroup_path=/user.slice/user-1000.slice/session-1.scope start_time=26519962325: read(fd=0 [id=8309405774251899813]) ret=1
+1782427040.018:00435:  pid=2180 cgroup=4126 cgroup_path=/user.slice/user-1000.slice/session-1.scope start_time=26519962325: read(fd=0 [id=8309405774251899813]) ret=1
+1782427040.018:00436:  pid=2180 cgroup=4126 cgroup_path=/user.slice/user-1000.slice/session-1.scope start_time=26519962325: read(fd=0 [id=8309405774251899813]) ret=1
+1782427040.018:00437:  pid=2180 cgroup=4126 cgroup_path=/user.slice/user-1000.slice/session-1.scope start_time=26519962325: read(fd=0 [id=8309405774251899813]) ret=1
+1782427040.018:00438:  pid=2180 cgroup=4126 cgroup_path=/user.slice/user-1000.slice/session-1.scope start_time=26519962325: read(fd=0 [id=8309405774251899813]) ret=1
+1782427040.018:00439:  pid=2180 cgroup=4126 cgroup_path=/user.slice/user-1000.slice/session-1.scope start_time=26519962325: read(fd=0 [id=8309405774251899813]) ret=1
+1782427040.018:00440:  pid=2180 cgroup=4126 cgroup_path=/user.slice/user-1000.slice/session-1.scope start_time=26519962325: read(fd=0 [id=8309405774251899813]) ret=1
+1782427040.018:00441:  pid=2180 cgroup=4126 cgroup_path=/user.slice/user-1000.slice/session-1.scope start_time=26519962325: read(fd=0 [id=8309405774251899813]) ret=1
+1782427040.018:00442:  pid=2180 cgroup=4126 cgroup_path=/user.slice/user-1000.slice/session-1.scope start_time=26519962325: read(fd=0 [id=8309405774251899813]) ret=1
+1782427040.018:00443:  pid=2180 cgroup=4126 cgroup_path=/user.slice/user-1000.slice/session-1.scope start_time=26519962325: read(fd=0 [id=8309405774251899813]) ret=1
+1782427040.018:00444:  pid=2180 cgroup=4126 cgroup_path=/user.slice/user-1000.slice/session-1.scope start_time=26519962325: read(fd=0 [id=8309405774251899813]) ret=1
+1782427040.018:00445:  pid=2180 cgroup=4126 cgroup_path=/user.slice/user-1000.slice/session-1.scope start_time=26519962325: read(fd=0 [id=8309405774251899813]) ret=1
+1782427040.018:00446:  pid=2180 cgroup=4126 cgroup_path=/user.slice/user-1000.slice/session-1.scope start_time=26519962325: read(fd=0 [id=8309405774251899813]) ret=1
+1782427040.018:00447:  pid=2180 cgroup=4126 cgroup_path=/user.slice/user-1000.slice/session-1.scope start_time=26519962325: read(fd=0 [id=8309405774251899813]) ret=1
+1782427040.018:00448:  pid=2180 cgroup=4126 cgroup_path=/user.slice/user-1000.slice/session-1.scope start_time=26519962325: read(fd=0 [id=8309405774251899813]) ret=1
+1782427040.018:00449:  pid=2180 cgroup=4126 cgroup_path=/user.slice/user-1000.slice/session-1.scope start_time=26519962325: read(fd=0 [id=8309405774251899813]) ret=1
+1782427040.018:00450:  pid=2180 cgroup=4126 cgroup_path=/user.slice/user-1000.slice/session-1.scope start_time=26519962325: read(fd=0 [id=8309405774251899813]) ret=1
+1782427040.018:00451:  pid=2180 cgroup=4126 cgroup_path=/user.slice/user-1000.slice/session-1.scope start_time=26519962325: read(fd=0 [id=8309405774251899813]) ret=1
+1782427040.018:00452:  pid=2180 cgroup=4126 cgroup_path=/user.slice/user-1000.slice/session-1.scope start_time=26519962325: read(fd=0 [id=8309405774251899813]) ret=1
+1782427040.018:00453:  pid=2180 cgroup=4126 cgroup_path=/user.slice/user-1000.slice/session-1.scope start_time=26519962325: read(fd=0 [id=8309405774251899813]) ret=1
+1782427040.018:00454:  pid=2180 cgroup=4126 cgroup_path=/user.slice/user-1000.slice/session-1.scope start_time=26519962325: read(fd=0 [id=8309405774251899813]) ret=1
+1782427040.018:00455:  pid=2180 cgroup=4126 cgroup_path=/user.slice/user-1000.slice/session-1.scope start_time=26519962325: read(fd=0 [id=8309405774251899813]) ret=1
+1782427040.018:00456:  pid=2180 cgroup=4126 cgroup_path=/user.slice/user-1000.slice/session-1.scope start_time=26519962325: read(fd=0 [id=8309405774251899813]) ret=1
+1782427040.018:00457:  pid=2180 cgroup=4126 cgroup_path=/user.slice/user-1000.slice/session-1.scope start_time=26519962325: read(fd=0 [id=8309405774251899813]) ret=1
+1782427040.018:00458:  pid=2180 cgroup=4126 cgroup_path=/user.slice/user-1000.slice/session-1.scope start_time=26519962325: read(fd=0 [id=8309405774251899813]) ret=1
+1782427040.018:00459:  pid=2180 cgroup=4126 cgroup_path=/user.slice/user-1000.slice/session-1.scope start_time=26519962325: read(fd=0 [id=8309405774251899813]) ret=1
+1782427040.018:00460:  pid=2180 cgroup=4126 cgroup_path=/user.slice/user-1000.slice/session-1.scope start_time=26519962325: read(fd=0 [id=8309405774251899813]) ret=1
+1782427040.018:00461:  pid=2180 cgroup=4126 cgroup_path=/user.slice/user-1000.slice/session-1.scope start_time=26519962325: read(fd=0 [id=8309405774251899813]) ret=1
+1782427040.018:00462:  pid=2180 cgroup=4126 cgroup_path=/user.slice/user-1000.slice/session-1.scope start_time=26519962325: read(fd=0 [id=8309405774251899813]) ret=1
+1782427040.018:00463:  pid=2180 cgroup=4126 cgroup_path=/user.slice/user-1000.slice/session-1.scope start_time=26519962325: read(fd=0 [id=8309405774251899813]) ret=1
+1782427040.021:00464:  pid=2180 cgroup=4126 cgroup_path=/user.slice/user-1000.slice/session-1.scope start_time=26519962325: read(fd=0 [id=8309405774251899813]) ret=1
+1782427040.021:00465:  pid=2180 cgroup=4126 cgroup_path=/user.slice/user-1000.slice/session-1.scope start_time=26519962325: read(fd=0 [id=8309405774251899813]) ret=1
+1782427040.021:00466:  pid=2180 cgroup=4126 cgroup_path=/user.slice/user-1000.slice/session-1.scope start_time=26519962325: read(fd=0 [id=8309405774251899813]) ret=1
+1782427040.021:00467:  pid=2180 cgroup=4126 cgroup_path=/user.slice/user-1000.slice/session-1.scope start_time=26519962325: read(fd=0 [id=8309405774251899813]) ret=1
+1782427040.021:00468:  pid=2180 cgroup=4126 cgroup_path=/user.slice/user-1000.slice/session-1.scope start_time=26519962325: read(fd=0 [id=8309405774251899813]) ret=1
+1782427040.021:00469:  pid=2180 cgroup=4126 cgroup_path=/user.slice/user-1000.slice/session-1.scope start_time=26519962325: read(fd=0 [id=8309405774251899813]) ret=1
+1782427040.021:00470:  pid=2180 cgroup=4126 cgroup_path=/user.slice/user-1000.slice/session-1.scope start_time=26519962325: read(fd=0 [id=8309405774251899813]) ret=1
+1782427040.021:00471:  pid=2180 cgroup=4126 cgroup_path=/user.slice/user-1000.slice/session-1.scope start_time=26519962325: read(fd=0 [id=8309405774251899813]) ret=1
+1782427040.021:00472:  pid=2180 cgroup=4126 cgroup_path=/user.slice/user-1000.slice/session-1.scope start_time=26519962325: read(fd=0 [id=8309405774251899813]) ret=1
+1782427040.021:00473:  pid=2180 cgroup=4126 cgroup_path=/user.slice/user-1000.slice/session-1.scope start_time=26519962325: read(fd=0 [id=8309405774251899813]) ret=1
+1782427040.021:00474:  pid=2180 cgroup=4126 cgroup_path=/user.slice/user-1000.slice/session-1.scope start_time=26519962325: read(fd=0 [id=8309405774251899813]) ret=1
+1782427040.021:00475:  pid=2180 cgroup=4126 cgroup_path=/user.slice/user-1000.slice/session-1.scope start_time=26519962325: read(fd=0 [id=8309405774251899813]) ret=1
+1782427040.021:00476:  pid=2180 cgroup=4126 cgroup_path=/user.slice/user-1000.slice/session-1.scope start_time=26519962325: read(fd=0 [id=8309405774251899813]) ret=1
+1782427040.021:00477:  pid=2180 cgroup=4126 cgroup_path=/user.slice/user-1000.slice/session-1.scope start_time=26519962325: read(fd=0 [id=8309405774251899813]) ret=1
+1782427040.021:00478:  pid=2180 cgroup=4126 cgroup_path=/user.slice/user-1000.slice/session-1.scope start_time=26519962325: read(fd=0 [id=8309405774251899813]) ret=1
+1782427040.021:00479:  pid=2180 cgroup=4126 cgroup_path=/user.slice/user-1000.slice/session-1.scope start_time=26519962325: read(fd=0 [id=8309405774251899813]) ret=1
+1782427040.021:00480:  pid=2180 cgroup=4126 cgroup_path=/user.slice/user-1000.slice/session-1.scope start_time=26519962325: read(fd=0 [id=8309405774251899813]) ret=1
+1782427040.021:00481:  pid=2180 cgroup=4126 cgroup_path=/user.slice/user-1000.slice/session-1.scope start_time=26519962325: read(fd=0 [id=8309405774251899813]) ret=1
+1782427040.021:00482:  pid=2180 cgroup=4126 cgroup_path=/user.slice/user-1000.slice/session-1.scope start_time=26519962325: read(fd=0 [id=8309405774251899813]) ret=1
+1782427040.021:00483:  pid=2180 cgroup=4126 cgroup_path=/user.slice/user-1000.slice/session-1.scope start_time=26519962325: read(fd=0 [id=8309405774251899813]) ret=1
+1782427040.021:00484:  pid=2180 cgroup=4126 cgroup_path=/user.slice/user-1000.slice/session-1.scope start_time=26519962325: read(fd=0 [id=8309405774251899813]) ret=1
+1782427040.021:00485:  pid=2180 cgroup=4126 cgroup_path=/user.slice/user-1000.slice/session-1.scope start_time=26519962325: read(fd=0 [id=8309405774251899813]) ret=1
+1782427040.030:00486:  pid=2180 cgroup=4126 cgroup_path=/user.slice/user-1000.slice/session-1.scope start_time=26519962325: read(fd=0 [id=8309405774251899813]) ret=1
+1782427040.030:00487:  pid=2180 cgroup=4126 cgroup_path=/user.slice/user-1000.slice/session-1.scope start_time=26519962325: read(fd=0 [id=8309405774251899813]) ret=1
+1782427040.030:00488:  pid=2180 cgroup=4126 cgroup_path=/user.slice/user-1000.slice/session-1.scope start_time=26519962325: read(fd=0 [id=8309405774251899813]) ret=1
+1782427040.030:00489:  pid=2180 cgroup=4126 cgroup_path=/user.slice/user-1000.slice/session-1.scope start_time=26519962325: read(fd=0 [id=8309405774251899813]) ret=1
+1782427040.030:00490:  pid=2180 cgroup=4126 cgroup_path=/user.slice/user-1000.slice/session-1.scope start_time=26519962325: read(fd=0 [id=8309405774251899813]) ret=1
+1782427040.030:00491:  pid=2180 cgroup=4126 cgroup_path=/user.slice/user-1000.slice/session-1.scope start_time=26519962325: read(fd=0 [id=8309405774251899813]) ret=1
+1782427040.031:00492:  pid=2180 cgroup=4126 cgroup_path=/user.slice/user-1000.slice/session-1.scope start_time=26519962325: write(fd=2 [id=8309405774251899813]) ret=55
+1782427040.031:00493:  pid=2180 cgroup=4126 cgroup_path=/user.slice/user-1000.slice/session-1.scope start_time=26519962325: write(fd=2 [id=8309405774251899813]) ret=1
+1782427040.031:00494:  pid=2180 cgroup=4126 cgroup_path=/user.slice/user-1000.slice/session-1.scope start_time=26519962325: write(fd=2 [id=8309405774251899813]) ret=1
+1782427040.032:00495:  pid=2180 cgroup=4126 cgroup_path=/user.slice/user-1000.slice/session-1.scope start_time=26519962325: write(fd=2 [id=8309405774251899813]) ret=217
+1782427040.032:00496:  pid=2180 cgroup=4126 cgroup_path=/user.slice/user-1000.slice/session-1.scope start_time=26519962325: write(fd=2 [id=8309405774251899813]) ret=1
+1782427040.760:00497:  pid=1503 cgroup=1232 cgroup_path=/system.slice/multipathd.service start_time=8240901118: tid=1513: write(fd=9 [id=12045990449128452275]) ret=8
+1782427040.760:00498:  pid=1503 cgroup=1232 cgroup_path=/system.slice/multipathd.service start_time=8240901118: tid=1513: write(fd=9 [id=12045990449128452275]) ret=8
+1782427041.348:00503:  pid=1 cgroup=22 cgroup_path=/init.scope start_time=2233554000: read(fd=16 [id=3671822273664393298]) ret=10
+1782427041.348:00504:  pid=1 cgroup=22 cgroup_path=/init.scope start_time=2233554000: open(file="/proc/1815/cgroup", flags=80000, mode=0) ret=12 [id=8493963246750669045]
+1782427041.348:00505:  pid=1 cgroup=22 cgroup_path=/init.scope start_time=2233554000: read(fd=12 [id=8493963246750669045]) ret=42
+1782427041.348:00506:  pid=1 cgroup=22 cgroup_path=/init.scope start_time=2233554000: read(fd=12 [id=8493963246750669045]) ret=0
+1782427041.348:00507:  pid=1 cgroup=22 cgroup_path=/init.scope start_time=2233554000: close(fd=12)
+1782427041.347:00499:  pid=1815 cgroup=2392 cgroup_path=/system.slice/systemd-networkd.service start_time=9408965443: write(fd=15 [id=18445722516801558546]) ret=10
+1782427041.347:00500:  pid=1815 cgroup=2392 cgroup_path=/system.slice/systemd-networkd.service start_time=9408965443: close(fd=15)
+1782427041.347:00501:  pid=1815 cgroup=2392 cgroup_path=/system.slice/systemd-networkd.service start_time=9408965443: read(fd=3 [id=2]) ret=88
+1782427041.348:00502:  pid=1815 cgroup=2392 cgroup_path=/system.slice/systemd-networkd.service start_time=9408965443: read(fd=3 [id=2]) ret=88
+1782427041.760:00508:  pid=1503 cgroup=1232 cgroup_path=/system.slice/multipathd.service start_time=8240901118: tid=1513: write(fd=9 [id=12045990449128452275]) ret=8
+1782427041.760:00509:  pid=1503 cgroup=1232 cgroup_path=/system.slice/multipathd.service start_time=8240901118: tid=1513: write(fd=9 [id=12045990449128452275]) ret=8
+1782427042.712:00510:  pid=2180 cgroup=4126 cgroup_path=/user.slice/user-1000.slice/session-1.scope start_time=26519962325: read(fd=0 [id=8309405774251899813]) ret=1
+1782427042.713:00511:  pid=2180 cgroup=4126 cgroup_path=/user.slice/user-1000.slice/session-1.scope start_time=26519962325: write(fd=2 [id=8309405774251899813]) ret=154
+1782427042.713:00512:  pid=2180 cgroup=4126 cgroup_path=/user.slice/user-1000.slice/session-1.scope start_time=26519962325: write(fd=2 [id=8309405774251899813]) ret=1
+1782427042.714:00513:  pid=2180 cgroup=4126 cgroup_path=/user.slice/user-1000.slice/session-1.scope start_time=26519962325: write(fd=2 [id=8309405774251899813]) ret=1
+1782427042.714:00514:  pid=2180 cgroup=4126 cgroup_path=/user.slice/user-1000.slice/session-1.scope start_time=26519962325: write(fd=2 [id=8309405774251899813]) ret=171
+1782427042.714:00515:  pid=2180 cgroup=4126 cgroup_path=/user.slice/user-1000.slice/session-1.scope start_time=26519962325: write(fd=2 [id=8309405774251899813]) ret=1
+1782427042.714:00516:  pid=2180 cgroup=4126 cgroup_path=/user.slice/user-1000.slice/session-1.scope start_time=26519962325: write(fd=2 [id=8309405774251899813]) ret=4
+1782427042.714:00517:  pid=2180 cgroup=4126 cgroup_path=/user.slice/user-1000.slice/session-1.scope start_time=26519962325: write(fd=2 [id=8309405774251899813]) ret=9
+1782427042.740:00518:  pid=2180 cgroup=4126 cgroup_path=/user.slice/user-1000.slice/session-1.scope start_time=26519962325: chdir(file="/home/ubuntu/shared/src/lammps/examples_h5/job_script") ret=0
+1782427042.740:00519:  pid=2180 cgroup=4126 cgroup_path=/user.slice/user-1000.slice/session-1.scope start_time=26519962325: clone(flags=1200011)
+1782427042.740:00520:  pid=2180 cgroup=4126 cgroup_path=/user.slice/user-1000.slice/session-1.scope start_time=26519962325: clone ret=2232 parent_tid=1918 uid=1000 gid=1000 cgroup=4126 cgroup_path=/user.slice/user-1000.slice/session-1.scope
+1782427042.740:00524:  pid=2232 cgroup=4126 cgroup_path=/user.slice/user-1000.slice/session-1.scope start_time=121240901611: clone ret=0 parent_tid=2180 uid=1000 gid=1000 cgroup=4126 cgroup_path=/user.slice/user-1000.slice/session-1.scope
+1782427042.740:00525:  pid=2232 cgroup=4126 cgroup_path=/user.slice/user-1000.slice/session-1.scope start_time=121240901611: close(fd=5)
+1782427042.740:00526:  pid=2232 cgroup=4126 cgroup_path=/user.slice/user-1000.slice/session-1.scope start_time=121240901611: close(fd=6)
+1782427042.740:00527:  pid=2232 cgroup=4126 cgroup_path=/user.slice/user-1000.slice/session-1.scope start_time=121240901611: close(fd=4)
+1782427042.740:00528:  pid=2232 cgroup=4126 cgroup_path=/user.slice/user-1000.slice/session-1.scope start_time=121240901611: close(fd=3)
+1782427042.741:00529:  pid=2232 cgroup=4126 cgroup_path=/user.slice/user-1000.slice/session-1.scope start_time=121240901611: clone(flags=1200011)
+1782427042.741:00530:  pid=2232 cgroup=4126 cgroup_path=/user.slice/user-1000.slice/session-1.scope start_time=121240901611: clone ret=2233 parent_tid=2180 uid=1000 gid=1000 cgroup=4126 cgroup_path=/user.slice/user-1000.slice/session-1.scope
+1782427042.741:00532:  pid=2232 cgroup=4126 cgroup_path=/user.slice/user-1000.slice/session-1.scope start_time=121240901611: close(fd=4)
+1782427042.741:00533:  pid=2232 cgroup=4126 cgroup_path=/user.slice/user-1000.slice/session-1.scope start_time=121240901611: close(fd=4)
+1782427042.741:00535:  pid=2232 cgroup=4126 cgroup_path=/user.slice/user-1000.slice/session-1.scope start_time=121240901611: clone(flags=1200011)
+1782427042.741:00539:  pid=2232 cgroup=4126 cgroup_path=/user.slice/user-1000.slice/session-1.scope start_time=121240901611: clone ret=2234 parent_tid=2180 uid=1000 gid=1000 cgroup=4126 cgroup_path=/user.slice/user-1000.slice/session-1.scope
+1782427042.740:00521:  pid=2180 cgroup=4126 cgroup_path=/user.slice/user-1000.slice/session-1.scope start_time=26519962325: close(fd=5)
+1782427042.740:00522:  pid=2180 cgroup=4126 cgroup_path=/user.slice/user-1000.slice/session-1.scope start_time=26519962325: close(fd=6)
+1782427042.740:00523:  pid=2180 cgroup=4126 cgroup_path=/user.slice/user-1000.slice/session-1.scope start_time=26519962325: close(fd=4)
+1782427042.741:00531:  pid=2233 cgroup=4126 cgroup_path=/user.slice/user-1000.slice/session-1.scope start_time=121241649283: clone ret=0 parent_tid=2232 uid=1000 gid=1000 cgroup=4126 cgroup_path=/user.slice/user-1000.slice/session-1.scope
+1782427042.741:00534:  pid=2233 cgroup=4126 cgroup_path=/user.slice/user-1000.slice/session-1.scope start_time=121241649283: close(fd=5)
+1782427042.741:00536:  pid=2233 cgroup=4126 cgroup_path=/user.slice/user-1000.slice/session-1.scope start_time=121241649283: close(fd=6)
+1782427042.741:00537:  pid=2233 cgroup=4126 cgroup_path=/user.slice/user-1000.slice/session-1.scope start_time=121241649283: close(fd=3)
+1782427042.741:00538:  pid=2233 cgroup=4126 cgroup_path=/user.slice/user-1000.slice/session-1.scope start_time=121241649283: close(fd=4)
+1782427042.742:00547:  pid=2233 cgroup=4126 cgroup_path=/user.slice/user-1000.slice/session-1.scope start_time=121241649283: execve(file="/usr/bin/find", argv[0]=find, argv[1]=/home/ubuntu/shared/src/lammps/examples_h5/job_script/1_16, argv[2]=-type, argv[3]=f, argv[4]=-name, argv[5]=*.sh, envp[0]=SHELL=/bin/bash, envp[1]=PWD=/home/ubuntu/shared/src/lammps/examples_h5/job_script, envp[2]=LOGNAME=ubuntu, envp[3]=XDG_SESSION_TYPE=tty, envp[4]=SYSTEMD_EXEC_PID=1918, envp[5]=MOTD_SHOWN=pam, envp[6]=HOME=/home/ubuntu, envp[7]=LANG=C.UTF-8, envp[8]=LS_COLORS=, envp[9]=INVOCATION_ID=05071ad1a3ee410d9d22d43c9831ca97, envp[10]=LESSCLOSE=/usr/bin/lesspipe %s %s, envp[11]=XDG_SESSION_CLASS=user, envp[12]=TERM=vt220, envp[13]=LESSOPEN=| /usr/bin/lesspipe %s, envp[14]=USER=ubuntu, envp[15]=SHLVL=0, envp[16]=XDG_SESSION_ID=1, envp[17]=LD_LIBRARY_PATH=/home/ubuntu/lib/hdf5/lib:/home/ubuntu/lib/hdf5/lib64:, envp[18]=XDG_RUNTIME_DIR=/run/user/1000, envp[19]=JOURNAL_STREAM=8:51208, envp[20]=XDG_DATA_DIRS=/usr/local/share:/usr/share:/var/lib/snapd/desktop, envp[21]=HUSHLOGIN=FALSE, envp[22]=PATH=/home/ubuntu/lib/hdf5/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/b, envp[23]=DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/1000/bus, envp[24]=MAIL=/var/mail/ubuntu, envp[25]=OLDPWD=/home/ubuntu/app/dlogger, envp[26]=_=/usr/bin/find)
+1782427042.741:00543:  pid=2234 cgroup=4126 cgroup_path=/user.slice/user-1000.slice/session-1.scope start_time=121241863655: clone ret=0 parent_tid=2232 uid=1000 gid=1000 cgroup=4126 cgroup_path=/user.slice/user-1000.slice/session-1.scope
+1782427042.741:00544:  pid=2234 cgroup=4126 cgroup_path=/user.slice/user-1000.slice/session-1.scope start_time=121241863655: close(fd=5)
+1782427042.741:00545:  pid=2234 cgroup=4126 cgroup_path=/user.slice/user-1000.slice/session-1.scope start_time=121241863655: close(fd=6)
+1782427042.741:00546:  pid=2234 cgroup=4126 cgroup_path=/user.slice/user-1000.slice/session-1.scope start_time=121241863655: close(fd=3)
+1782427042.742:00548:  pid=2234 cgroup=4126 cgroup_path=/user.slice/user-1000.slice/session-1.scope start_time=121241863655: execve(file="/usr/bin/sort", argv[0]=sort, envp[0]=SHELL=/bin/bash, envp[1]=PWD=/home/ubuntu/shared/src/lammps/examples_h5/job_script, envp[2]=LOGNAME=ubuntu, envp[3]=XDG_SESSION_TYPE=tty, envp[4]=SYSTEMD_EXEC_PID=1918, envp[5]=MOTD_SHOWN=pam, envp[6]=HOME=/home/ubuntu, envp[7]=LANG=C.UTF-8, envp[8]=LS_COLORS=, envp[9]=INVOCATION_ID=05071ad1a3ee410d9d22d43c9831ca97, envp[10]=LESSCLOSE=/usr/bin/lesspipe %s %s, envp[11]=XDG_SESSION_CLASS=user, envp[12]=TERM=vt220, envp[13]=LESSOPEN=| /usr/bin/lesspipe %s, envp[14]=USER=ubuntu, envp[15]=SHLVL=0, envp[16]=XDG_SESSION_ID=1, envp[17]=LD_LIBRARY_PATH=/home/ubuntu/lib/hdf5/lib:/home/ubuntu/lib/hdf5/lib64:, envp[18]=XDG_RUNTIME_DIR=/run/user/1000, envp[19]=JOURNAL_STREAM=8:51208, envp[20]=XDG_DATA_DIRS=/usr/local/share:/usr/share:/var/lib/snapd/desktop, envp[21]=HUSHLOGIN=FALSE, envp[22]=PATH=/home/ubuntu/lib/hdf5/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/b, envp[23]=DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/1000/bus, envp[24]=MAIL=/var/mail/ubuntu, envp[25]=OLDPWD=/home/ubuntu/app/dlogger, envp[26]=_=/usr/bin/sort)
+1782427042.743:00549:  pid=2233 cgroup=4126 cgroup_path=/user.slice/user-1000.slice/session-1.scope start_time=121241649283: execve ret=0 parent_tid=2232 uid=1000 gid=1000 cgroup=4126 cgroup_path=/user.slice/user-1000.slice/session-1.scope
+1782427042.741:00540:  pid=2232 cgroup=4126 cgroup_path=/user.slice/user-1000.slice/session-1.scope start_time=121240901611: close(fd=3)
+1782427042.741:00541:  pid=2232 cgroup=4126 cgroup_path=/user.slice/user-1000.slice/session-1.scope start_time=121240901611: close(fd=5)
+1782427042.741:00542:  pid=2232 cgroup=4126 cgroup_path=/user.slice/user-1000.slice/session-1.scope start_time=121240901611: close(fd=6)
+1782427042.743:00550:  pid=2234 cgroup=4126 cgroup_path=/user.slice/user-1000.slice/session-1.scope start_time=121241863655: execve ret=0 parent_tid=2232 uid=1000 gid=1000 cgroup=4126 cgroup_path=/user.slice/user-1000.slice/session-1.scope
+1782427042.749:00551:  pid=2233 cgroup=4126 cgroup_path=/user.slice/user-1000.slice/session-1.scope start_time=121241649283: open(file="/etc/ld.so.cache", flags=80000, mode=0) ret=3 [id=14392696868005549659]
+1782427042.749:00552:  pid=2233 cgroup=4126 cgroup_path=/user.slice/user-1000.slice/session-1.scope start_time=121241649283: mmap(addr=0, len=33912, prot=4, flags=2, id=-4054047205704001957) ret=7fe901044000
+1782427042.749:00553:  pid=2233 cgroup=4126 cgroup_path=/user.slice/user-1000.slice/session-1.scope start_time=121241649283: close(fd=3)
+1782427042.749:00554:  pid=2233 cgroup=4126 cgroup_path=/user.slice/user-1000.slice/session-1.scope start_time=121241649283: open(file="/lib/x86_64-linux-gnu/libselinux.so.1", flags=80000, mode=0) ret=3 [id=17428735253481158001]
+1782427042.749:00555:  pid=2233 cgroup=4126 cgroup_path=/user.slice/user-1000.slice/session-1.scope start_time=121241649283: read(fd=3 [id=17428735253481158001]) ret=832
+1782427042.749:00556:  pid=2233 cgroup=4126 cgroup_path=/user.slice/user-1000.slice/session-1.scope start_time=121241649283: mmap(addr=0, len=177672, prot=4, flags=802, id=-1018008820228393615) ret=7fe901018000
+1782427042.749:00557:  pid=2233 cgroup=4126 cgroup_path=/user.slice/user-1000.slice/session-1.scope start_time=121241649283: mmap(addr=7fe90101e000, len=106496, prot=5, flags=812, id=-1018008820228393615) ret=7fe90101e000
+1782427042.749:00558:  pid=2233 cgroup=4126 cgroup_path=/user.slice/user-1000.slice/session-1.scope start_time=121241649283: mmap(addr=7fe901038000, len=28672, prot=4, flags=812, id=-1018008820228393615) ret=7fe901038000
+1782427042.751:00561:  pid=2234 cgroup=4126 cgroup_path=/user.slice/user-1000.slice/session-1.scope start_time=121241863655: open(file="/etc/ld.so.cache", flags=80000, mode=0) ret=3 [id=14392696868005549659]
+1782427042.751:00562:  pid=2234 cgroup=4126 cgroup_path=/user.slice/user-1000.slice/session-1.scope start_time=121241863655: mmap(addr=0, len=33912, prot=4, flags=2, id=-4054047205704001957) ret=7f19ab121000
+1782427042.751:00563:  pid=2234 cgroup=4126 cgroup_path=/user.slice/user-1000.slice/session-1.scope start_time=121241863655: close(fd=3)
+1782427042.751:00564:  pid=2234 cgroup=4126 cgroup_path=/user.slice/user-1000.slice/session-1.scope start_time=121241863655: open(file="/lib/x86_64-linux-gnu/libc.so.6", flags=80000, mode=0) ret=3 [id=14800197902252426551]
+1782427042.751:00565:  pid=2234 cgroup=4126 cgroup_path=/user.slice/user-1000.slice/session-1.scope start_time=121241863655: read(fd=3 [id=14800197902252426551]) ret=832
+1782427042.751:00566:  pid=2234 cgroup=4126 cgroup_path=/user.slice/user-1000.slice/session-1.scope start_time=121241863655: read(fd=3 [id=14800197902252426551]) ret=784
+1782427042.751:00567:  pid=2234 cgroup=4126 cgroup_path=/user.slice/user-1000.slice/session-1.scope start_time=121241863655: read(fd=3 [id=14800197902252426551]) ret=48
+1782427042.751:00568:  pid=2234 cgroup=4126 cgroup_path=/user.slice/user-1000.slice/session-1.scope start_time=121241863655: read(fd=3 [id=14800197902252426551]) ret=68
+1782427042.751:00569:  pid=2234 cgroup=4126 cgroup_path=/user.slice/user-1000.slice/session-1.scope start_time=121241863655: read(fd=3 [id=14800197902252426551]) ret=784
+1782427042.751:00570:  pid=2234 cgroup=4126 cgroup_path=/user.slice/user-1000.slice/session-1.scope start_time=121241863655: mmap(addr=0, len=2264656, prot=4, flags=802, id=-3646546171457125065) ret=7f19aaef8000
+1782427042.751:00571:  pid=2234 cgroup=4126 cgroup_path=/user.slice/user-1000.slice/session-1.scope start_time=121241863655: mmap(addr=7f19aaf20000, len=1658880, prot=5, flags=812, id=-3646546171457125065) ret=7f19aaf20000
+1782427042.751:00572:  pid=2234 cgroup=4126 cgroup_path=/user.slice/user-1000.slice/session-1.scope start_time=121241863655: mmap(addr=7f19ab0b5000, len=360448, prot=4, flags=812, id=-3646546171457125065) ret=7f19ab0b5000
+1782427042.751:00573:  pid=2234 cgroup=4126 cgroup_path=/user.slice/user-1000.slice/session-1.scope start_time=121241863655: mmap(addr=7f19ab10e000, len=24576, prot=6, flags=812, id=-3646546171457125065) ret=7f19ab10e000
+1782427042.751:00574:  pid=2234 cgroup=4126 cgroup_path=/user.slice/user-1000.slice/session-1.scope start_time=121241863655: close(fd=3)
+1782427042.751:00575:  pid=2234 cgroup=4126 cgroup_path=/user.slice/user-1000.slice/session-1.scope start_time=121241863655: open(file="/usr/lib/locale/locale-archive", flags=80000, mode=0) ret=3 [id=4854296604623033987]
+1782427042.751:00576:  pid=2234 cgroup=4126 cgroup_path=/user.slice/user-1000.slice/session-1.scope start_time=121241863655: mmap(addr=0, len=3048928, prot=4, flags=2, id=4854296604623033987) ret=7f19aac0c000
+1782427042.751:00577:  pid=2234 cgroup=4126 cgroup_path=/user.slice/user-1000.slice/session-1.scope start_time=121241863655: close(fd=3)
+1782427042.751:00578:  pid=2234 cgroup=4126 cgroup_path=/user.slice/user-1000.slice/session-1.scope start_time=121241863655: open(file="/usr/share/locale/locale.alias", flags=80000, mode=0) ret=3 [id=13878470930299491779]
+1782427042.751:00579:  pid=2234 cgroup=4126 cgroup_path=/user.slice/user-1000.slice/session-1.scope start_time=121241863655: read(fd=3 [id=13878470930299491779]) ret=2996
+1782427042.751:00580:  pid=2234 cgroup=4126 cgroup_path=/user.slice/user-1000.slice/session-1.scope start_time=121241863655: read(fd=3 [id=13878470930299491779]) ret=0
+1782427042.751:00581:  pid=2234 cgroup=4126 cgroup_path=/user.slice/user-1000.slice/session-1.scope start_time=121241863655: close(fd=3)
+1782427042.752:00582:  pid=2234 cgroup=4126 cgroup_path=/user.slice/user-1000.slice/session-1.scope start_time=121241863655: open(file="/usr/lib/locale/C.utf8/LC_IDENTIFICATION", flags=80000, mode=0) ret=3 [id=2269126311603669569]
+1782427042.752:00583:  pid=2234 cgroup=4126 cgroup_path=/user.slice/user-1000.slice/session-1.scope start_time=121241863655: mmap(addr=0, len=258, prot=4, flags=2, id=2269126311603669569) ret=7f19ab163000
+1782427042.752:00584:  pid=2234 cgroup=4126 cgroup_path=/user.slice/user-1000.slice/session-1.scope start_time=121241863655: close(fd=3)
+1782427042.752:00585:  pid=2234 cgroup=4126 cgroup_path=/user.slice/user-1000.slice/session-1.scope start_time=121241863655: open(file="/usr/lib/x86_64-linux-gnu/gconv/gconv-modules.cache", flags=0, mode=0) ret=3 [id=15719858854568073543]
+1782427042.752:00586:  pid=2234 cgroup=4126 cgroup_path=/user.slice/user-1000.slice/session-1.scope start_time=121241863655: mmap(addr=0, len=27002, prot=4, flags=1, id=-2726885219141478073) ret=7f19ab123000
+1782427042.749:00559:  pid=2233 cgroup=4126 cgroup_path=/user.slice/user-1000.slice/session-1.scope start_time=121241649283: mmap(addr=7fe901040000, len=8192, prot=6, flags=812, id=-1018008820228393615) ret=7fe901040000
+1782427042.749:00560:  pid=2233 cgroup=4126 cgroup_path=/user.slice/user-1000.slice/session-1.scope start_time=121241649283: close(fd=3)
+1782427042.752:00587:  pid=2234 cgroup=4126 cgroup_path=/user.slice/user-1000.slice/session-1.scope start_time=121241863655: close(fd=3)
+1782427042.752:00588:  pid=2234 cgroup=4126 cgroup_path=/user.slice/user-1000.slice/session-1.scope start_time=121241863655: open(file="/usr/lib/locale/C.utf8/LC_MEASUREMENT", flags=80000, mode=0) ret=3 [id=9805563722074411979]
+1782427042.752:00589:  pid=2234 cgroup=4126 cgroup_path=/user.slice/user-1000.slice/session-1.scope start_time=121241863655: mmap(addr=0, len=23, prot=4, flags=2, id=-8641180351635139637) ret=7f19ab122000
+1782427042.752:00590:  pid=2234 cgroup=4126 cgroup_path=/user.slice/user-1000.slice/session-1.scope start_time=121241863655: close(fd=3)
+1782427042.752:00591:  pid=2234 cgroup=4126 cgroup_path=/user.slice/user-1000.slice/session-1.scope start_time=121241863655: open(file="/usr/lib/locale/C.utf8/LC_TELEPHONE", flags=80000, mode=0) ret=3 [id=10594262667085621929]
+1782427042.752:00592:  pid=2234 cgroup=4126 cgroup_path=/user.slice/user-1000.slice/session-1.scope start_time=121241863655: mmap(addr=0, len=47, prot=4, flags=2, id=-7852481406623929687) ret=7f19ab121000
+1782427042.752:00593:  pid=2234 cgroup=4126 cgroup_path=/user.slice/user-1000.slice/session-1.scope start_time=121241863655: close(fd=3)
+1782427042.752:00594:  pid=2234 cgroup=4126 cgroup_path=/user.slice/user-1000.slice/session-1.scope start_time=121241863655: open(file="/usr/lib/locale/C.utf8/LC_ADDRESS", flags=80000, mode=0) ret=3 [id=16553302193974655725]
+1782427042.752:00595:  pid=2234 cgroup=4126 cgroup_path=/user.slice/user-1000.slice/session-1.scope start_time=121241863655: mmap(addr=0, len=127, prot=4, flags=2, id=-1893441879734895891) ret=7f19aac0b000
+1782427042.752:00596:  pid=2234 cgroup=4126 cgroup_path=/user.slice/user-1000.slice/session-1.scope start_time=121241863655: close(fd=3)
+1782427042.752:00597:  pid=2234 cgroup=4126 cgroup_path=/user.slice/user-1000.slice/session-1.scope start_time=121241863655: open(file="/usr/lib/locale/C.utf8/LC_NAME", flags=80000, mode=0) ret=3 [id=6431694484858489425]
+1782427042.752:00598:  pid=2234 cgroup=4126 cgroup_path=/user.slice/user-1000.slice/session-1.scope start_time=121241863655: mmap(addr=0, len=62, prot=4, flags=2, id=6431694484858489425) ret=7f19aac0a000
+1782427042.752:00599:  pid=2234 cgroup=4126 cgroup_path=/user.slice/user-1000.slice/session-1.scope start_time=121241863655: close(fd=3)
+1782427042.752:00600:  pid=2234 cgroup=4126 cgroup_path=/user.slice/user-1000.slice/session-1.scope start_time=121241863655: open(file="/usr/lib/locale/C.utf8/LC_PAPER", flags=80000, mode=0) ret=3 [id=3057825250329354503]
+1782427042.752:00601:  pid=2234 cgroup=4126 cgroup_path=/user.slice/user-1000.slice/session-1.scope start_time=121241863655: mmap(addr=0, len=34, prot=4, flags=2, id=3057825250329354503) ret=7f19aac09000
+1782427042.752:00602:  pid=2234 cgroup=4126 cgroup_path=/user.slice/user-1000.slice/session-1.scope start_time=121241863655: close(fd=3)
+1782427042.752:00603:  pid=2234 cgroup=4126 cgroup_path=/user.slice/user-1000.slice/session-1.scope start_time=121241863655: open(file="/usr/lib/locale/C.utf8/LC_MESSAGES", flags=80000, mode=0) ret=3 [id=1480427368353932005]
+1782427042.752:00604:  pid=2234 cgroup=4126 cgroup_path=/user.slice/user-1000.slice/session-1.scope start_time=121241863655: close(fd=3)
+1782427042.752:00605:  pid=2234 cgroup=4126 cgroup_path=/user.slice/user-1000.slice/session-1.scope start_time=121241863655: open(file="/usr/lib/locale/C.utf8/LC_MESSAGES/SYS_LC_MESSAGES", flags=80000, mode=0) ret=3 [id=9016864784910264939]
+1782427042.752:00606:  pid=2234 cgroup=4126 cgroup_path=/user.slice/user-1000.slice/session-1.scope start_time=121241863655: mmap(addr=0, len=48, prot=4, flags=2, id=9016864784910264939) ret=7f19aac08000
+1782427042.752:00607:  pid=2234 cgroup=4126 cgroup_path=/user.slice/user-1000.slice/session-1.scope start_time=121241863655: close(fd=3)
+1782427042.752:00608:  pid=2234 cgroup=4126 cgroup_path=/user.slice/user-1000.slice/session-1.scope start_time=121241863655: open(file="/usr/lib/locale/C.utf8/LC_MONETARY", flags=80000, mode=0) ret=3 [id=17342001136999204211]
+1782427042.752:00609:  pid=2234 cgroup=4126 cgroup_path=/user.slice/user-1000.slice/session-1.scope start_time=121241863655: mmap(addr=0, len=270, prot=4, flags=2, id=-1104742936710347405) ret=7f19aac07000
+1782427042.752:00610:  pid=2234 cgroup=4126 cgroup_path=/user.slice/user-1000.slice/session-1.scope start_time=121241863655: close(fd=3)
+1782427042.752:00611:  pid=2234 cgroup=4126 cgroup_path=/user.slice/user-1000.slice/session-1.scope start_time=121241863655: open(file="/usr/lib/locale/C.utf8/LC_COLLATE", flags=80000, mode=0) ret=3 [id=5642995542225824523]
+1782427042.752:00612:  pid=2234 cgroup=4126 cgroup_path=/user.slice/user-1000.slice/session-1.scope start_time=121241863655: mmap(addr=0, len=1406, prot=4, flags=2, id=5642995542225824523) ret=7f19aac06000
+1782427042.752:00613:  pid=2234 cgroup=4126 cgroup_path=/user.slice/user-1000.slice/session-1.scope start_time=121241863655: close(fd=3)
+1782427042.752:00614:  pid=2234 cgroup=4126 cgroup_path=/user.slice/user-1000.slice/session-1.scope start_time=121241863655: open(file="/usr/lib/locale/C.utf8/LC_TIME", flags=80000, mode=0) ret=3 [id=18130700077818699205]
+1782427042.752:00615:  pid=2234 cgroup=4126 cgroup_path=/user.slice/user-1000.slice/session-1.scope start_time=121241863655: mmap(addr=0, len=3360, prot=4, flags=2, id=-316043995890852411) ret=7f19aac05000
+1782427042.752:00616:  pid=2234 cgroup=4126 cgroup_path=/user.slice/user-1000.slice/session-1.scope start_time=121241863655: close(fd=3)
+1782427042.752:00617:  pid=2234 cgroup=4126 cgroup_path=/user.slice/user-1000.slice/session-1.scope start_time=121241863655: open(file="/usr/lib/locale/C.utf8/LC_NUMERIC", flags=80000, mode=0) ret=3 [id=13968131898550753413]
+1782427042.752:00618:  pid=2234 cgroup=4126 cgroup_path=/user.slice/user-1000.slice/session-1.scope start_time=121241863655: mmap(addr=0, len=50, prot=4, flags=2, id=-4478612175158798203) ret=7f19aac04000
+1782427042.752:00619:  pid=2234 cgroup=4126 cgroup_path=/user.slice/user-1000.slice/session-1.scope start_time=121241863655: close(fd=3)
+1782427042.752:00620:  pid=2234 cgroup=4126 cgroup_path=/user.slice/user-1000.slice/session-1.scope start_time=121241863655: open(file="/usr/lib/locale/C.utf8/LC_CTYPE", flags=80000, mode=0) ret=3 [id=13179432957246728907]
+1782427042.752:00621:  pid=2234 cgroup=4126 cgroup_path=/user.slice/user-1000.slice/session-1.scope start_time=121241863655: mmap(addr=0, len=353616, prot=4, flags=2, id=-5267311116462822709) ret=7f19aabad000
+1782427042.752:00622:  pid=2234 cgroup=4126 cgroup_path=/user.slice/user-1000.slice/session-1.scope start_time=121241863655: close(fd=3)
+1782427042.757:00623:  pid=2233 cgroup=4126 cgroup_path=/user.slice/user-1000.slice/session-1.scope start_time=121241649283: open(file="/lib/x86_64-linux-gnu/libc.so.6", flags=80000, mode=0) ret=3 [id=14800197902252426551]
+1782427042.757:00624:  pid=2233 cgroup=4126 cgroup_path=/user.slice/user-1000.slice/session-1.scope start_time=121241649283: read(fd=3 [id=14800197902252426551]) ret=832
+1782427042.757:00625:  pid=2233 cgroup=4126 cgroup_path=/user.slice/user-1000.slice/session-1.scope start_time=121241649283: read(fd=3 [id=14800197902252426551]) ret=784
+1782427042.757:00626:  pid=2233 cgroup=4126 cgroup_path=/user.slice/user-1000.slice/session-1.scope start_time=121241649283: read(fd=3 [id=14800197902252426551]) ret=48
+1782427042.757:00627:  pid=2233 cgroup=4126 cgroup_path=/user.slice/user-1000.slice/session-1.scope start_time=121241649283: read(fd=3 [id=14800197902252426551]) ret=68
+1782427042.757:00628:  pid=2233 cgroup=4126 cgroup_path=/user.slice/user-1000.slice/session-1.scope start_time=121241649283: read(fd=3 [id=14800197902252426551]) ret=784
+1782427042.757:00629:  pid=2233 cgroup=4126 cgroup_path=/user.slice/user-1000.slice/session-1.scope start_time=121241649283: mmap(addr=0, len=2264656, prot=4, flags=802, id=-3646546171457125065) ret=7fe900def000
+1782427042.757:00630:  pid=2233 cgroup=4126 cgroup_path=/user.slice/user-1000.slice/session-1.scope start_time=121241649283: mmap(addr=7fe900e17000, len=1658880, prot=5, flags=812, id=-3646546171457125065) ret=7fe900e17000
+1782427042.757:00631:  pid=2233 cgroup=4126 cgroup_path=/user.slice/user-1000.slice/session-1.scope start_time=121241649283: mmap(addr=7fe900fac000, len=360448, prot=4, flags=812, id=-3646546171457125065) ret=7fe900fac000
+1782427042.757:00632:  pid=2233 cgroup=4126 cgroup_path=/user.slice/user-1000.slice/session-1.scope start_time=121241649283: mmap(addr=7fe901005000, len=24576, prot=6, flags=812, id=-3646546171457125065) ret=7fe901005000
+1782427042.757:00633:  pid=2233 cgroup=4126 cgroup_path=/user.slice/user-1000.slice/session-1.scope start_time=121241649283: close(fd=3)
+1782427042.760:00634:  pid=1503 cgroup=1232 cgroup_path=/system.slice/multipathd.service start_time=8240901118: tid=1513: write(fd=9 [id=12045990449128452275]) ret=8
+1782427042.760:00635:  pid=1503 cgroup=1232 cgroup_path=/system.slice/multipathd.service start_time=8240901118: tid=1513: write(fd=9 [id=12045990449128452275]) ret=8
+1782427042.765:00636:  pid=2233 cgroup=4126 cgroup_path=/user.slice/user-1000.slice/session-1.scope start_time=121241649283: open(file="/lib/x86_64-linux-gnu/libpcre2-8.so.0", flags=80000, mode=0) ret=3 [id=5160448534812584381]
+1782427042.765:00637:  pid=2233 cgroup=4126 cgroup_path=/user.slice/user-1000.slice/session-1.scope start_time=121241649283: read(fd=3 [id=5160448534812584381]) ret=832
+1782427042.765:00638:  pid=2233 cgroup=4126 cgroup_path=/user.slice/user-1000.slice/session-1.scope start_time=121241649283: mmap(addr=0, len=615184, prot=4, flags=802, id=5160448534812584381) ret=7fe900d58000
+1782427042.765:00639:  pid=2233 cgroup=4126 cgroup_path=/user.slice/user-1000.slice/session-1.scope start_time=121241649283: mmap(addr=7fe900d5a000, len=438272, prot=5, flags=812, id=5160448534812584381) ret=7fe900d5a000
+1782427042.765:00640:  pid=2233 cgroup=4126 cgroup_path=/user.slice/user-1000.slice/session-1.scope start_time=121241649283: mmap(addr=7fe900dc5000, len=163840, prot=4, flags=812, id=5160448534812584381) ret=7fe900dc5000
+1782427042.765:00641:  pid=2233 cgroup=4126 cgroup_path=/user.slice/user-1000.slice/session-1.scope start_time=121241649283: mmap(addr=7fe900ded000, len=8192, prot=6, flags=812, id=5160448534812584381) ret=7fe900ded000
+1782427042.766:00642:  pid=2233 cgroup=4126 cgroup_path=/user.slice/user-1000.slice/session-1.scope start_time=121241649283: close(fd=3)
+1782427042.766:00643:  pid=2233 cgroup=4126 cgroup_path=/user.slice/user-1000.slice/session-1.scope start_time=121241649283: open(file="/proc/filesystems", flags=80000, mode=0) ret=3 [id=16280992578308326015]
+1782427042.766:00644:  pid=2233 cgroup=4126 cgroup_path=/user.slice/user-1000.slice/session-1.scope start_time=121241649283: read(fd=3 [id=16280992578308326015]) ret=403
+1782427042.766:00645:  pid=2233 cgroup=4126 cgroup_path=/user.slice/user-1000.slice/session-1.scope start_time=121241649283: read(fd=3 [id=16280992578308326015]) ret=0
+1782427042.766:00646:  pid=2233 cgroup=4126 cgroup_path=/user.slice/user-1000.slice/session-1.scope start_time=121241649283: close(fd=3)
+1782427042.767:00647:  pid=2233 cgroup=4126 cgroup_path=/user.slice/user-1000.slice/session-1.scope start_time=121241649283: open(file=".", flags=80000, mode=0) ret=3 [id=14216918302335605235]
+1782427042.767:00648:  pid=2233 cgroup=4126 cgroup_path=/user.slice/user-1000.slice/session-1.scope start_time=121241649283: open(file="/usr/lib/locale/locale-archive", flags=80000, mode=0) ret=4 [id=4854296604623033987]
+1782427042.767:00649:  pid=2233 cgroup=4126 cgroup_path=/user.slice/user-1000.slice/session-1.scope start_time=121241649283: mmap(addr=0, len=3048928, prot=4, flags=2, id=4854296604623033987) ret=7fe900a6c000
+1782427042.767:00650:  pid=2233 cgroup=4126 cgroup_path=/user.slice/user-1000.slice/session-1.scope start_time=121241649283: close(fd=4)
+1782427042.767:00651:  pid=2233 cgroup=4126 cgroup_path=/user.slice/user-1000.slice/session-1.scope start_time=121241649283: open(file="/usr/share/locale/locale.alias", flags=80000, mode=0) ret=4 [id=13878470930299491779]
+1782427042.767:00652:  pid=2233 cgroup=4126 cgroup_path=/user.slice/user-1000.slice/session-1.scope start_time=121241649283: read(fd=4 [id=13878470930299491779]) ret=2996
+1782427042.767:00653:  pid=2233 cgroup=4126 cgroup_path=/user.slice/user-1000.slice/session-1.scope start_time=121241649283: read(fd=4 [id=13878470930299491779]) ret=0
+1782427042.767:00654:  pid=2233 cgroup=4126 cgroup_path=/user.slice/user-1000.slice/session-1.scope start_time=121241649283: close(fd=4)
+1782427042.767:00655:  pid=2233 cgroup=4126 cgroup_path=/user.slice/user-1000.slice/session-1.scope start_time=121241649283: open(file="/usr/lib/locale/C.utf8/LC_IDENTIFICATION", flags=80000, mode=0) ret=4 [id=2269126311603669569]
+1782427042.767:00656:  pid=2233 cgroup=4126 cgroup_path=/user.slice/user-1000.slice/session-1.scope start_time=121241649283: mmap(addr=0, len=258, prot=4, flags=2, id=2269126311603669569) ret=7fe901086000
+1782427042.767:00657:  pid=2233 cgroup=4126 cgroup_path=/user.slice/user-1000.slice/session-1.scope start_time=121241649283: close(fd=4)
+1782427042.767:00658:  pid=2233 cgroup=4126 cgroup_path=/user.slice/user-1000.slice/session-1.scope start_time=121241649283: open(file="/usr/lib/x86_64-linux-gnu/gconv/gconv-modules.cache", flags=0, mode=0) ret=4 [id=15719858854568073543]
+1782427042.767:00659:  pid=2233 cgroup=4126 cgroup_path=/user.slice/user-1000.slice/session-1.scope start_time=121241649283: mmap(addr=0, len=27002, prot=4, flags=1, id=-2726885219141478073) ret=7fe901046000
+1782427042.767:00660:  pid=2233 cgroup=4126 cgroup_path=/user.slice/user-1000.slice/session-1.scope start_time=121241649283: close(fd=4)
+1782427042.767:00661:  pid=2233 cgroup=4126 cgroup_path=/user.slice/user-1000.slice/session-1.scope start_time=121241649283: open(file="/usr/lib/locale/C.utf8/LC_MEASUREMENT", flags=80000, mode=0) ret=4 [id=9805563722074411979]
+1782427042.767:00662:  pid=2233 cgroup=4126 cgroup_path=/user.slice/user-1000.slice/session-1.scope start_time=121241649283: mmap(addr=0, len=23, prot=4, flags=2, id=-8641180351635139637) ret=7fe901045000
+1782427042.767:00663:  pid=2233 cgroup=4126 cgroup_path=/user.slice/user-1000.slice/session-1.scope start_time=121241649283: close(fd=4)
+1782427042.767:00664:  pid=2233 cgroup=4126 cgroup_path=/user.slice/user-1000.slice/session-1.scope start_time=121241649283: open(file="/usr/lib/locale/C.utf8/LC_TELEPHONE", flags=80000, mode=0) ret=4 [id=10594262667085621929]
+1782427042.767:00665:  pid=2233 cgroup=4126 cgroup_path=/user.slice/user-1000.slice/session-1.scope start_time=121241649283: mmap(addr=0, len=47, prot=4, flags=2, id=-7852481406623929687) ret=7fe901044000
+1782427042.767:00666:  pid=2233 cgroup=4126 cgroup_path=/user.slice/user-1000.slice/session-1.scope start_time=121241649283: close(fd=4)
+1782427042.768:00667:  pid=2233 cgroup=4126 cgroup_path=/user.slice/user-1000.slice/session-1.scope start_time=121241649283: open(file="/usr/lib/locale/C.utf8/LC_ADDRESS", flags=80000, mode=0) ret=4 [id=16553302193974655725]
+1782427042.768:00668:  pid=2233 cgroup=4126 cgroup_path=/user.slice/user-1000.slice/session-1.scope start_time=121241649283: mmap(addr=0, len=127, prot=4, flags=2, id=-1893441879734895891) ret=7fe900a6b000
+1782427042.768:00669:  pid=2233 cgroup=4126 cgroup_path=/user.slice/user-1000.slice/session-1.scope start_time=121241649283: close(fd=4)
+1782427042.768:00670:  pid=2233 cgroup=4126 cgroup_path=/user.slice/user-1000.slice/session-1.scope start_time=121241649283: open(file="/usr/lib/locale/C.utf8/LC_NAME", flags=80000, mode=0) ret=4 [id=6431694484858489425]
+1782427042.768:00671:  pid=2233 cgroup=4126 cgroup_path=/user.slice/user-1000.slice/session-1.scope start_time=121241649283: mmap(addr=0, len=62, prot=4, flags=2, id=6431694484858489425) ret=7fe900a6a000
+1782427042.768:00672:  pid=2233 cgroup=4126 cgroup_path=/user.slice/user-1000.slice/session-1.scope start_time=121241649283: close(fd=4)
+1782427042.768:00673:  pid=2233 cgroup=4126 cgroup_path=/user.slice/user-1000.slice/session-1.scope start_time=121241649283: open(file="/usr/lib/locale/C.utf8/LC_PAPER", flags=80000, mode=0) ret=4 [id=3057825250329354503]
+1782427042.768:00674:  pid=2233 cgroup=4126 cgroup_path=/user.slice/user-1000.slice/session-1.scope start_time=121241649283: mmap(addr=0, len=34, prot=4, flags=2, id=3057825250329354503) ret=7fe900a69000
+1782427042.768:00675:  pid=2233 cgroup=4126 cgroup_path=/user.slice/user-1000.slice/session-1.scope start_time=121241649283: close(fd=4)
+1782427042.768:00676:  pid=2233 cgroup=4126 cgroup_path=/user.slice/user-1000.slice/session-1.scope start_time=121241649283: open(file="/usr/lib/locale/C.utf8/LC_MESSAGES", flags=80000, mode=0) ret=4 [id=1480427368353932005]
+1782427042.768:00677:  pid=2233 cgroup=4126 cgroup_path=/user.slice/user-1000.slice/session-1.scope start_time=121241649283: close(fd=4)
+1782427042.768:00678:  pid=2233 cgroup=4126 cgroup_path=/user.slice/user-1000.slice/session-1.scope start_time=121241649283: open(file="/usr/lib/locale/C.utf8/LC_MESSAGES/SYS_LC_MESSAGES", flags=80000, mode=0) ret=4 [id=9016864784910264939]
+1782427042.768:00679:  pid=2233 cgroup=4126 cgroup_path=/user.slice/user-1000.slice/session-1.scope start_time=121241649283: mmap(addr=0, len=48, prot=4, flags=2, id=9016864784910264939) ret=7fe900a68000
+1782427042.768:00680:  pid=2233 cgroup=4126 cgroup_path=/user.slice/user-1000.slice/session-1.scope start_time=121241649283: close(fd=4)
+1782427042.768:00681:  pid=2233 cgroup=4126 cgroup_path=/user.slice/user-1000.slice/session-1.scope start_time=121241649283: open(file="/usr/lib/locale/C.utf8/LC_MONETARY", flags=80000, mode=0) ret=4 [id=17342001136999204211]
+1782427042.768:00682:  pid=2233 cgroup=4126 cgroup_path=/user.slice/user-1000.slice/session-1.scope start_time=121241649283: mmap(addr=0, len=270, prot=4, flags=2, id=-1104742936710347405) ret=7fe900a67000
+1782427042.768:00683:  pid=2233 cgroup=4126 cgroup_path=/user.slice/user-1000.slice/session-1.scope start_time=121241649283: close(fd=4)
+1782427042.768:00684:  pid=2233 cgroup=4126 cgroup_path=/user.slice/user-1000.slice/session-1.scope start_time=121241649283: open(file="/usr/lib/locale/C.utf8/LC_COLLATE", flags=80000, mode=0) ret=4 [id=5642995542225824523]
+1782427042.768:00685:  pid=2233 cgroup=4126 cgroup_path=/user.slice/user-1000.slice/session-1.scope start_time=121241649283: mmap(addr=0, len=1406, prot=4, flags=2, id=5642995542225824523) ret=7fe900a66000
+1782427042.768:00686:  pid=2233 cgroup=4126 cgroup_path=/user.slice/user-1000.slice/session-1.scope start_time=121241649283: close(fd=4)
+1782427042.768:00687:  pid=2233 cgroup=4126 cgroup_path=/user.slice/user-1000.slice/session-1.scope start_time=121241649283: open(file="/usr/lib/locale/C.utf8/LC_TIME", flags=80000, mode=0) ret=4 [id=18130700077818699205]
+1782427042.768:00688:  pid=2233 cgroup=4126 cgroup_path=/user.slice/user-1000.slice/session-1.scope start_time=121241649283: mmap(addr=0, len=3360, prot=4, flags=2, id=-316043995890852411) ret=7fe900a65000
+1782427042.768:00689:  pid=2233 cgroup=4126 cgroup_path=/user.slice/user-1000.slice/session-1.scope start_time=121241649283: close(fd=4)
+1782427042.768:00690:  pid=2233 cgroup=4126 cgroup_path=/user.slice/user-1000.slice/session-1.scope start_time=121241649283: open(file="/usr/lib/locale/C.utf8/LC_NUMERIC", flags=80000, mode=0) ret=4 [id=13968131898550753413]
+1782427042.768:00691:  pid=2233 cgroup=4126 cgroup_path=/user.slice/user-1000.slice/session-1.scope start_time=121241649283: mmap(addr=0, len=50, prot=4, flags=2, id=-4478612175158798203) ret=7fe900a64000
+1782427042.768:00692:  pid=2233 cgroup=4126 cgroup_path=/user.slice/user-1000.slice/session-1.scope start_time=121241649283: close(fd=4)
+1782427042.768:00693:  pid=2233 cgroup=4126 cgroup_path=/user.slice/user-1000.slice/session-1.scope start_time=121241649283: open(file="/usr/lib/locale/C.utf8/LC_CTYPE", flags=80000, mode=0) ret=4 [id=13179432957246728907]
+1782427042.768:00694:  pid=2233 cgroup=4126 cgroup_path=/user.slice/user-1000.slice/session-1.scope start_time=121241649283: mmap(addr=0, len=353616, prot=4, flags=2, id=-5267311116462822709) ret=7fe900a0d000
+1782427042.768:00695:  pid=2233 cgroup=4126 cgroup_path=/user.slice/user-1000.slice/session-1.scope start_time=121241649283: close(fd=4)
+1782427042.771:00696:  pid=2233 cgroup=4126 cgroup_path=/user.slice/user-1000.slice/session-1.scope start_time=121241649283: open(file="/home/ubuntu/shared/src/lammps/examples_h5/job_script/1_16", flags=b0900, mode=0) ret=4 [id=10843049065931102313]
+1782427042.914:00697:  pid=2233 cgroup=4126 cgroup_path=/user.slice/user-1000.slice/session-1.scope start_time=121241649283: close(fd=4)
+1782427042.950:00698:  pid=2233 cgroup=4126 cgroup_path=/user.slice/user-1000.slice/session-1.scope start_time=121241649283: write(fd=1 [id=106990241571962720]) ret=4096
+1782427042.950:00699:  pid=2234 cgroup=4126 cgroup_path=/user.slice/user-1000.slice/session-1.scope start_time=121241863655: read(fd=0 [id=106990241571962720]) ret=4096
+1782427042.983:00700:  pid=2233 cgroup=4126 cgroup_path=/user.slice/user-1000.slice/session-1.scope start_time=121241649283: write(fd=1 [id=106990241571962720]) ret=4096
+1782427042.983:00701:  pid=2234 cgroup=4126 cgroup_path=/user.slice/user-1000.slice/session-1.scope start_time=121241863655: read(fd=0 [id=106990241571962720]) ret=4096
+1782427043.016:00702:  pid=2233 cgroup=4126 cgroup_path=/user.slice/user-1000.slice/session-1.scope start_time=121241649283: write(fd=1 [id=106990241571962720]) ret=4096
+1782427043.016:00703:  pid=2234 cgroup=4126 cgroup_path=/user.slice/user-1000.slice/session-1.scope start_time=121241863655: read(fd=0 [id=106990241571962720]) ret=4096
+1782427043.049:00704:  pid=2233 cgroup=4126 cgroup_path=/user.slice/user-1000.slice/session-1.scope start_time=121241649283: write(fd=1 [id=106990241571962720]) ret=4096
+1782427043.049:00705:  pid=2234 cgroup=4126 cgroup_path=/user.slice/user-1000.slice/session-1.scope start_time=121241863655: read(fd=0 [id=106990241571962720]) ret=4096
+1782427043.083:00706:  pid=2233 cgroup=4126 cgroup_path=/user.slice/user-1000.slice/session-1.scope start_time=121241649283: write(fd=1 [id=106990241571962720]) ret=4096
+1782427043.083:00707:  pid=2234 cgroup=4126 cgroup_path=/user.slice/user-1000.slice/session-1.scope start_time=121241863655: read(fd=0 [id=106990241571962720]) ret=4096
+1782427043.115:00708:  pid=2233 cgroup=4126 cgroup_path=/user.slice/user-1000.slice/session-1.scope start_time=121241649283: write(fd=1 [id=106990241571962720]) ret=4096
+1782427043.115:00709:  pid=2234 cgroup=4126 cgroup_path=/user.slice/user-1000.slice/session-1.scope start_time=121241863655: read(fd=0 [id=106990241571962720]) ret=4096
+1782427043.148:00710:  pid=2233 cgroup=4126 cgroup_path=/user.slice/user-1000.slice/session-1.scope start_time=121241649283: write(fd=1 [id=106990241571962720]) ret=4096
+1782427043.148:00711:  pid=2234 cgroup=4126 cgroup_path=/user.slice/user-1000.slice/session-1.scope start_time=121241863655: read(fd=0 [id=106990241571962720]) ret=4096
+1782427043.181:00712:  pid=2233 cgroup=4126 cgroup_path=/user.slice/user-1000.slice/session-1.scope start_time=121241649283: write(fd=1 [id=106990241571962720]) ret=4096
+1782427043.181:00713:  pid=2234 cgroup=4126 cgroup_path=/user.slice/user-1000.slice/session-1.scope start_time=121241863655: read(fd=0 [id=106990241571962720]) ret=4096
+1782427043.194:00714:  pid=2233 cgroup=4126 cgroup_path=/user.slice/user-1000.slice/session-1.scope start_time=121241649283: close(fd=5)
+1782427043.194:00715:  pid=2233 cgroup=4126 cgroup_path=/user.slice/user-1000.slice/session-1.scope start_time=121241649283: close(fd=4)
+1782427043.195:00716:  pid=2233 cgroup=4126 cgroup_path=/user.slice/user-1000.slice/session-1.scope start_time=121241649283: fchdir(fd=3 [id=14216918302335605235]) ret=0
+1782427043.195:00717:  pid=2233 cgroup=4126 cgroup_path=/user.slice/user-1000.slice/session-1.scope start_time=121241649283: close(fd=3)
+1782427043.195:00718:  pid=2233 cgroup=4126 cgroup_path=/user.slice/user-1000.slice/session-1.scope start_time=121241649283: write(fd=1 [id=106990241571962720]) ret=1737
+1782427043.195:00719:  pid=2233 cgroup=4126 cgroup_path=/user.slice/user-1000.slice/session-1.scope start_time=121241649283: close(fd=1)
+1782427043.195:00720:  pid=2233 cgroup=4126 cgroup_path=/user.slice/user-1000.slice/session-1.scope start_time=121241649283: close(fd=2)
+1782427043.195:00721:  pid=2233 cgroup=4126 cgroup_path=/user.slice/user-1000.slice/session-1.scope start_time=121241649283: exitgrp(code=0)
+1782427043.196:00726:  pid=2180 cgroup=4126 cgroup_path=/user.slice/user-1000.slice/session-1.scope start_time=26519962325: read(fd=3 [id=3513655431505019936]) ret=512
+1782427043.196:00735:  pid=2180 cgroup=4126 cgroup_path=/user.slice/user-1000.slice/session-1.scope start_time=26519962325: read(fd=3 [id=3513655431505019936]) ret=512
+1782427043.196:00736:  pid=2180 cgroup=4126 cgroup_path=/user.slice/user-1000.slice/session-1.scope start_time=26519962325: read(fd=3 [id=3513655431505019936]) ret=512
+1782427043.196:00738:  pid=2180 cgroup=4126 cgroup_path=/user.slice/user-1000.slice/session-1.scope start_time=26519962325: read(fd=3 [id=3513655431505019936]) ret=512
+1782427043.196:00740:  pid=2180 cgroup=4126 cgroup_path=/user.slice/user-1000.slice/session-1.scope start_time=26519962325: read(fd=3 [id=3513655431505019936]) ret=512
+1782427043.196:00741:  pid=2180 cgroup=4126 cgroup_path=/user.slice/user-1000.slice/session-1.scope start_time=26519962325: read(fd=3 [id=3513655431505019936]) ret=512
+1782427043.196:00743:  pid=2180 cgroup=4126 cgroup_path=/user.slice/user-1000.slice/session-1.scope start_time=26519962325: read(fd=3 [id=3513655431505019936]) ret=512
+1782427043.196:00744:  pid=2180 cgroup=4126 cgroup_path=/user.slice/user-1000.slice/session-1.scope start_time=26519962325: read(fd=3 [id=3513655431505019936]) ret=512
+1782427043.196:00745:  pid=2180 cgroup=4126 cgroup_path=/user.slice/user-1000.slice/session-1.scope start_time=26519962325: read(fd=3 [id=3513655431505019936]) ret=512
+1782427043.196:00746:  pid=2180 cgroup=4126 cgroup_path=/user.slice/user-1000.slice/session-1.scope start_time=26519962325: read(fd=3 [id=3513655431505019936]) ret=512
+1782427043.196:00747:  pid=2180 cgroup=4126 cgroup_path=/user.slice/user-1000.slice/session-1.scope start_time=26519962325: read(fd=3 [id=3513655431505019936]) ret=512
+1782427043.196:00748:  pid=2180 cgroup=4126 cgroup_path=/user.slice/user-1000.slice/session-1.scope start_time=26519962325: read(fd=3 [id=3513655431505019936]) ret=512
+1782427043.196:00749:  pid=2180 cgroup=4126 cgroup_path=/user.slice/user-1000.slice/session-1.scope start_time=26519962325: read(fd=3 [id=3513655431505019936]) ret=512
+1782427043.196:00750:  pid=2180 cgroup=4126 cgroup_path=/user.slice/user-1000.slice/session-1.scope start_time=26519962325: read(fd=3 [id=3513655431505019936]) ret=512
+1782427043.196:00751:  pid=2180 cgroup=4126 cgroup_path=/user.slice/user-1000.slice/session-1.scope start_time=26519962325: read(fd=3 [id=3513655431505019936]) ret=512
+1782427043.196:00752:  pid=2180 cgroup=4126 cgroup_path=/user.slice/user-1000.slice/session-1.scope start_time=26519962325: read(fd=3 [id=3513655431505019936]) ret=512
+1782427043.196:00753:  pid=2180 cgroup=4126 cgroup_path=/user.slice/user-1000.slice/session-1.scope start_time=26519962325: read(fd=3 [id=3513655431505019936]) ret=512
+1782427043.196:00754:  pid=2180 cgroup=4126 cgroup_path=/user.slice/user-1000.slice/session-1.scope start_time=26519962325: read(fd=3 [id=3513655431505019936]) ret=512
+1782427043.196:00755:  pid=2180 cgroup=4126 cgroup_path=/user.slice/user-1000.slice/session-1.scope start_time=26519962325: read(fd=3 [id=3513655431505019936]) ret=512
+1782427043.196:00756:  pid=2180 cgroup=4126 cgroup_path=/user.slice/user-1000.slice/session-1.scope start_time=26519962325: read(fd=3 [id=3513655431505019936]) ret=512
+1782427043.196:00757:  pid=2180 cgroup=4126 cgroup_path=/user.slice/user-1000.slice/session-1.scope start_time=26519962325: read(fd=3 [id=3513655431505019936]) ret=512
+1782427043.196:00758:  pid=2180 cgroup=4126 cgroup_path=/user.slice/user-1000.slice/session-1.scope start_time=26519962325: read(fd=3 [id=3513655431505019936]) ret=512
+1782427043.196:00759:  pid=2180 cgroup=4126 cgroup_path=/user.slice/user-1000.slice/session-1.scope start_time=26519962325: read(fd=3 [id=3513655431505019936]) ret=512
+1782427043.196:00760:  pid=2180 cgroup=4126 cgroup_path=/user.slice/user-1000.slice/session-1.scope start_time=26519962325: read(fd=3 [id=3513655431505019936]) ret=512
+1782427043.196:00761:  pid=2180 cgroup=4126 cgroup_path=/user.slice/user-1000.slice/session-1.scope start_time=26519962325: read(fd=3 [id=3513655431505019936]) ret=512
+1782427043.196:00762:  pid=2180 cgroup=4126 cgroup_path=/user.slice/user-1000.slice/session-1.scope start_time=26519962325: read(fd=3 [id=3513655431505019936]) ret=512
+1782427043.196:00763:  pid=2180 cgroup=4126 cgroup_path=/user.slice/user-1000.slice/session-1.scope start_time=26519962325: read(fd=3 [id=3513655431505019936]) ret=512
+1782427043.196:00764:  pid=2180 cgroup=4126 cgroup_path=/user.slice/user-1000.slice/session-1.scope start_time=26519962325: read(fd=3 [id=3513655431505019936]) ret=512
+1782427043.196:00765:  pid=2180 cgroup=4126 cgroup_path=/user.slice/user-1000.slice/session-1.scope start_time=26519962325: read(fd=3 [id=3513655431505019936]) ret=512
+1782427043.196:00766:  pid=2180 cgroup=4126 cgroup_path=/user.slice/user-1000.slice/session-1.scope start_time=26519962325: read(fd=3 [id=3513655431505019936]) ret=512
+1782427043.196:00767:  pid=2180 cgroup=4126 cgroup_path=/user.slice/user-1000.slice/session-1.scope start_time=26519962325: read(fd=3 [id=3513655431505019936]) ret=512
+1782427043.196:00768:  pid=2180 cgroup=4126 cgroup_path=/user.slice/user-1000.slice/session-1.scope start_time=26519962325: read(fd=3 [id=3513655431505019936]) ret=512
+1782427043.196:00769:  pid=2180 cgroup=4126 cgroup_path=/user.slice/user-1000.slice/session-1.scope start_time=26519962325: read(fd=3 [id=3513655431505019936]) ret=512
+1782427043.196:00770:  pid=2180 cgroup=4126 cgroup_path=/user.slice/user-1000.slice/session-1.scope start_time=26519962325: read(fd=3 [id=3513655431505019936]) ret=512
+1782427043.196:00771:  pid=2180 cgroup=4126 cgroup_path=/user.slice/user-1000.slice/session-1.scope start_time=26519962325: read(fd=3 [id=3513655431505019936]) ret=512
+1782427043.196:00772:  pid=2180 cgroup=4126 cgroup_path=/user.slice/user-1000.slice/session-1.scope start_time=26519962325: read(fd=3 [id=3513655431505019936]) ret=512
+1782427043.196:00773:  pid=2180 cgroup=4126 cgroup_path=/user.slice/user-1000.slice/session-1.scope start_time=26519962325: read(fd=3 [id=3513655431505019936]) ret=512
+1782427043.196:00774:  pid=2180 cgroup=4126 cgroup_path=/user.slice/user-1000.slice/session-1.scope start_time=26519962325: read(fd=3 [id=3513655431505019936]) ret=512
+1782427043.196:00775:  pid=2180 cgroup=4126 cgroup_path=/user.slice/user-1000.slice/session-1.scope start_time=26519962325: read(fd=3 [id=3513655431505019936]) ret=512
+1782427043.196:00776:  pid=2180 cgroup=4126 cgroup_path=/user.slice/user-1000.slice/session-1.scope start_time=26519962325: read(fd=3 [id=3513655431505019936]) ret=512
+1782427043.196:00777:  pid=2180 cgroup=4126 cgroup_path=/user.slice/user-1000.slice/session-1.scope start_time=26519962325: read(fd=3 [id=3513655431505019936]) ret=512
+1782427043.196:00778:  pid=2180 cgroup=4126 cgroup_path=/user.slice/user-1000.slice/session-1.scope start_time=26519962325: read(fd=3 [id=3513655431505019936]) ret=512
+1782427043.196:00779:  pid=2180 cgroup=4126 cgroup_path=/user.slice/user-1000.slice/session-1.scope start_time=26519962325: read(fd=3 [id=3513655431505019936]) ret=512
+1782427043.196:00780:  pid=2180 cgroup=4126 cgroup_path=/user.slice/user-1000.slice/session-1.scope start_time=26519962325: read(fd=3 [id=3513655431505019936]) ret=512
+1782427043.196:00781:  pid=2180 cgroup=4126 cgroup_path=/user.slice/user-1000.slice/session-1.scope start_time=26519962325: read(fd=3 [id=3513655431505019936]) ret=512
+1782427043.196:00782:  pid=2180 cgroup=4126 cgroup_path=/user.slice/user-1000.slice/session-1.scope start_time=26519962325: read(fd=3 [id=3513655431505019936]) ret=512
+1782427043.196:00783:  pid=2180 cgroup=4126 cgroup_path=/user.slice/user-1000.slice/session-1.scope start_time=26519962325: read(fd=3 [id=3513655431505019936]) ret=512
+1782427043.196:00784:  pid=2180 cgroup=4126 cgroup_path=/user.slice/user-1000.slice/session-1.scope start_time=26519962325: read(fd=3 [id=3513655431505019936]) ret=512
+1782427043.196:00785:  pid=2180 cgroup=4126 cgroup_path=/user.slice/user-1000.slice/session-1.scope start_time=26519962325: read(fd=3 [id=3513655431505019936]) ret=512
+1782427043.196:00786:  pid=2180 cgroup=4126 cgroup_path=/user.slice/user-1000.slice/session-1.scope start_time=26519962325: read(fd=3 [id=3513655431505019936]) ret=512
+1782427043.196:00787:  pid=2180 cgroup=4126 cgroup_path=/user.slice/user-1000.slice/session-1.scope start_time=26519962325: read(fd=3 [id=3513655431505019936]) ret=512
+1782427043.196:00788:  pid=2180 cgroup=4126 cgroup_path=/user.slice/user-1000.slice/session-1.scope start_time=26519962325: read(fd=3 [id=3513655431505019936]) ret=512
+1782427043.196:00789:  pid=2180 cgroup=4126 cgroup_path=/user.slice/user-1000.slice/session-1.scope start_time=26519962325: read(fd=3 [id=3513655431505019936]) ret=512
+1782427043.196:00790:  pid=2180 cgroup=4126 cgroup_path=/user.slice/user-1000.slice/session-1.scope start_time=26519962325: read(fd=3 [id=3513655431505019936]) ret=512
+1782427043.196:00791:  pid=2180 cgroup=4126 cgroup_path=/user.slice/user-1000.slice/session-1.scope start_time=26519962325: read(fd=3 [id=3513655431505019936]) ret=512
+1782427043.196:00792:  pid=2180 cgroup=4126 cgroup_path=/user.slice/user-1000.slice/session-1.scope start_time=26519962325: read(fd=3 [id=3513655431505019936]) ret=512
+1782427043.196:00793:  pid=2180 cgroup=4126 cgroup_path=/user.slice/user-1000.slice/session-1.scope start_time=26519962325: read(fd=3 [id=3513655431505019936]) ret=512
+1782427043.196:00794:  pid=2180 cgroup=4126 cgroup_path=/user.slice/user-1000.slice/session-1.scope start_time=26519962325: read(fd=3 [id=3513655431505019936]) ret=512
+1782427043.196:00795:  pid=2180 cgroup=4126 cgroup_path=/user.slice/user-1000.slice/session-1.scope start_time=26519962325: read(fd=3 [id=3513655431505019936]) ret=512
+1782427043.196:00796:  pid=2180 cgroup=4126 cgroup_path=/user.slice/user-1000.slice/session-1.scope start_time=26519962325: read(fd=3 [id=3513655431505019936]) ret=512
+1782427043.196:00797:  pid=2180 cgroup=4126 cgroup_path=/user.slice/user-1000.slice/session-1.scope start_time=26519962325: read(fd=3 [id=3513655431505019936]) ret=512
+1782427043.196:00798:  pid=2180 cgroup=4126 cgroup_path=/user.slice/user-1000.slice/session-1.scope start_time=26519962325: read(fd=3 [id=3513655431505019936]) ret=512
+1782427043.196:00799:  pid=2180 cgroup=4126 cgroup_path=/user.slice/user-1000.slice/session-1.scope start_time=26519962325: read(fd=3 [id=3513655431505019936]) ret=512
+1782427043.196:00800:  pid=2180 cgroup=4126 cgroup_path=/user.slice/user-1000.slice/session-1.scope start_time=26519962325: read(fd=3 [id=3513655431505019936]) ret=512
+1782427043.196:00801:  pid=2180 cgroup=4126 cgroup_path=/user.slice/user-1000.slice/session-1.scope start_time=26519962325: read(fd=3 [id=3513655431505019936]) ret=512
+1782427043.196:00802:  pid=2180 cgroup=4126 cgroup_path=/user.slice/user-1000.slice/session-1.scope start_time=26519962325: read(fd=3 [id=3513655431505019936]) ret=512
+1782427043.196:00803:  pid=2180 cgroup=4126 cgroup_path=/user.slice/user-1000.slice/session-1.scope start_time=26519962325: read(fd=3 [id=3513655431505019936]) ret=512
+1782427043.196:00805:  pid=2180 cgroup=4126 cgroup_path=/user.slice/user-1000.slice/session-1.scope start_time=26519962325: read(fd=3 [id=3513655431505019936]) ret=201
+1782427043.197:00807:  pid=2180 cgroup=4126 cgroup_path=/user.slice/user-1000.slice/session-1.scope start_time=26519962325: read(fd=3 [id=3513655431505019936]) ret=0
+1782427043.197:00808:  pid=2180 cgroup=4126 cgroup_path=/user.slice/user-1000.slice/session-1.scope start_time=26519962325: close(fd=3)
+1782427043.198:00809:  pid=2180 cgroup=4126 cgroup_path=/user.slice/user-1000.slice/session-1.scope start_time=26519962325: write(fd=1 [id=8309405774251899813]) ret=117
+1782427043.198:00810:  pid=2180 cgroup=4126 cgroup_path=/user.slice/user-1000.slice/session-1.scope start_time=26519962325: clone(flags=1200011)
+1782427043.198:00811:  pid=2180 cgroup=4126 cgroup_path=/user.slice/user-1000.slice/session-1.scope start_time=26519962325: clone ret=2235 parent_tid=1918 uid=1000 gid=1000 cgroup=4126 cgroup_path=/user.slice/user-1000.slice/session-1.scope
+1782427043.198:00812:  pid=2235 cgroup=4126 cgroup_path=/user.slice/user-1000.slice/session-1.scope start_time=121698967405: clone ret=0 parent_tid=2180 uid=1000 gid=1000 cgroup=4126 cgroup_path=/user.slice/user-1000.slice/session-1.scope
+1782427043.198:00815:  pid=2235 cgroup=4126 cgroup_path=/user.slice/user-1000.slice/session-1.scope start_time=121698967405: close(fd=4)
+1782427043.198:00816:  pid=2235 cgroup=4126 cgroup_path=/user.slice/user-1000.slice/session-1.scope start_time=121698967405: read(fd=3 [id=17991221007576782000]) ret=0
+1782427043.198:00817:  pid=2235 cgroup=4126 cgroup_path=/user.slice/user-1000.slice/session-1.scope start_time=121698967405: close(fd=3)
+1782427043.198:00818:  pid=2235 cgroup=4126 cgroup_path=/user.slice/user-1000.slice/session-1.scope start_time=121698967405: execve(file="/home/ubuntu/shared/src/lammps/examples_h5/job_script/1_16/ASPHERE_flat_membrane_flat_membrane_1_16.sh", argv[0]=/home/ubuntu/shared/src/lammps/examples_h5/job_script/1_16/ASPHERE_flat_membrane_flat_membrane_1_16.sh, envp[0]=SHELL=/bin/bash, envp[1]=PWD=/home/ubuntu/shared/src/lammps/examples_h5/job_script, envp[2]=LOGNAME=ubuntu, envp[3]=XDG_SESSION_TYPE=tty, envp[4]=SYSTEMD_EXEC_PID=1918, envp[5]=MOTD_SHOWN=pam, envp[6]=HOME=/home/ubuntu, envp[7]=LANG=C.UTF-8, envp[8]=LS_COLORS=, envp[9]=INVOCATION_ID=05071ad1a3ee410d9d22d43c9831ca97, envp[10]=LESSCLOSE=/usr/bin/lesspipe %s %s, envp[11]=XDG_SESSION_CLASS=user, envp[12]=TERM=vt220, envp[13]=LESSOPEN=| /usr/bin/lesspipe %s, envp[14]=USER=ubuntu, envp[15]=SHLVL=1, envp[16]=XDG_SESSION_ID=1, envp[17]=LD_LIBRARY_PATH=/home/ubuntu/lib/hdf5/lib:/home/ubuntu/lib/hdf5/lib64:, envp[18]=XDG_RUNTIME_DIR=/run/user/1000, envp[19]=JOURNAL_STREAM=8:51208, envp[20]=XDG_DATA_DIRS=/usr/local/share:/usr/share:/var/lib/snapd/desktop, envp[21]=HUSHLOGIN=FALSE, envp[22]=PATH=/home/ubuntu/lib/hdf5/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/b, envp[23]=DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/1000/bus, envp[24]=MAIL=/var/mail/ubuntu, envp[25]=_=/home/ubuntu/shared/src/lammps/examples_h5/job_script/1_16/ASPHERE_flat_membrane_flat_membrane_1_16.sh, envp[26]=OLDPWD=/home/ubuntu/app/dlogger)
+1782427043.195:00722:  pid=2234 cgroup=4126 cgroup_path=/user.slice/user-1000.slice/session-1.scope start_time=121241863655: read(fd=0 [id=106990241571962720]) ret=1737
+1782427043.195:00723:  pid=2234 cgroup=4126 cgroup_path=/user.slice/user-1000.slice/session-1.scope start_time=121241863655: read(fd=0 [id=106990241571962720]) ret=0
+1782427043.196:00724:  pid=2234 cgroup=4126 cgroup_path=/user.slice/user-1000.slice/session-1.scope start_time=121241863655: write(fd=1 [id=3513655431505019936]) ret=4096
+1782427043.196:00725:  pid=2234 cgroup=4126 cgroup_path=/user.slice/user-1000.slice/session-1.scope start_time=121241863655: write(fd=1 [id=3513655431505019936]) ret=4096
+1782427043.196:00727:  pid=2234 cgroup=4126 cgroup_path=/user.slice/user-1000.slice/session-1.scope start_time=121241863655: write(fd=1 [id=3513655431505019936]) ret=4096
+1782427043.196:00728:  pid=2234 cgroup=4126 cgroup_path=/user.slice/user-1000.slice/session-1.scope start_time=121241863655: write(fd=1 [id=3513655431505019936]) ret=4096
+1782427043.196:00729:  pid=2234 cgroup=4126 cgroup_path=/user.slice/user-1000.slice/session-1.scope start_time=121241863655: write(fd=1 [id=3513655431505019936]) ret=4096
+1782427043.196:00730:  pid=2234 cgroup=4126 cgroup_path=/user.slice/user-1000.slice/session-1.scope start_time=121241863655: write(fd=1 [id=3513655431505019936]) ret=4096
+1782427043.196:00731:  pid=2234 cgroup=4126 cgroup_path=/user.slice/user-1000.slice/session-1.scope start_time=121241863655: write(fd=1 [id=3513655431505019936]) ret=4096
+1782427043.196:00732:  pid=2234 cgroup=4126 cgroup_path=/user.slice/user-1000.slice/session-1.scope start_time=121241863655: write(fd=1 [id=3513655431505019936]) ret=4096
+1782427043.196:00733:  pid=2234 cgroup=4126 cgroup_path=/user.slice/user-1000.slice/session-1.scope start_time=121241863655: write(fd=1 [id=3513655431505019936]) ret=1737
+1782427043.196:00734:  pid=2234 cgroup=4126 cgroup_path=/user.slice/user-1000.slice/session-1.scope start_time=121241863655: close(fd=)
+1782427043.196:00737:  pid=2234 cgroup=4126 cgroup_path=/user.slice/user-1000.slice/session-1.scope start_time=121241863655: close(fd=1)
+1782427043.196:00739:  pid=2234 cgroup=4126 cgroup_path=/user.slice/user-1000.slice/session-1.scope start_time=121241863655: close(fd=2)
+1782427043.196:00742:  pid=2234 cgroup=4126 cgroup_path=/user.slice/user-1000.slice/session-1.scope start_time=121241863655: exitgrp(code=0)
+1782427043.196:00804:  pid=2232 cgroup=4126 cgroup_path=/user.slice/user-1000.slice/session-1.scope start_time=121240901611: close(fd=3)
+1782427043.196:00806:  pid=2232 cgroup=4126 cgroup_path=/user.slice/user-1000.slice/session-1.scope start_time=121240901611: exitgrp(code=0)
+1782427043.198:00813:  pid=2180 cgroup=4126 cgroup_path=/user.slice/user-1000.slice/session-1.scope start_time=26519962325: close(fd=3)
+1782427043.198:00814:  pid=2180 cgroup=4126 cgroup_path=/user.slice/user-1000.slice/session-1.scope start_time=26519962325: close(fd=4)
+1782427043.204:00819:  pid=2235 cgroup=4126 cgroup_path=/user.slice/user-1000.slice/session-1.scope start_time=121698967405: execve ret=0 parent_tid=2180 uid=1000 gid=1000 cgroup=4126 cgroup_path=/user.slice/user-1000.slice/session-1.scope
+1782427043.213:00820:  pid=2235 cgroup=4126 cgroup_path=/user.slice/user-1000.slice/session-1.scope start_time=121698967405: open(file="/etc/ld.so.cache", flags=80000, mode=0) ret=3 [id=14392696868005549659]
+1782427043.213:00821:  pid=2235 cgroup=4126 cgroup_path=/user.slice/user-1000.slice/session-1.scope start_time=121698967405: mmap(addr=0, len=33912, prot=4, flags=2, id=-4054047205704001957) ret=7f4bb9793000
+1782427043.213:00822:  pid=2235 cgroup=4126 cgroup_path=/user.slice/user-1000.slice/session-1.scope start_time=121698967405: close(fd=3)
+1782427043.213:00823:  pid=2235 cgroup=4126 cgroup_path=/user.slice/user-1000.slice/session-1.scope start_time=121698967405: open(file="/lib/x86_64-linux-gnu/libtinfo.so.6", flags=80000, mode=0) ret=3 [id=9191538187814705157]
+1782427043.213:00824:  pid=2235 cgroup=4126 cgroup_path=/user.slice/user-1000.slice/session-1.scope start_time=121698967405: read(fd=3 [id=9191538187814705157]) ret=832
+1782427043.213:00825:  pid=2235 cgroup=4126 cgroup_path=/user.slice/user-1000.slice/session-1.scope start_time=121698967405: mmap(addr=0, len=203040, prot=4, flags=802, id=9191538187814705157) ret=7f4bb9761000
+1782427043.213:00826:  pid=2235 cgroup=4126 cgroup_path=/user.slice/user-1000.slice/session-1.scope start_time=121698967405: mmap(addr=7f4bb976f000, len=69632, prot=5, flags=812, id=9191538187814705157) ret=7f4bb976f000
+1782427043.213:00827:  pid=2235 cgroup=4126 cgroup_path=/user.slice/user-1000.slice/session-1.scope start_time=121698967405: mmap(addr=7f4bb9780000, len=57344, prot=4, flags=812, id=9191538187814705157) ret=7f4bb9780000
+1782427043.213:00828:  pid=2235 cgroup=4126 cgroup_path=/user.slice/user-1000.slice/session-1.scope start_time=121698967405: mmap(addr=7f4bb978e000, len=20480, prot=6, flags=812, id=9191538187814705157) ret=7f4bb978e000
+1782427043.213:00829:  pid=2235 cgroup=4126 cgroup_path=/user.slice/user-1000.slice/session-1.scope start_time=121698967405: close(fd=3)
+1782427043.220:00830:  pid=2235 cgroup=4126 cgroup_path=/user.slice/user-1000.slice/session-1.scope start_time=121698967405: open(file="/lib/x86_64-linux-gnu/libc.so.6", flags=80000, mode=0) ret=3 [id=14800197902252426551]
+1782427043.220:00831:  pid=2235 cgroup=4126 cgroup_path=/user.slice/user-1000.slice/session-1.scope start_time=121698967405: read(fd=3 [id=14800197902252426551]) ret=832
+1782427043.220:00832:  pid=2235 cgroup=4126 cgroup_path=/user.slice/user-1000.slice/session-1.scope start_time=121698967405: read(fd=3 [id=14800197902252426551]) ret=784
+1782427043.220:00833:  pid=2235 cgroup=4126 cgroup_path=/user.slice/user-1000.slice/session-1.scope start_time=121698967405: read(fd=3 [id=14800197902252426551]) ret=48
+1782427043.220:00834:  pid=2235 cgroup=4126 cgroup_path=/user.slice/user-1000.slice/session-1.scope start_time=121698967405: read(fd=3 [id=14800197902252426551]) ret=68
+1782427043.220:00835:  pid=2235 cgroup=4126 cgroup_path=/user.slice/user-1000.slice/session-1.scope start_time=121698967405: read(fd=3 [id=14800197902252426551]) ret=784
+1782427043.220:00836:  pid=2235 cgroup=4126 cgroup_path=/user.slice/user-1000.slice/session-1.scope start_time=121698967405: mmap(addr=0, len=2264656, prot=4, flags=802, id=-3646546171457125065) ret=7f4bb9538000
+1782427043.221:00837:  pid=2235 cgroup=4126 cgroup_path=/user.slice/user-1000.slice/session-1.scope start_time=121698967405: mmap(addr=7f4bb9560000, len=1658880, prot=5, flags=812, id=-3646546171457125065) ret=7f4bb9560000
+1782427043.221:00838:  pid=2235 cgroup=4126 cgroup_path=/user.slice/user-1000.slice/session-1.scope start_time=121698967405: mmap(addr=7f4bb96f5000, len=360448, prot=4, flags=812, id=-3646546171457125065) ret=7f4bb96f5000
+1782427043.221:00839:  pid=2235 cgroup=4126 cgroup_path=/user.slice/user-1000.slice/session-1.scope start_time=121698967405: mmap(addr=7f4bb974e000, len=24576, prot=6, flags=812, id=-3646546171457125065) ret=7f4bb974e000
+1782427043.221:00840:  pid=2235 cgroup=4126 cgroup_path=/user.slice/user-1000.slice/session-1.scope start_time=121698967405: close(fd=3)
+1782427043.221:00841:  pid=2235 cgroup=4126 cgroup_path=/user.slice/user-1000.slice/session-1.scope start_time=121698967405: open(file="/dev/tty", flags=802, mode=0) ret=3 [id=7389228320453301051]
+1782427043.221:00842:  pid=2235 cgroup=4126 cgroup_path=/user.slice/user-1000.slice/session-1.scope start_time=121698967405: close(fd=3)
+1782427043.221:00843:  pid=2235 cgroup=4126 cgroup_path=/user.slice/user-1000.slice/session-1.scope start_time=121698967405: open(file="/usr/lib/locale/locale-archive", flags=80000, mode=0) ret=3 [id=4854296604623033987]
+1782427043.221:00844:  pid=2235 cgroup=4126 cgroup_path=/user.slice/user-1000.slice/session-1.scope start_time=121698967405: mmap(addr=0, len=3048928, prot=4, flags=2, id=4854296604623033987) ret=7f4bb924c000
+1782427043.221:00845:  pid=2235 cgroup=4126 cgroup_path=/user.slice/user-1000.slice/session-1.scope start_time=121698967405: close(fd=3)
+1782427043.221:00846:  pid=2235 cgroup=4126 cgroup_path=/user.slice/user-1000.slice/session-1.scope start_time=121698967405: open(file="/usr/share/locale/locale.alias", flags=80000, mode=0) ret=3 [id=13878470930299491779]
+1782427043.221:00847:  pid=2235 cgroup=4126 cgroup_path=/user.slice/user-1000.slice/session-1.scope start_time=121698967405: read(fd=3 [id=13878470930299491779]) ret=2996
+1782427043.221:00848:  pid=2235 cgroup=4126 cgroup_path=/user.slice/user-1000.slice/session-1.scope start_time=121698967405: read(fd=3 [id=13878470930299491779]) ret=0
+1782427043.221:00849:  pid=2235 cgroup=4126 cgroup_path=/user.slice/user-1000.slice/session-1.scope start_time=121698967405: close(fd=3)
+1782427043.221:00850:  pid=2235 cgroup=4126 cgroup_path=/user.slice/user-1000.slice/session-1.scope start_time=121698967405: open(file="/usr/lib/locale/C.utf8/LC_IDENTIFICATION", flags=80000, mode=0) ret=3 [id=2269126311603669569]
+1782427043.221:00851:  pid=2235 cgroup=4126 cgroup_path=/user.slice/user-1000.slice/session-1.scope start_time=121698967405: mmap(addr=0, len=258, prot=4, flags=2, id=2269126311603669569) ret=7f4bb97d5000
+1782427043.221:00852:  pid=2235 cgroup=4126 cgroup_path=/user.slice/user-1000.slice/session-1.scope start_time=121698967405: close(fd=3)
+1782427043.221:00853:  pid=2235 cgroup=4126 cgroup_path=/user.slice/user-1000.slice/session-1.scope start_time=121698967405: open(file="/usr/lib/x86_64-linux-gnu/gconv/gconv-modules.cache", flags=0, mode=0) ret=3 [id=15719858854568073543]
+1782427043.221:00854:  pid=2235 cgroup=4126 cgroup_path=/user.slice/user-1000.slice/session-1.scope start_time=121698967405: mmap(addr=0, len=27002, prot=4, flags=1, id=-2726885219141478073) ret=7f4bb9795000
+1782427043.221:00855:  pid=2235 cgroup=4126 cgroup_path=/user.slice/user-1000.slice/session-1.scope start_time=121698967405: close(fd=3)
+1782427043.221:00856:  pid=2235 cgroup=4126 cgroup_path=/user.slice/user-1000.slice/session-1.scope start_time=121698967405: open(file="/usr/lib/locale/C.utf8/LC_MEASUREMENT", flags=80000, mode=0) ret=3 [id=9805563722074411979]
+1782427043.221:00857:  pid=2235 cgroup=4126 cgroup_path=/user.slice/user-1000.slice/session-1.scope start_time=121698967405: mmap(addr=0, len=23, prot=4, flags=2, id=-8641180351635139637) ret=7f4bb9794000
+1782427043.221:00858:  pid=2235 cgroup=4126 cgroup_path=/user.slice/user-1000.slice/session-1.scope start_time=121698967405: close(fd=3)
+1782427043.221:00859:  pid=2235 cgroup=4126 cgroup_path=/user.slice/user-1000.slice/session-1.scope start_time=121698967405: open(file="/usr/lib/locale/C.utf8/LC_TELEPHONE", flags=80000, mode=0) ret=3 [id=10594262667085621929]
+1782427043.221:00860:  pid=2235 cgroup=4126 cgroup_path=/user.slice/user-1000.slice/session-1.scope start_time=121698967405: mmap(addr=0, len=47, prot=4, flags=2, id=-7852481406623929687) ret=7f4bb9793000
+1782427043.221:00861:  pid=2235 cgroup=4126 cgroup_path=/user.slice/user-1000.slice/session-1.scope start_time=121698967405: close(fd=3)
+1782427043.221:00862:  pid=2235 cgroup=4126 cgroup_path=/user.slice/user-1000.slice/session-1.scope start_time=121698967405: open(file="/usr/lib/locale/C.utf8/LC_ADDRESS", flags=80000, mode=0) ret=3 [id=16553302193974655725]
+1782427043.221:00863:  pid=2235 cgroup=4126 cgroup_path=/user.slice/user-1000.slice/session-1.scope start_time=121698967405: mmap(addr=0, len=127, prot=4, flags=2, id=-1893441879734895891) ret=7f4bb924b000
+1782427043.221:00864:  pid=2235 cgroup=4126 cgroup_path=/user.slice/user-1000.slice/session-1.scope start_time=121698967405: close(fd=3)
+1782427043.221:00865:  pid=2235 cgroup=4126 cgroup_path=/user.slice/user-1000.slice/session-1.scope start_time=121698967405: open(file="/usr/lib/locale/C.utf8/LC_NAME", flags=80000, mode=0) ret=3 [id=6431694484858489425]
+1782427043.221:00866:  pid=2235 cgroup=4126 cgroup_path=/user.slice/user-1000.slice/session-1.scope start_time=121698967405: mmap(addr=0, len=62, prot=4, flags=2, id=6431694484858489425) ret=7f4bb924a000
+1782427043.221:00867:  pid=2235 cgroup=4126 cgroup_path=/user.slice/user-1000.slice/session-1.scope start_time=121698967405: close(fd=3)
+1782427043.221:00868:  pid=2235 cgroup=4126 cgroup_path=/user.slice/user-1000.slice/session-1.scope start_time=121698967405: open(file="/usr/lib/locale/C.utf8/LC_PAPER", flags=80000, mode=0) ret=3 [id=3057825250329354503]
+1782427043.221:00869:  pid=2235 cgroup=4126 cgroup_path=/user.slice/user-1000.slice/session-1.scope start_time=121698967405: mmap(addr=0, len=34, prot=4, flags=2, id=3057825250329354503) ret=7f4bb9249000
+1782427043.221:00870:  pid=2235 cgroup=4126 cgroup_path=/user.slice/user-1000.slice/session-1.scope start_time=121698967405: close(fd=3)
+1782427043.221:00871:  pid=2235 cgroup=4126 cgroup_path=/user.slice/user-1000.slice/session-1.scope start_time=121698967405: open(file="/usr/lib/locale/C.utf8/LC_MESSAGES", flags=80000, mode=0) ret=3 [id=1480427368353932005]
+1782427043.221:00872:  pid=2235 cgroup=4126 cgroup_path=/user.slice/user-1000.slice/session-1.scope start_time=121698967405: close(fd=3)
+1782427043.221:00873:  pid=2235 cgroup=4126 cgroup_path=/user.slice/user-1000.slice/session-1.scope start_time=121698967405: open(file="/usr/lib/locale/C.utf8/LC_MESSAGES/SYS_LC_MESSAGES", flags=80000, mode=0) ret=3 [id=9016864784910264939]
+1782427043.221:00874:  pid=2235 cgroup=4126 cgroup_path=/user.slice/user-1000.slice/session-1.scope start_time=121698967405: mmap(addr=0, len=48, prot=4, flags=2, id=9016864784910264939) ret=7f4bb9248000
+1782427043.221:00875:  pid=2235 cgroup=4126 cgroup_path=/user.slice/user-1000.slice/session-1.scope start_time=121698967405: close(fd=3)
+1782427043.221:00876:  pid=2235 cgroup=4126 cgroup_path=/user.slice/user-1000.slice/session-1.scope start_time=121698967405: open(file="/usr/lib/locale/C.utf8/LC_MONETARY", flags=80000, mode=0) ret=3 [id=17342001136999204211]
+1782427043.221:00877:  pid=2235 cgroup=4126 cgroup_path=/user.slice/user-1000.slice/session-1.scope start_time=121698967405: mmap(addr=0, len=270, prot=4, flags=2, id=-1104742936710347405) ret=7f4bb9247000
+1782427043.221:00878:  pid=2235 cgroup=4126 cgroup_path=/user.slice/user-1000.slice/session-1.scope start_time=121698967405: close(fd=3)
+1782427043.221:00879:  pid=2235 cgroup=4126 cgroup_path=/user.slice/user-1000.slice/session-1.scope start_time=121698967405: open(file="/usr/lib/locale/C.utf8/LC_COLLATE", flags=80000, mode=0) ret=3 [id=5642995542225824523]
+1782427043.221:00880:  pid=2235 cgroup=4126 cgroup_path=/user.slice/user-1000.slice/session-1.scope start_time=121698967405: mmap(addr=0, len=1406, prot=4, flags=2, id=5642995542225824523) ret=7f4bb9246000
+1782427043.221:00881:  pid=2235 cgroup=4126 cgroup_path=/user.slice/user-1000.slice/session-1.scope start_time=121698967405: close(fd=3)
+1782427043.221:00882:  pid=2235 cgroup=4126 cgroup_path=/user.slice/user-1000.slice/session-1.scope start_time=121698967405: open(file="/usr/lib/locale/C.utf8/LC_TIME", flags=80000, mode=0) ret=3 [id=18130700077818699205]
+1782427043.222:00883:  pid=2235 cgroup=4126 cgroup_path=/user.slice/user-1000.slice/session-1.scope start_time=121698967405: mmap(addr=0, len=3360, prot=4, flags=2, id=-316043995890852411) ret=7f4bb9245000
+1782427043.222:00884:  pid=2235 cgroup=4126 cgroup_path=/user.slice/user-1000.slice/session-1.scope start_time=121698967405: close(fd=3)
+1782427043.222:00885:  pid=2235 cgroup=4126 cgroup_path=/user.slice/user-1000.slice/session-1.scope start_time=121698967405: open(file="/usr/lib/locale/C.utf8/LC_NUMERIC", flags=80000, mode=0) ret=3 [id=13968131898550753413]
+1782427043.222:00886:  pid=2235 cgroup=4126 cgroup_path=/user.slice/user-1000.slice/session-1.scope start_time=121698967405: mmap(addr=0, len=50, prot=4, flags=2, id=-4478612175158798203) ret=7f4bb9244000
+1782427043.222:00887:  pid=2235 cgroup=4126 cgroup_path=/user.slice/user-1000.slice/session-1.scope start_time=121698967405: close(fd=3)
+1782427043.222:00888:  pid=2235 cgroup=4126 cgroup_path=/user.slice/user-1000.slice/session-1.scope start_time=121698967405: open(file="/usr/lib/locale/C.utf8/LC_CTYPE", flags=80000, mode=0) ret=3 [id=13179432957246728907]
+1782427043.222:00889:  pid=2235 cgroup=4126 cgroup_path=/user.slice/user-1000.slice/session-1.scope start_time=121698967405: mmap(addr=0, len=353616, prot=4, flags=2, id=-5267311116462822709) ret=7f4bb91ed000
+1782427043.222:00890:  pid=2235 cgroup=4126 cgroup_path=/user.slice/user-1000.slice/session-1.scope start_time=121698967405: close(fd=3)
+1782427043.229:00891:  pid=2235 cgroup=4126 cgroup_path=/user.slice/user-1000.slice/session-1.scope start_time=121698967405: open(file="/home/ubuntu/shared/src/lammps/examples_h5/job_script/1_16/ASPHERE_flat_membrane_flat_membrane_1_16.sh", flags=0, mode=0) ret=3 [id=10185828646710273449]
+1782427043.229:00892:  pid=2235 cgroup=4126 cgroup_path=/user.slice/user-1000.slice/session-1.scope start_time=121698967405: read(fd=3 [id=10185828646710273449]) ret=80
+1782427043.229:00893:  pid=2235 cgroup=4126 cgroup_path=/user.slice/user-1000.slice/session-1.scope start_time=121698967405: close(fd=3)
+1782427043.230:00894:  pid=2235 cgroup=4126 cgroup_path=/user.slice/user-1000.slice/session-1.scope start_time=121698967405: read(fd=255 [id=10185828646710273449]) ret=500
+1782427043.231:00895:  pid=2235 cgroup=4126 cgroup_path=/user.slice/user-1000.slice/session-1.scope start_time=121698967405: clone(flags=1200011)
+1782427043.231:00896:  pid=2235 cgroup=4126 cgroup_path=/user.slice/user-1000.slice/session-1.scope start_time=121698967405: clone ret=2236 parent_tid=2180 uid=1000 gid=1000 cgroup=4126 cgroup_path=/user.slice/user-1000.slice/session-1.scope
+1782427043.231:00897:  pid=2236 cgroup=4126 cgroup_path=/user.slice/user-1000.slice/session-1.scope start_time=121731589957: clone ret=0 parent_tid=2235 uid=1000 gid=1000 cgroup=4126 cgroup_path=/user.slice/user-1000.slice/session-1.scope
+1782427043.231:00898:  pid=2236 cgroup=4126 cgroup_path=/user.slice/user-1000.slice/session-1.scope start_time=121731589957: close(fd=255)
+1782427043.231:00899:  pid=2236 cgroup=4126 cgroup_path=/user.slice/user-1000.slice/session-1.scope start_time=121731589957: execve(file="/usr/bin/systemd-run", argv[0]=systemd-run, argv[1]=--user, argv[2]=--scope, argv[3]=--slice=job_ASPHERE_flat_membrane_flat_membrane_1_16-step_interactive, argv[4]=bash, argv[5]=-c, argv[6]=
+
+    cd /home/ubuntu/shared/src/lammps/examples_h5/ASPHERE/flat_membrane/ 
+
+    mpirun -H 192.168.10.1:16            --mca btl, envp[0]=SHELL=/bin/bash, envp[1]=PWD=/home/ubuntu/shared/src/lammps/examples_h5/job_script, envp[2]=LOGNAME=ubuntu, envp[3]=XDG_SESSION_TYPE=tty, envp[4]=SYSTEMD_EXEC_PID=1918, envp[5]=MOTD_SHOWN=pam, envp[6]=HOME=/home/ubuntu, envp[7]=LANG=C.UTF-8, envp[8]=LS_COLORS=, envp[9]=INVOCATION_ID=05071ad1a3ee410d9d22d43c9831ca97, envp[10]=LESSCLOSE=/usr/bin/lesspipe %s %s, envp[11]=XDG_SESSION_CLASS=user, envp[12]=TERM=vt220, envp[13]=LESSOPEN=| /usr/bin/lesspipe %s, envp[14]=USER=ubuntu, envp[15]=SHLVL=2, envp[16]=XDG_SESSION_ID=1, envp[17]=LD_LIBRARY_PATH=/home/ubuntu/lib/hdf5/lib:/home/ubuntu/lib/hdf5/lib64:, envp[18]=XDG_RUNTIME_DIR=/run/user/1000, envp[19]=JOURNAL_STREAM=8:51208, envp[20]=XDG_DATA_DIRS=/usr/local/share:/usr/share:/var/lib/snapd/desktop, envp[21]=HUSHLOGIN=FALSE, envp[22]=PATH=/home/ubuntu/lib/hdf5/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/b, envp[23]=DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/1000/bus, envp[24]=MAIL=/var/mail/ubuntu, envp[25]=OLDPWD=/home/ubuntu/app/dlogger, envp[26]=_=/usr/bin/systemd-run)
+1782427043.232:00900:  pid=2236 cgroup=4126 cgroup_path=/user.slice/user-1000.slice/session-1.scope start_time=121731589957: execve ret=0 parent_tid=2235 uid=1000 gid=1000 cgroup=4126 cgroup_path=/user.slice/user-1000.slice/session-1.scope
+1782427043.240:00901:  pid=2236 cgroup=4126 cgroup_path=/user.slice/user-1000.slice/session-1.scope start_time=121731589957: open(file="/lib/systemd/libsystemd-shared-249.so", flags=80000, mode=0) ret=3 [id=12082860414925680485]
+1782427043.241:00902:  pid=2236 cgroup=4126 cgroup_path=/user.slice/user-1000.slice/session-1.scope start_time=121731589957: read(fd=3 [id=12082860414925680485]) ret=832
+1782427043.241:00903:  pid=2236 cgroup=4126 cgroup_path=/user.slice/user-1000.slice/session-1.scope start_time=121731589957: mmap(addr=0, len=2850192, prot=4, flags=802, id=-6363883658783871131) ret=7feccc43b000
+1782427043.241:00904:  pid=2236 cgroup=4126 cgroup_path=/user.slice/user-1000.slice/session-1.scope start_time=121731589957: mmap(addr=7feccc48c000, len=1740800, prot=5, flags=812, id=-6363883658783871131) ret=7feccc48c000
+1782427043.241:00905:  pid=2236 cgroup=4126 cgroup_path=/user.slice/user-1000.slice/session-1.scope start_time=121731589957: mmap(addr=7feccc635000, len=688128, prot=4, flags=812, id=-6363883658783871131) ret=7feccc635000
+1782427043.241:00906:  pid=2236 cgroup=4126 cgroup_path=/user.slice/user-1000.slice/session-1.scope start_time=121731589957: mmap(addr=7feccc6dd000, len=81920, prot=6, flags=812, id=-6363883658783871131) ret=7feccc6dd000
+1782427043.241:00907:  pid=2236 cgroup=4126 cgroup_path=/user.slice/user-1000.slice/session-1.scope start_time=121731589957: close(fd=3)
+1782427043.248:00908:  pid=2236 cgroup=4126 cgroup_path=/user.slice/user-1000.slice/session-1.scope start_time=121731589957: open(file="/etc/ld.so.cache", flags=80000, mode=0) ret=3 [id=14392696868005549659]
+1782427043.248:00909:  pid=2236 cgroup=4126 cgroup_path=/user.slice/user-1000.slice/session-1.scope start_time=121731589957: mmap(addr=0, len=33912, prot=4, flags=2, id=-4054047205704001957) ret=7feccc432000
+1782427043.248:00910:  pid=2236 cgroup=4126 cgroup_path=/user.slice/user-1000.slice/session-1.scope start_time=121731589957: close(fd=3)
+1782427043.248:00911:  pid=2236 cgroup=4126 cgroup_path=/user.slice/user-1000.slice/session-1.scope start_time=121731589957: open(file="/lib/x86_64-linux-gnu/libc.so.6", flags=80000, mode=0) ret=3 [id=14800197902252426551]
+1782427043.248:00912:  pid=2236 cgroup=4126 cgroup_path=/user.slice/user-1000.slice/session-1.scope start_time=121731589957: read(fd=3 [id=14800197902252426551]) ret=832
+1782427043.248:00913:  pid=2236 cgroup=4126 cgroup_path=/user.slice/user-1000.slice/session-1.scope start_time=121731589957: read(fd=3 [id=14800197902252426551]) ret=784
+1782427043.248:00914:  pid=2236 cgroup=4126 cgroup_path=/user.slice/user-1000.slice/session-1.scope start_time=121731589957: read(fd=3 [id=14800197902252426551]) ret=48
+1782427043.248:00915:  pid=2236 cgroup=4126 cgroup_path=/user.slice/user-1000.slice/session-1.scope start_time=121731589957: read(fd=3 [id=14800197902252426551]) ret=68
+1782427043.248:00916:  pid=2236 cgroup=4126 cgroup_path=/user.slice/user-1000.slice/session-1.scope start_time=121731589957: read(fd=3 [id=14800197902252426551]) ret=784
+1782427043.248:00917:  pid=2236 cgroup=4126 cgroup_path=/user.slice/user-1000.slice/session-1.scope start_time=121731589957: mmap(addr=0, len=2264656, prot=4, flags=802, id=-3646546171457125065) ret=7feccc209000
+1782427043.249:00918:  pid=2236 cgroup=4126 cgroup_path=/user.slice/user-1000.slice/session-1.scope start_time=121731589957: mmap(addr=7feccc231000, len=1658880, prot=5, flags=812, id=-3646546171457125065) ret=7feccc231000
+1782427043.249:00919:  pid=2236 cgroup=4126 cgroup_path=/user.slice/user-1000.slice/session-1.scope start_time=121731589957: mmap(addr=7feccc3c6000, len=360448, prot=4, flags=812, id=-3646546171457125065) ret=7feccc3c6000
+1782427043.249:00920:  pid=2236 cgroup=4126 cgroup_path=/user.slice/user-1000.slice/session-1.scope start_time=121731589957: mmap(addr=7feccc41f000, len=24576, prot=6, flags=812, id=-3646546171457125065) ret=7feccc41f000
+1782427043.249:00921:  pid=2236 cgroup=4126 cgroup_path=/user.slice/user-1000.slice/session-1.scope start_time=121731589957: close(fd=3)
+1782427043.257:00922:  pid=2236 cgroup=4126 cgroup_path=/user.slice/user-1000.slice/session-1.scope start_time=121731589957: open(file="/lib/x86_64-linux-gnu/libacl.so.1", flags=80000, mode=0) ret=3 [id=11601002073064981797]
+1782427043.257:00923:  pid=2236 cgroup=4126 cgroup_path=/user.slice/user-1000.slice/session-1.scope start_time=121731589957: read(fd=3 [id=11601002073064981797]) ret=832
+1782427043.257:00924:  pid=2236 cgroup=4126 cgroup_path=/user.slice/user-1000.slice/session-1.scope start_time=121731589957: mmap(addr=0, len=36896, prot=4, flags=802, id=-6845742000644569819) ret=7feccc1ff000
+1782427043.257:00925:  pid=2236 cgroup=4126 cgroup_path=/user.slice/user-1000.slice/session-1.scope start_time=121731589957: mmap(addr=7feccc201000, len=16384, prot=5, flags=812, id=-6845742000644569819) ret=7feccc201000
+1782427043.257:00926:  pid=2236 cgroup=4126 cgroup_path=/user.slice/user-1000.slice/session-1.scope start_time=121731589957: mmap(addr=7feccc205000, len=4096, prot=4, flags=812, id=-6845742000644569819) ret=7feccc205000
+1782427043.257:00927:  pid=2236 cgroup=4126 cgroup_path=/user.slice/user-1000.slice/session-1.scope start_time=121731589957: mmap(addr=7feccc207000, len=8192, prot=6, flags=812, id=-6845742000644569819) ret=7feccc207000
+1782427043.257:00928:  pid=2236 cgroup=4126 cgroup_path=/user.slice/user-1000.slice/session-1.scope start_time=121731589957: close(fd=3)
+1782427043.264:00929:  pid=2236 cgroup=4126 cgroup_path=/user.slice/user-1000.slice/session-1.scope start_time=121731589957: open(file="/lib/x86_64-linux-gnu/libblkid.so.1", flags=80000, mode=0) ret=3 [id=11338561538173690117]
+1782427043.264:00930:  pid=2236 cgroup=4126 cgroup_path=/user.slice/user-1000.slice/session-1.scope start_time=121731589957: read(fd=3 [id=11338561538173690117]) ret=832
+1782427043.264:00931:  pid=2236 cgroup=4126 cgroup_path=/user.slice/user-1000.slice/session-1.scope start_time=121731589957: mmap(addr=0, len=222128, prot=4, flags=802, id=-7108182535535861499) ret=7feccc1c8000
+1782427043.264:00932:  pid=2236 cgroup=4126 cgroup_path=/user.slice/user-1000.slice/session-1.scope start_time=121731589957: mmap(addr=7feccc1cf000, len=131072, prot=5, flags=812, id=-7108182535535861499) ret=7feccc1cf000
+1782427043.264:00933:  pid=2236 cgroup=4126 cgroup_path=/user.slice/user-1000.slice/session-1.scope start_time=121731589957: mmap(addr=7feccc1ef000, len=36864, prot=4, flags=812, id=-7108182535535861499) ret=7feccc1ef000
+1782427043.264:00934:  pid=2236 cgroup=4126 cgroup_path=/user.slice/user-1000.slice/session-1.scope start_time=121731589957: mmap(addr=7feccc1f9000, len=24576, prot=6, flags=812, id=-7108182535535861499) ret=7feccc1f9000
+1782427043.265:00935:  pid=2236 cgroup=4126 cgroup_path=/user.slice/user-1000.slice/session-1.scope start_time=121731589957: close(fd=3)
+1782427043.272:00936:  pid=2236 cgroup=4126 cgroup_path=/user.slice/user-1000.slice/session-1.scope start_time=121731589957: open(file="/lib/x86_64-linux-gnu/libcap.so.2", flags=80000, mode=0) ret=3 [id=18305373481841548735]
+1782427043.272:00937:  pid=2236 cgroup=4126 cgroup_path=/user.slice/user-1000.slice/session-1.scope start_time=121731589957: read(fd=3 [id=18305373481841548735]) ret=832
+1782427043.272:00938:  pid=2236 cgroup=4126 cgroup_path=/user.slice/user-1000.slice/session-1.scope start_time=121731589957: mmap(addr=0, len=41016, prot=4, flags=802, id=-141370591868002881) ret=7feccc1bd000
+1782427043.272:00939:  pid=2236 cgroup=4126 cgroup_path=/user.slice/user-1000.slice/session-1.scope start_time=121731589957: mmap(addr=7feccc1c0000, len=16384, prot=5, flags=812, id=-141370591868002881) ret=7feccc1c0000
+1782427043.272:00940:  pid=2236 cgroup=4126 cgroup_path=/user.slice/user-1000.slice/session-1.scope start_time=121731589957: mmap(addr=7feccc1c4000, len=8192, prot=4, flags=812, id=-141370591868002881) ret=7feccc1c4000
+1782427043.272:00941:  pid=2236 cgroup=4126 cgroup_path=/user.slice/user-1000.slice/session-1.scope start_time=121731589957: mmap(addr=7feccc1c6000, len=8192, prot=6, flags=812, id=-141370591868002881) ret=7feccc1c6000
+1782427043.272:00942:  pid=2236 cgroup=4126 cgroup_path=/user.slice/user-1000.slice/session-1.scope start_time=121731589957: close(fd=3)
+1782427043.280:00943:  pid=2236 cgroup=4126 cgroup_path=/user.slice/user-1000.slice/session-1.scope start_time=121731589957: open(file="/lib/x86_64-linux-gnu/libcrypt.so.1", flags=80000, mode=0) ret=3 [id=1698467837582446859]
+1782427043.280:00944:  pid=2236 cgroup=4126 cgroup_path=/user.slice/user-1000.slice/session-1.scope start_time=121731589957: read(fd=3 [id=1698467837582446859]) ret=832
+1782427043.280:00945:  pid=2236 cgroup=4126 cgroup_path=/user.slice/user-1000.slice/session-1.scope start_time=121731589957: mmap(addr=0, len=233888, prot=4, flags=802, id=1698467837582446859) ret=7feccc181000
+1782427043.280:00946:  pid=2236 cgroup=4126 cgroup_path=/user.slice/user-1000.slice/session-1.scope start_time=121731589957: mmap(addr=7feccc183000, len=81920, prot=5, flags=812, id=1698467837582446859) ret=7feccc183000
+1782427043.280:00947:  pid=2236 cgroup=4126 cgroup_path=/user.slice/user-1000.slice/session-1.scope start_time=121731589957: mmap(addr=7feccc197000, len=102400, prot=4, flags=812, id=1698467837582446859) ret=7feccc197000
+1782427043.280:00948:  pid=2236 cgroup=4126 cgroup_path=/user.slice/user-1000.slice/session-1.scope start_time=121731589957: mmap(addr=7feccc1b1000, len=8192, prot=6, flags=812, id=1698467837582446859) ret=7feccc1b1000
+1782427043.280:00949:  pid=2236 cgroup=4126 cgroup_path=/user.slice/user-1000.slice/session-1.scope start_time=121731589957: close(fd=3)
+1782427043.288:00950:  pid=2236 cgroup=4126 cgroup_path=/user.slice/user-1000.slice/session-1.scope start_time=121731589957: open(file="/lib/x86_64-linux-gnu/libgcrypt.so.20", flags=80000, mode=0) ret=3 [id=7657507370779753713]
+1782427043.288:00951:  pid=2236 cgroup=4126 cgroup_path=/user.slice/user-1000.slice/session-1.scope start_time=121731589957: read(fd=3 [id=7657507370779753713]) ret=832
+1782427043.288:00952:  pid=2236 cgroup=4126 cgroup_path=/user.slice/user-1000.slice/session-1.scope start_time=121731589957: mmap(addr=0, len=1299576, prot=4, flags=802, id=7657507370779753713) ret=7feccc043000
+1782427043.288:00953:  pid=2236 cgroup=4126 cgroup_path=/user.slice/user-1000.slice/session-1.scope start_time=121731589957: mmap(addr=7feccc052000, len=942080, prot=5, flags=812, id=7657507370779753713) ret=7feccc052000
+1782427043.288:00954:  pid=2236 cgroup=4126 cgroup_path=/user.slice/user-1000.slice/session-1.scope start_time=121731589957: mmap(addr=7feccc138000, len=253952, prot=4, flags=812, id=7657507370779753713) ret=7feccc138000
+1782427043.288:00955:  pid=2236 cgroup=4126 cgroup_path=/user.slice/user-1000.slice/session-1.scope start_time=121731589957: mmap(addr=7feccc177000, len=36864, prot=6, flags=812, id=7657507370779753713) ret=7feccc177000
+1782427043.289:00956:  pid=2236 cgroup=4126 cgroup_path=/user.slice/user-1000.slice/session-1.scope start_time=121731589957: close(fd=3)
+1782427043.297:00957:  pid=2236 cgroup=4126 cgroup_path=/user.slice/user-1000.slice/session-1.scope start_time=121731589957: open(file="/lib/x86_64-linux-gnu/libip4tc.so.2", flags=80000, mode=0) ret=3 [id=428254889209725681]
+1782427043.297:00958:  pid=2236 cgroup=4126 cgroup_path=/user.slice/user-1000.slice/session-1.scope start_time=121731589957: read(fd=3 [id=428254889209725681]) ret=832
+1782427043.297:00959:  pid=2236 cgroup=4126 cgroup_path=/user.slice/user-1000.slice/session-1.scope start_time=121731589957: mmap(addr=0, len=37440, prot=4, flags=802, id=428254889209725681) ret=7feccc039000
+1782427043.297:00960:  pid=2236 cgroup=4126 cgroup_path=/user.slice/user-1000.slice/session-1.scope start_time=121731589957: mmap(addr=7feccc03b000, len=16384, prot=5, flags=812, id=428254889209725681) ret=7feccc03b000
+1782427043.297:00961:  pid=2236 cgroup=4126 cgroup_path=/user.slice/user-1000.slice/session-1.scope start_time=121731589957: mmap(addr=7feccc03f000, len=8192, prot=4, flags=812, id=428254889209725681) ret=7feccc03f000
+1782427043.297:00962:  pid=2236 cgroup=4126 cgroup_path=/user.slice/user-1000.slice/session-1.scope start_time=121731589957: mmap(addr=7feccc041000, len=8192, prot=6, flags=812, id=428254889209725681) ret=7feccc041000
+1782427043.297:00963:  pid=2236 cgroup=4126 cgroup_path=/user.slice/user-1000.slice/session-1.scope start_time=121731589957: close(fd=3)
+1782427043.305:00964:  pid=2236 cgroup=4126 cgroup_path=/user.slice/user-1000.slice/session-1.scope start_time=121731589957: open(file="/lib/x86_64-linux-gnu/libkmod.so.2", flags=80000, mode=0) ret=3 [id=11119488065325953739]
+1782427043.305:00965:  pid=2236 cgroup=4126 cgroup_path=/user.slice/user-1000.slice/session-1.scope start_time=121731589957: read(fd=3 [id=11119488065325953739]) ret=832
+1782427043.305:00966:  pid=2236 cgroup=4126 cgroup_path=/user.slice/user-1000.slice/session-1.scope start_time=121731589957: mmap(addr=0, len=110672, prot=4, flags=802, id=-7327256008383597877) ret=7feccc01d000
+1782427043.305:00967:  pid=2236 cgroup=4126 cgroup_path=/user.slice/user-1000.slice/session-1.scope start_time=121731589957: mmap(addr=7feccc021000, len=69632, prot=5, flags=812, id=-7327256008383597877) ret=7feccc021000
+1782427043.305:00968:  pid=2236 cgroup=4126 cgroup_path=/user.slice/user-1000.slice/session-1.scope start_time=121731589957: mmap(addr=7feccc032000, len=20480, prot=4, flags=812, id=-7327256008383597877) ret=7feccc032000
+1782427043.305:00969:  pid=2236 cgroup=4126 cgroup_path=/user.slice/user-1000.slice/session-1.scope start_time=121731589957: mmap(addr=7feccc037000, len=8192, prot=6, flags=812, id=-7327256008383597877) ret=7feccc037000
+1782427043.305:00970:  pid=2236 cgroup=4126 cgroup_path=/user.slice/user-1000.slice/session-1.scope start_time=121731589957: close(fd=3)
+1782427043.313:00971:  pid=2236 cgroup=4126 cgroup_path=/user.slice/user-1000.slice/session-1.scope start_time=121731589957: open(file="/lib/x86_64-linux-gnu/liblz4.so.1", flags=80000, mode=0) ret=3 [id=7964347968487421793]
+1782427043.313:00972:  pid=2236 cgroup=4126 cgroup_path=/user.slice/user-1000.slice/session-1.scope start_time=121731589957: read(fd=3 [id=7964347968487421793]) ret=832
+1782427043.313:00973:  pid=2236 cgroup=4126 cgroup_path=/user.slice/user-1000.slice/session-1.scope start_time=121731589957: mmap(addr=0, len=127072, prot=4, flags=802, id=7964347968487421793) ret=7feccbffd000
+1782427043.313:00974:  pid=2236 cgroup=4126 cgroup_path=/user.slice/user-1000.slice/session-1.scope start_time=121731589957: mmap(addr=7feccbfff000, len=102400, prot=5, flags=812, id=7964347968487421793) ret=7feccbfff000
+1782427043.313:00975:  pid=2236 cgroup=4126 cgroup_path=/user.slice/user-1000.slice/session-1.scope start_time=121731589957: mmap(addr=7feccc018000, len=8192, prot=4, flags=812, id=7964347968487421793) ret=7feccc018000
+1782427043.313:00976:  pid=2236 cgroup=4126 cgroup_path=/user.slice/user-1000.slice/session-1.scope start_time=121731589957: mmap(addr=7feccc01b000, len=8192, prot=6, flags=812, id=7964347968487421793) ret=7feccc01b000
+1782427043.313:00977:  pid=2236 cgroup=4126 cgroup_path=/user.slice/user-1000.slice/session-1.scope start_time=121731589957: close(fd=3)
+1782427043.321:00978:  pid=2236 cgroup=4126 cgroup_path=/user.slice/user-1000.slice/session-1.scope start_time=121731589957: open(file="/lib/x86_64-linux-gnu/libmount.so.1", flags=80000, mode=0) ret=3 [id=7745618829418082611]
+1782427043.321:00979:  pid=2236 cgroup=4126 cgroup_path=/user.slice/user-1000.slice/session-1.scope start_time=121731589957: read(fd=3 [id=7745618829418082611]) ret=832
+1782427043.321:00980:  pid=2236 cgroup=4126 cgroup_path=/user.slice/user-1000.slice/session-1.scope start_time=121731589957: mmap(addr=0, len=274984, prot=4, flags=802, id=7745618829418082611) ret=7feccbfb9000
+1782427043.321:00981:  pid=2236 cgroup=4126 cgroup_path=/user.slice/user-1000.slice/session-1.scope start_time=121731589957: mmap(addr=7feccbfc1000, len=180224, prot=5, flags=812, id=7745618829418082611) ret=7feccbfc1000
+1782427043.321:00982:  pid=2236 cgroup=4126 cgroup_path=/user.slice/user-1000.slice/session-1.scope start_time=121731589957: mmap(addr=7feccbfed000, len=53248, prot=4, flags=812, id=7745618829418082611) ret=7feccbfed000
+1782427043.321:00983:  pid=2236 cgroup=4126 cgroup_path=/user.slice/user-1000.slice/session-1.scope start_time=121731589957: mmap(addr=7feccbffb000, len=8192, prot=6, flags=812, id=7745618829418082611) ret=7feccbffb000
+1782427043.321:00984:  pid=2236 cgroup=4126 cgroup_path=/user.slice/user-1000.slice/session-1.scope start_time=121731589957: close(fd=3)
+1782427043.329:00985:  pid=2236 cgroup=4126 cgroup_path=/user.slice/user-1000.slice/session-1.scope start_time=121731589957: open(file="/lib/x86_64-linux-gnu/libcrypto.so.3", flags=80000, mode=0) ret=3 [id=6387294420879780107]
+1782427043.329:00986:  pid=2236 cgroup=4126 cgroup_path=/user.slice/user-1000.slice/session-1.scope start_time=121731589957: read(fd=3 [id=6387294420879780107]) ret=832
+1782427043.329:00987:  pid=2236 cgroup=4126 cgroup_path=/user.slice/user-1000.slice/session-1.scope start_time=121731589957: mmap(addr=0, len=4469952, prot=4, flags=802, id=6387294420879780107) ret=7feccbb73000
+1782427043.329:00988:  pid=2236 cgroup=4126 cgroup_path=/user.slice/user-1000.slice/session-1.scope start_time=121731589957: mmap(addr=7feccbc25000, len=2486272, prot=5, flags=812, id=6387294420879780107) ret=7feccbc25000
+1782427043.329:00989:  pid=2236 cgroup=4126 cgroup_path=/user.slice/user-1000.slice/session-1.scope start_time=121731589957: mmap(addr=7feccbe84000, len=860160, prot=4, flags=812, id=6387294420879780107) ret=7feccbe84000
+1782427043.329:00990:  pid=2236 cgroup=4126 cgroup_path=/user.slice/user-1000.slice/session-1.scope start_time=121731589957: mmap(addr=7feccbf56000, len=385024, prot=6, flags=812, id=6387294420879780107) ret=7feccbf56000
+1782427043.329:00991:  pid=2236 cgroup=4126 cgroup_path=/user.slice/user-1000.slice/session-1.scope start_time=121731589957: close(fd=3)
+1782427043.337:00992:  pid=2236 cgroup=4126 cgroup_path=/user.slice/user-1000.slice/session-1.scope start_time=121731589957: open(file="/lib/x86_64-linux-gnu/libpam.so.0", flags=80000, mode=0) ret=3 [id=15982643725931923679]
+1782427043.337:00993:  pid=2236 cgroup=4126 cgroup_path=/user.slice/user-1000.slice/session-1.scope start_time=121731589957: read(fd=3 [id=15982643725931923679]) ret=832
+1782427043.337:00994:  pid=2236 cgroup=4126 cgroup_path=/user.slice/user-1000.slice/session-1.scope start_time=121731589957: mmap(addr=0, len=69648, prot=4, flags=802, id=-2464100347777627937) ret=7feccbb61000

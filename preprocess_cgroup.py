@@ -79,7 +79,7 @@ def extract_cmdline_from_execve(args_str):
     return None
 
 def main():
-    parser = argparse.ArgumentParser(description="Preprocess eAudit logs to Parquet format.")
+    parser = argparse.ArgumentParser(description="Preprocess eAudit logs with cgroup info to Parquet format.")
     parser.add_argument("--input", default="temp_parsed_serialized.txt", help="Path to parsed eAudit log file.")
     parser.add_argument("--output-dir", default="./data", help="Output directory to store Parquet files.")
     args = parser.parse_args()
@@ -93,53 +93,86 @@ def main():
     node_uuid_to_index = {}
     current_index = 0
     
-    subjects_to_insert = {} # uuid: (path, cmd, index_id)
+    subjects_to_insert = {} # uuid: (path, cmd, cgroup_id, cgroup_path, index_id)
     files_to_insert = {} # uuid: (path, index_id)
     netflows_to_insert = {} # uuid: (src_addr, src_port, dst_addr, dst_port, index_id)
     
     pid_to_info = {}
 
+    # Patterns for the new log format
     line_pattern = re.compile(
-        r'^([\d\.]+):(\d+):\s+pid=(\d+):(?:\s+tid=\d+:)?\s+(\w+)\((.*)\)(?:\s+ret=(\S+))?(?:\s+\[id=(\d+)\])?'
+        r'^([\d\.]+):(\d+):\s+pid=(\d+)\s+cgroup=(\d+)\s+cgroup_path=(\S+)\s+start_time=(\d+):(?:\s+tid=(\d+):)?\s+(\w+)\((.*)\)(?:\s+ret=(\S+))?(?:\s+\[id=(\d+)\])?'
+    )
+    
+    clone_ret_pattern = re.compile(
+        r'^([\d\.]+):(\d+):\s+pid=(\d+)\s+cgroup=(\d+)\s+cgroup_path=(\S+)\s+start_time=(\d+):(?:\s+tid=\d+:)?\s+(clone|fork)\s+ret=(\d+)'
     )
 
     events_parsed = []
 
     print("Parsing logs...")
+    # Stitch multiline log lines
+    entry_start_pattern = re.compile(r'^\d+\.\d+:\d+:')
+    stitched_lines = []
+    current_entry = []
+    
     with open(args.input, "r") as f:
         for line in f:
-            stripped = line.strip()
-            if not stripped:
-                continue
-            m = line_pattern.match(stripped)
-            if not m:
-                m = re.match(r'^([\d\.]+):(\d+):\s+(\w+)\((.*)\)(?:\s+ret=(\S+))?(?:\s+\[id=(\d+)\])?', stripped)
+            if entry_start_pattern.match(line):
+                if current_entry:
+                    stitched_lines.append(" ".join(current_entry))
+                current_entry = [line.strip()]
+            else:
+                if current_entry:
+                    current_entry.append(line.strip())
+                else:
+                    current_entry = [line.strip()]
+    if current_entry:
+        stitched_lines.append(" ".join(current_entry))
+
+    for entry in stitched_lines:
+        if not entry:
+            continue
+            
+        m = line_pattern.match(entry)
+        if m:
+            ts_str, seq_str, pid, cgroup_id, cgroup_path, start_time, tid, syscall, args_str, ret_str, obj_id = m.groups()
+        else:
+            m = clone_ret_pattern.match(entry)
+            if m:
+                ts_str, seq_str, pid, cgroup_id, cgroup_path, start_time, syscall, ret_str = m.groups()
+                args_str, obj_id = "", None
+            else:
+                # Fallback check (no pid prefix)
+                m = re.match(r'^([\d\.]+):(\d+):\s+(\w+)\((.*)\)(?:\s+ret=(\S+))?(?:\s+\[id=(\d+)\])?', entry)
                 if not m:
                     continue
                 ts_str, seq_str, syscall, args_str, ret_str, obj_id = m.groups()
                 pid = "0"
-            else:
-                ts_str, seq_str, pid, syscall, args_str, ret_str, obj_id = m.groups()
+                cgroup_id = "null"
+                cgroup_path = "null"
 
-            if syscall not in syscall_to_op:
-                continue
+        if syscall not in syscall_to_op:
+            continue
 
-            op = syscall_to_op[syscall]
-            timestamp_ns = int(float(ts_str) * 1e9)
-            file_path, endpoint, args_id = parse_args_field(args_str)
-            resolved_id = obj_id or args_id
+        op = syscall_to_op[syscall]
+        timestamp_ns = int(float(ts_str) * 1e9)
+        file_path, endpoint, args_id = parse_args_field(args_str)
+        resolved_id = obj_id or args_id
 
-            events_parsed.append({
-                "pid": pid,
-                "syscall": syscall,
-                "op": op,
-                "timestamp_ns": timestamp_ns,
-                "file_path": file_path,
-                "endpoint": endpoint,
-                "resolved_id": resolved_id,
-                "ret_str": ret_str,
-                "args_str": args_str
-            })
+        events_parsed.append({
+            "pid": pid,
+            "syscall": syscall,
+            "op": op,
+            "timestamp_ns": timestamp_ns,
+            "file_path": file_path,
+            "endpoint": endpoint,
+            "resolved_id": resolved_id,
+            "ret_str": ret_str,
+            "args_str": args_str,
+            "cgroup_id": cgroup_id,
+            "cgroup_path": cgroup_path
+        })
 
     total_events = len(events_parsed)
     print(f"Total valid events parsed: {total_events}")
@@ -163,6 +196,8 @@ def main():
         resolved_id = ev["resolved_id"]
         ret_str = ev["ret_str"]
         args_str = ev["args_str"]
+        cgroup_id = ev["cgroup_id"]
+        cgroup_path = ev["cgroup_path"]
 
         if idx < int(0.6 * total_events):
             shift_seconds = 0
@@ -176,15 +211,32 @@ def main():
 
         if pid not in pid_to_info:
             exe_path, cmd = get_process_info(pid)
-            pid_to_info[pid] = {"path": exe_path, "cmd": cmd}
+            pid_to_info[pid] = {
+                "path": exe_path, 
+                "cmd": cmd,
+                "cgroup_id": cgroup_id,
+                "cgroup_path": cgroup_path
+            }
+        else:
+            if cgroup_id != "null":
+                pid_to_info[pid]["cgroup_id"] = cgroup_id
+            if cgroup_path != "null":
+                pid_to_info[pid]["cgroup_path"] = cgroup_path
 
         if syscall == "execve" and file_path:
             cmdline = extract_cmdline_from_execve(args_str) or pid_to_info[pid]["cmd"]
-            pid_to_info[pid] = {"path": file_path, "cmd": cmdline}
+            pid_to_info[pid]["path"] = file_path
+            pid_to_info[pid]["cmd"] = cmdline
 
         subj_uuid = stringtomd5(f"subject_{pid}")
         subj_idx = register_node(subj_uuid)
-        subjects_to_insert[subj_uuid] = (pid_to_info[pid]["path"], pid_to_info[pid]["cmd"], subj_idx)
+        subjects_to_insert[subj_uuid] = (
+            pid_to_info[pid]["path"], 
+            pid_to_info[pid]["cmd"], 
+            pid_to_info[pid].get("cgroup_id", "null"),
+            pid_to_info[pid].get("cgroup_path", "null"),
+            subj_idx
+        )
 
         src_node = None
         dst_node = None
@@ -196,9 +248,18 @@ def main():
             child_uuid = stringtomd5(f"subject_{child_pid}")
             child_idx = register_node(child_uuid)
             
-            parent_info = pid_to_info.get(pid, {"path": "unknown", "cmd": "unknown"})
+            parent_info = pid_to_info.get(pid, {"path": "unknown", "cmd": "unknown", "cgroup_id": "null", "cgroup_path": "null"})
             pid_to_info[child_pid] = parent_info.copy()
-            subjects_to_insert[child_uuid] = (pid_to_info[child_pid]["path"], pid_to_info[child_pid]["cmd"], child_idx)
+            pid_to_info[child_pid]["cgroup_id"] = cgroup_id
+            pid_to_info[child_pid]["cgroup_path"] = cgroup_path
+            
+            subjects_to_insert[child_uuid] = (
+                pid_to_info[child_pid]["path"], 
+                pid_to_info[child_pid]["cmd"], 
+                pid_to_info[child_pid].get("cgroup_id", "null"),
+                pid_to_info[child_pid].get("cgroup_path", "null"),
+                child_idx
+            )
 
             src_node = (subj_uuid, subj_idx)
             dst_node = (child_uuid, child_idx)
@@ -245,8 +306,9 @@ def main():
 
     # Convert to pandas DataFrames and save to Parquet
     df_subjects = pd.DataFrame(
-        [[node_uuid, node_uuid, path, cmd, idx] for node_uuid, (path, cmd, idx) in subjects_to_insert.items()],
-        columns=["node_uuid", "hash_id", "path", "cmd", "index_id"]
+        [[node_uuid, node_uuid, path, cmd, cgroup_id, cgroup_path, idx] 
+         for node_uuid, (path, cmd, cgroup_id, cgroup_path, idx) in subjects_to_insert.items()],
+        columns=["node_uuid", "hash_id", "path", "cmd", "cgroup_id", "cgroup_path", "index_id"]
     )
     df_subjects.to_parquet(os.path.join(args.output_dir, "subjects.parquet"))
     print(f"Saved {len(df_subjects)} subjects to subjects.parquet")
