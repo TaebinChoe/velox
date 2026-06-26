@@ -6,6 +6,8 @@ import hashlib
 import uuid
 import argparse
 import pandas as pd
+import pyarrow as pa
+import pyarrow.parquet as pq
 
 # Edge direction mappings (DARPA TC E3 format)
 edge_reversed = {
@@ -78,8 +80,25 @@ def extract_cmdline_from_execve(args_str):
         return cmdline
     return None
 
+def yield_stitched_lines(file_path):
+    entry_start_pattern = re.compile(r'^\d+\.\d+:\d+:')
+    current_entry = []
+    with open(file_path, "r") as f:
+        for line in f:
+            if entry_start_pattern.match(line):
+                if current_entry:
+                    yield " ".join(current_entry)
+                current_entry = [line.strip()]
+            else:
+                if current_entry:
+                    current_entry.append(line.strip())
+                else:
+                    current_entry = [line.strip()]
+    if current_entry:
+        yield " ".join(current_entry)
+
 def main():
-    parser = argparse.ArgumentParser(description="Preprocess eAudit logs with cgroup info to Parquet format.")
+    parser = argparse.ArgumentParser(description="Preprocess eAudit logs with cgroup info to Parquet format (Memory Efficient).")
     parser.add_argument("--input", default="temp_parsed_serialized.txt", help="Path to parsed eAudit log file.")
     parser.add_argument("--output-dir", default="./data", help="Output directory to store Parquet files.")
     args = parser.parse_args()
@@ -90,15 +109,6 @@ def main():
 
     os.makedirs(args.output_dir, exist_ok=True)
 
-    node_uuid_to_index = {}
-    current_index = 0
-    
-    subjects_to_insert = {} # uuid: (path, cmd, cgroup_id, cgroup_path, index_id)
-    files_to_insert = {} # uuid: (path, index_id)
-    netflows_to_insert = {} # uuid: (src_addr, src_port, dst_addr, dst_port, index_id)
-    
-    pid_to_info = {}
-
     # Patterns for the new log format
     line_pattern = re.compile(
         r'^([\d\.]+):(\d+):\s+pid=(\d+)\s+cgroup=(\d+)\s+cgroup_path=(\S+)\s+start_time=(\d+):(?:\s+tid=(\d+):)?\s+(\w+)\((.*)\)(?:\s+ret=(\S+))?(?:\s+\[id=(\d+)\])?'
@@ -108,29 +118,66 @@ def main():
         r'^([\d\.]+):(\d+):\s+pid=(\d+)\s+cgroup=(\d+)\s+cgroup_path=(\S+)\s+start_time=(\d+):(?:\s+tid=\d+:)?\s+(clone|fork)\s+ret=(\d+)'
     )
 
-    events_parsed = []
-
-    print("Parsing logs...")
-    # Stitch multiline log lines
-    entry_start_pattern = re.compile(r'^\d+\.\d+:\d+:')
-    stitched_lines = []
-    current_entry = []
-    
-    with open(args.input, "r") as f:
-        for line in f:
-            if entry_start_pattern.match(line):
-                if current_entry:
-                    stitched_lines.append(" ".join(current_entry))
-                current_entry = [line.strip()]
+    # First pass: Count total events for partitioning shift logic
+    print("Counting events in first pass (low memory)...")
+    total_events = 0
+    for entry in yield_stitched_lines(args.input):
+        if not entry:
+            continue
+        m = line_pattern.match(entry)
+        if m:
+            syscall = m.group(8)
+        else:
+            m = clone_ret_pattern.match(entry)
+            if m:
+                syscall = m.group(7)
             else:
-                if current_entry:
-                    current_entry.append(line.strip())
+                m = re.match(r'^([\d\.]+):(\d+):\s+(\w+)\((.*)\)(?:\s+ret=(\S+))?(?:\s+\[id=(\d+)\])?', entry)
+                if m:
+                    syscall = m.group(3)
                 else:
-                    current_entry = [line.strip()]
-    if current_entry:
-        stitched_lines.append(" ".join(current_entry))
+                    continue
+        if syscall in syscall_to_op:
+            total_events += 1
 
-    for entry in stitched_lines:
+    print(f"Total valid events: {total_events}")
+
+    # Set up incremental Parquet writer for events
+    event_schema = pa.schema([
+        ("src_node", pa.string()),
+        ("src_index_id", pa.string()),
+        ("operation", pa.string()),
+        ("dst_node", pa.string()),
+        ("dst_index_id", pa.string()),
+        ("event_uuid", pa.string()),
+        ("timestamp_rec", pa.int64()),
+        ("_id", pa.int64())
+    ])
+    events_parquet_path = os.path.join(args.output_dir, "events.parquet")
+    writer = pq.ParquetWriter(events_parquet_path, event_schema)
+
+    node_uuid_to_index = {}
+    current_index = 0
+    
+    subjects_to_insert = {} # uuid: (path, cmd, cgroup_id, cgroup_path, index_id)
+    files_to_insert = {} # uuid: (path, index_id)
+    netflows_to_insert = {} # uuid: (src_addr, src_port, dst_addr, dst_port, index_id)
+    
+    pid_to_info = {}
+
+    def register_node(node_uuid):
+        nonlocal current_index
+        if node_uuid not in node_uuid_to_index:
+            node_uuid_to_index[node_uuid] = current_index
+            current_index += 1
+        return node_uuid_to_index[node_uuid]
+
+    print("Processing events and writing to Parquet...")
+    idx = 0
+    batch_data = []
+    batch_size = 200000
+
+    for entry in yield_stitched_lines(args.input):
         if not entry:
             continue
             
@@ -159,45 +206,6 @@ def main():
         timestamp_ns = int(float(ts_str) * 1e9)
         file_path, endpoint, args_id = parse_args_field(args_str)
         resolved_id = obj_id or args_id
-
-        events_parsed.append({
-            "pid": pid,
-            "syscall": syscall,
-            "op": op,
-            "timestamp_ns": timestamp_ns,
-            "file_path": file_path,
-            "endpoint": endpoint,
-            "resolved_id": resolved_id,
-            "ret_str": ret_str,
-            "args_str": args_str,
-            "cgroup_id": cgroup_id,
-            "cgroup_path": cgroup_path
-        })
-
-    total_events = len(events_parsed)
-    print(f"Total valid events parsed: {total_events}")
-
-    def register_node(node_uuid):
-        nonlocal current_index
-        if node_uuid not in node_uuid_to_index:
-            node_uuid_to_index[node_uuid] = current_index
-            current_index += 1
-        return node_uuid_to_index[node_uuid]
-
-    events_to_insert = []
-
-    for idx, ev in enumerate(events_parsed):
-        pid = ev["pid"]
-        syscall = ev["syscall"]
-        op = ev["op"]
-        timestamp_ns = ev["timestamp_ns"]
-        file_path = ev["file_path"]
-        endpoint = ev["endpoint"]
-        resolved_id = ev["resolved_id"]
-        ret_str = ev["ret_str"]
-        args_str = ev["args_str"]
-        cgroup_id = ev["cgroup_id"]
-        cgroup_path = ev["cgroup_path"]
 
         if idx < int(0.6 * total_events):
             shift_seconds = 0
@@ -295,16 +303,30 @@ def main():
                 dst_node = (obj_uuid, obj_idx)
 
         if src_node and dst_node:
-            events_to_insert.append((
+            batch_data.append((
                 src_node[0], str(src_node[1]),
                 op,
                 dst_node[0], str(dst_node[1]),
-                event_uuid, shifted_timestamp_ns
+                event_uuid, shifted_timestamp_ns, idx
             ))
+            idx += 1
 
-    print(f"Preprocessed {len(events_to_insert)} events.")
+            if len(batch_data) >= batch_size:
+                cols = list(zip(*batch_data))
+                table = pa.Table.from_arrays([pa.array(c) for c in cols], schema=event_schema)
+                writer.write_table(table)
+                batch_data = []
 
-    # Convert to pandas DataFrames and save to Parquet
+    if batch_data:
+        cols = list(zip(*batch_data))
+        table = pa.Table.from_arrays([pa.array(c) for c in cols], schema=event_schema)
+        writer.write_table(table)
+        batch_data = []
+
+    writer.close()
+    print(f"Preprocessed {idx} events.")
+
+    # Convert node dictionaries to pandas DataFrames and save to Parquet
     df_subjects = pd.DataFrame(
         [[node_uuid, node_uuid, path, cmd, cgroup_id, cgroup_path, idx] 
          for node_uuid, (path, cmd, cgroup_id, cgroup_path, idx) in subjects_to_insert.items()],
@@ -327,13 +349,6 @@ def main():
     )
     df_netflows.to_parquet(os.path.join(args.output_dir, "netflows.parquet"))
     print(f"Saved {len(df_netflows)} netflows to netflows.parquet")
-
-    df_events = pd.DataFrame(
-        [list(x) + [idx] for idx, x in enumerate(events_to_insert)],
-        columns=["src_node", "src_index_id", "operation", "dst_node", "dst_index_id", "event_uuid", "timestamp_rec", "_id"]
-    )
-    df_events.to_parquet(os.path.join(args.output_dir, "events.parquet"))
-    print(f"Saved {len(df_events)} events to events.parquet")
 
 if __name__ == "__main__":
     main()
