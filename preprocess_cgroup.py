@@ -31,6 +31,7 @@ syscall_to_op = {
     "accept": "EVENT_OPEN",
     "sendto": "EVENT_SENDTO",
     "recvfrom": "EVENT_RECVFROM",
+    "getpeername": "EVENT_OPEN",
 }
 
 def stringtomd5(originstr):
@@ -59,12 +60,24 @@ def parse_args_field(args_str):
     obj_id = None
     
     file_match = re.search(r'file="([^"]+)"', args_str)
+    if not file_match:
+        file_match = re.search(r'file=@([^,\s\)\"]+)', args_str)
     if file_match:
         file_path = file_match.group(1)
         
     endpoint_match = re.search(r'endpoint=([^,\s\)]+)', args_str)
     if endpoint_match:
         endpoint = endpoint_match.group(1)
+
+    if not endpoint:
+        url_match = re.search(r'(https?://[^\s,\)\]]+)', args_str)
+        if url_match:
+            endpoint = url_match.group(1)
+
+    if not endpoint:
+        ip_match = re.search(r'\b(IP4:[\d\.]+:\d+|IP6:\[[0-9a-fA-F:]+\]:\d+)\b', args_str)
+        if ip_match:
+            endpoint = ip_match.group(1)
         
     id_match = re.search(r'id=(\d+)', args_str)
     if id_match:
@@ -241,6 +254,7 @@ def main():
         subjects_to_insert[subj_uuid] = (
             pid_to_info[pid]["path"], 
             pid_to_info[pid]["cmd"], 
+            pid,
             pid_to_info[pid].get("cgroup_id", "null"),
             pid_to_info[pid].get("cgroup_path", "null"),
             subj_idx
@@ -264,6 +278,7 @@ def main():
             subjects_to_insert[child_uuid] = (
                 pid_to_info[child_pid]["path"], 
                 pid_to_info[child_pid]["cmd"], 
+                child_pid,
                 pid_to_info[child_pid].get("cgroup_id", "null"),
                 pid_to_info[child_pid].get("cgroup_path", "null"),
                 child_idx
@@ -328,9 +343,9 @@ def main():
 
     # Convert node dictionaries to pandas DataFrames and save to Parquet
     df_subjects = pd.DataFrame(
-        [[node_uuid, node_uuid, path, cmd, cgroup_id, cgroup_path, idx] 
-         for node_uuid, (path, cmd, cgroup_id, cgroup_path, idx) in subjects_to_insert.items()],
-        columns=["node_uuid", "hash_id", "path", "cmd", "cgroup_id", "cgroup_path", "index_id"]
+        [[node_uuid, node_uuid, path, cmd, pid, cgroup_id, cgroup_path, idx] 
+         for node_uuid, (path, cmd, pid, cgroup_id, cgroup_path, idx) in subjects_to_insert.items()],
+        columns=["node_uuid", "hash_id", "path", "cmd", "pid", "cgroup_id", "cgroup_path", "index_id"]
     )
     df_subjects.to_parquet(os.path.join(args.output_dir, "subjects.parquet"))
     print(f"Saved {len(df_subjects)} subjects to subjects.parquet")

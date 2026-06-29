@@ -1,0 +1,38 @@
+[2026-06-26 06:47:27] Using device: cuda
+[2026-06-26 06:47:27] Step 1: Loading benign training events and splitting validation set...
+[2026-06-26 06:47:32] Total benign training events: 10903359
+[2026-06-26 06:47:32] Training split events: 8722687
+[2026-06-26 06:47:32] Validation split events: 2180672
+[2026-06-26 06:47:32] Loading subjects, files, and netflows parquets...
+[2026-06-26 06:47:33] Building global index_id to label mapping...
+[2026-06-26 06:47:41] Step 2: Training Word2Vec node embeddings...
+[2026-06-26 06:59:49] Word2Vec training completed in 728.63 seconds.
+[2026-06-26 06:59:49] Computing dense node embeddings...
+[2026-06-26 07:12:55] Step 3: Preparing training matrices and training MLP classifier...
+[2026-06-26 07:13:00] Operations vocabulary: {'EVENT_CLONE': 0, 'EVENT_CONNECT': 1, 'EVENT_EXECUTE': 2, 'EVENT_OPEN': 3, 'EVENT_READ': 4, 'EVENT_RECVFROM': 5, 'EVENT_SENDTO': 6, 'EVENT_WRITE': 7}
+[2026-06-26 07:13:00] Preparing train/validation indices...
+[2026-06-26 07:13:08] Starting MLP training (up to 10 epochs)...
+[2026-06-26 07:15:27] Epoch 01 | Train Loss: 0.47636 | Val Loss: 0.44898 | Time: 138.9s
+[2026-06-26 07:17:45] Epoch 02 | Train Loss: 0.40713 | Val Loss: 0.43291 | Time: 137.4s
+[2026-06-26 07:20:01] Epoch 03 | Train Loss: 0.39810 | Val Loss: 0.42770 | Time: 136.8s
+[2026-06-26 07:22:18] Epoch 04 | Train Loss: 0.39397 | Val Loss: 0.42596 | Time: 136.9s
+[2026-06-26 07:24:35] Epoch 05 | Train Loss: 0.39168 | Val Loss: 0.42370 | Time: 136.8s
+[2026-06-26 07:26:53] Epoch 06 | Train Loss: 0.38989 | Val Loss: 0.42288 | Time: 138.2s
+[2026-06-26 07:29:11] Epoch 07 | Train Loss: 0.38834 | Val Loss: 0.42342 | Time: 137.2s
+[2026-06-26 07:31:27] Epoch 08 | Train Loss: 0.38711 | Val Loss: 0.42312 | Time: 136.8s
+[2026-06-26 07:33:44] Epoch 09 | Train Loss: 0.38617 | Val Loss: 0.42289 | Time: 137.0s
+[2026-06-26 07:33:44] Early stopping at epoch 9
+[2026-06-26 07:33:44] MLP training completed in 1249.29 seconds.
+[2026-06-26 07:33:44] Total training time: 1977.91 seconds.
+[2026-06-26 07:33:44] Step 4 & 5: Calculating anomaly scores on validation set to determine thresholds...
+[2026-06-26 07:33:45] Validation anomaly score stats: mean=0.4229, std=0.4338
+[2026-06-26 07:33:45] Threshold (Max): 16.55471
+[2026-06-26 07:33:45] Threshold (99.9th percentile): 5.09177
+[2026-06-26 07:33:45] Threshold (99th percentile): 1.36837
+[2026-06-26 07:33:45] Step 6: Running inference on evaluation dataset and saving results...
+[2026-06-26 07:33:58] Detection/inference completed in 4.76 seconds.
+[2026-06-26 07:33:58] Saved evaluation results to: /pscratch/sd/s/sgkim/tchoe_home/hpc_sec/vm/shared/src/velox/exp/evaluation_results.parquet
+[2026-06-26 07:33:58] Step 7: Computing performance metrics against ground truth...
+[2026-06-26 07:33:59] Found 249 malicious events in the evaluation set.
+[2026-06-26 07:34:06] Saved performance report to: /pscratch/sd/s/sgkim/tchoe_home/hpc_sec/vm/shared/src/velox/exp/report.md
+[2026-06-26 07:34:06] Complete pipeline execution finished in 2799.41 seconds.
